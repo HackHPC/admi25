@@ -1,0 +1,57 @@
+{% if site.livestreamurl %}
+<p >
+  <br>
+   Watch the Final Presentations -- <a href="{{ site.livestreamurl }}" style=" font-weight: bold; color: black; padding: 5px; margin: 5px; background-color: white;">
+    <i class="fab fa-youtube"
+    style="color: red;"></i> YouTube Live Stream</a>
+</p>
+{% endif %}
+
+{% if site.viewerschoiceurl %}
+<div style="border: 2px solid purple; border-radius: 30px">
+<p>
+  <center><strong> Vote for your favorite team in the Viewer's Choice Poll. The votes will end after the last presentation.
+</strong>
+  <br><br>
+<a style="margin: auto; padding: 10px; border: 5px solid purple; background-color: purple;font-weight: bold;  color:white;" href="{{ site.viewerschoiceurl }}">Viewer's Choice Ballot</a>
+</center>
+</p>
+<br>
+</div>
+{% endif %}
+
+
+{% if site.teamtrailers %}
+  <h2>Team Trailers</h2>
+    {{ site.teamtrailers }}
+<br>
+<br>
+{% endif %}
+
+{% if site.deliverables %}
+<div style="margin: 10px; padding: 10px; border: 5px solid goldenrod; background-color: antiquewhite;" >
+<img style="float: left;" src="assets/imgs/icons/finger_reminder.svg" height="25px"></img>
+ <h2 >REMINDER</h2>
+    <p>
+    {{ site.deliverables }}
+    </p>
+</div>
+{% endif %}
+
+{% if site.posteventsurveyurl %}
+<div style="border: 2px solid darkgreen; border-radius: 30px">
+<p>
+  <center><strong> Please take a moment to provide us feedback so that we can make these events better and better!
+</strong>
+  <br><br>
+<a style="margin: auto; padding: 10px; border: 5px solid darkgreen; background-color: darkgreen;font-weight: bold;  color:white;" href="{{ site.posteventsurveyurl }}">Post Event Survey</a>
+</center>
+</p>
+<br>
+</div>
+{% endif %}
+
+
+      
+    
+ 

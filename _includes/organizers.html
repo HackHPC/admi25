@@ -1,0 +1,183 @@
+{% if site.data.organizers.organizers %}
+<div class="event-container">
+{% for organizer in site.data.organizers.organizers %}
+
+
+      <div class="event">
+        <div class="event-left">
+          
+          <p>
+          
+            <ul class="organizers-socials">
+          <li class="organizers-socials">Socials</li>  
+          <li class="organizers-socials"><a href="mailto:{{ organizer.email }}"><i class="fa-solid fa-envelope"></i></a></li>
+          {% if organizer.linkedin %}
+          <li class="organizers-socials"><a href="{{ organizer.linkedin }}"><i class="fa-brands fa-linkedin"></i></a></li>
+          {% endif %}
+
+          {% if organizer.personal_site %}
+          
+            <li class="organizers-socials"><a href="{{ organizer.personal_site }}" target="_blank" title="Personal Site">
+              <i class="far fa-id-card"></i>
+            </a></li>
+          
+          {% endif %}
+          
+          {% if organizer.orcid %}
+           <li class="organizers-socials"><a href="https://orcid.org/{{ organizer.orcid }}" target="_blank" title="ORCID">
+            <i class="fab fa-orcid"></i> 
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.scholar %}
+          
+            <li class="organizers-socials"><a href="https://scholar.google.com/citations?user={{ organizer.scholar }}" target="_blank" title="Google Scholar">
+              <i class="fab fa-google"></i>
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.publons %}
+          
+            <li class="organizers-socials"><a href="https://publons.com/a/{{ organizer.publons }}/" target="_blank" title="Publons">
+              <i class="ai ai-publons"></i>
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.research_gate %}
+          
+            <li class="organizers-socials"><a href="https://www.researchgate.net/profile/{{ organizer.research_gate }}/" target="_blank" title="ResearchGate">
+              <i class="fab fa-researchgate"></i>
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.dblp %}
+          
+            <li class="organizers-socials"><a href="{{ organizer.dblp }}/" target="_blank" title="DBLP">
+              <i class="ai ai-dblp"></i>
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.semantic_scholar %}
+          
+            <li class="organizers-socials"><a href="{{ organizer.semantic_scholar }}/" target="_blank" title="Semantic Scholar">
+              <i class="ai ai-semantic-scholar"></i>
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.github %}
+          
+            <li class="organizers-socials"><a href="https://github.com/{{ organizer.github }}" target="_blank" title="Github">
+              <i class="fab fa-github"></i>
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.gitlab %}
+          
+            <li class="organizers-socials"><a href="https://gitlab.com/{{ organizer.gitlab }}" target="_blank" title="Gitlab">
+              <i class="fab fa-gitlab"></i>
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.bitbucket %}
+          
+            <li class="organizers-socials"><a href="https://bitbucket.org/{{ organizer.bitbucket }}" target="_blank" title="Bitbucket">
+              <i class="fab fa-bitbucket"></i>
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.google_plus %}
+          
+            <li class="organizers-socials"><a href="https://plus.google.com/{{ organizer.google_plus }}" target="_blank" title="Google Plus">
+              <i class="fab fa-google-plus-g"></i>
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.mastodon %}
+          
+            <a rel="me" href="{{ organizer.mastodon }}" target="_blank" title="Mastodon">
+              <i class="fab fa-mastodon"></i>
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.twitter %}
+          
+            <li class="organizers-socials"><a href="https://twitter.com/{{ organizer.twitter }}" target="_blank" title="Twitter">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.youtube %}
+          
+            <li class="organizers-socials"><a href="{{ organizer.youtube }}" target="_blank" title="YouTube">
+              <i class="fab fa-youtube"></i>
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.facebook %}
+          
+            <li class="organizers-socials"><a href="https://www.facebook.com/{{ organizer.facebook }}" target="_blank" title="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a></li>
+          
+          {% endif %}
+
+          {% if organizer.instagram %}
+          
+            <li class="organizers-socials"><a href="http://instagram.com/{{ organizer.instagram }}" target="_blank" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a></li>
+          
+          {% endif %}
+
+
+
+        </ul>
+        </p>
+        </div>
+
+        <div class="event-right">
+          
+         <div>
+          <h2 style="margin-bottom: 1px; margin-top: 1px;"> {{ organizer.name }} </h2>
+          <a href="{{ organizer.site }}" style="font-size: medium; font-weight: bold;">{{ organizer.affiliation}}</a>
+          <strong>{{ organizer.aff }}</strong>  <em>{{ organizer.location }}</em> 
+        </div>
+      
+          <div>
+          {% if organizer.avatar %}
+         
+          <img style="margin: 10px; width: 200px; padding: 0px; float: left; " class="organizers" src="{{ site.baseurl }}/{{ organizer.avatar }}" >
+          
+          {% endif %}
+          <p>
+            <br>
+          {{ organizer.bio }}  </p><br>
+        </div>
+
+        </div>
+
+      </div>
+      {% endfor %}
+      {% endif %}
+</div>
+
+
+
+
+ 
+
+
+

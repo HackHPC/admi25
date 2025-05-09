@@ -1,0 +1,105 @@
+organizers: 
+  
+
+  - name:           Dr. Linda Hayden
+    affiliation:    "Science Gateways Community Institute"
+    site:           https://sciencegateways.org/
+    linkedin:       https://www.linkedin.com/in/linda-hayden-5a8b424/
+    avatar:         assets/images/linda.jpeg
+    bio:            "Dr. Linda Hayden holds a Ph.D. in Mathematics and Education. She leads workforce development activities for the NSF Science Gateways Community Institute (SGCI). In that position she works to train the next generation of gateway developers and users. Professor Hayden is an NSF Presidential Awardee for Excellence in Science, Mathematics and Engineering Mentoring."
+    email:          haydenl@mindspring.com
+    twitter:        https://twitter.com/lhaydenecsu
+    github:         https://hackhpc.github.io/ 
+    research_gate:  L-Hayden
+
+ # - name:           Dr. Lauren Ancel Meyers
+ #   affiliation:    "University of Texas at Austin Center for Pandemic Decision Science"
+ #   site:           https://www.centerforpandemicdecisionscience.org/
+ #   linkedin:       https://www.linkedin.com/in/lauren-ancel-meyers-41949a179/
+ #   avatar:         assets/images/laurenmeyers.jpg
+ #   bio:            "Dr. Meyers is the Cooley Centennial Professor at the University of Texas at Austin, where she was the founding chair of the Department of Statistics and Data Sciences and recently established the UT COVID-19 Modeling Consortium, an NIH- and CDC-funded national center for pandemic modeling. For over 20 years, Dr. Meyers has pioneered the application of data-driven models and machine learning to improve the detection, surveillance, forecasting and control of emerging viral threats. She has built decision-support tools and provided time-sensitive analyses during the SARS, 2009 H1N1, Ebola, and Zika threats for public health and government leaders, including the US Centers for Disease Control and Prevention (CDC), Biomedical Advanced Research and Development Authority (BARDA), Defense Threat Reduction Agency (DTRA), US National Defense Council, and state and local agencies. Dr. Meyers’ COVID-19 Modeling Consortium has provided global leadership throughout the pandemic. They maintain multiple COVID-19 forecasting dashboards, have informed COVID-19 surveillance, response, testing and school opening strategies across the US, published dozens of COVID-19 commissioned reports and peer-reviewed articles and created two interactive risk maps to guide outbreak detection and school openings that were featured on the front page of the New York Times. Dr. Meyers was named as one of the top 100 global innovators under age 35 by the MIT Technology Review in 2004 and received the Joseph Lieberman Award for Significant Contributions to Science in 2017."
+ #   email:          UTpandemics@austin.utexas.edu
+ #   research_gate:  Lauren-Meyers-5
+ #   personal_site:  https://www.bio.utexas.edu/research/meyers/LaurenM/index.html
+    
+  
+  - name:           Charlie Dey
+    affiliation:    "Texas Advanced Computing Center"
+    site:           https://www.tacc.utexas.edu/about/directory/charlie-dey
+    linkedin:       https://www.linkedin.com/in/charlie-dey-0031317a/
+    avatar:         assets/images/charlie-dey.jpeg
+    bio:            "Charlie Dey(he/him) is the Director of Training and Professional Development with the User Services group at the Texas Advanced Computing Center(TACC) with a background in web development and scientific computing.  Charlie’s responsibilities at TACC include organizing, developing content, and building curriculums for TACC’s academic course selection taught in conjunction with several departments at the University of Texas at Austin, as well as for TACC’s professional development and educational training. Prior to joining TACC, he worked as a Senior Application Developer for the Carle Foundation Hospital, and as a computer science instructor at Parkland College in Champaign, IL.  He was also a member of a specialized application development team at the University of Illinois and has been a contracted research consultant for NASA Ames Research Center, studying computational immunology and bioinformatics. Charlie holds a Bachelor’s Degree concentrating in Computer Science and Biology from Eastern Illinois University, and certifications in 3D programing and visualization. He is currently finishing up a Master’s of Science in Cybersecurity."
+    email:          charlie@tacc.utexas.edu
+    twitter:        https://twitter.com/DeyCharlie
+    github:         https://github.com/ubik10
+    research_gate:  S-Dey
+  
+ # - name:           Spencer J. Fox
+ #   affiliation:    "University of Texas at Austin Center for Pandemic Decision Science"
+ #   site:           https://www.centerforpandemicdecisionscience.org/
+ #   #linkedin:       https://www.linkedin.com/in/hmsiii
+ #   avatar:         assets/imgs/icons/spencer-fox.jpeg
+ #   bio:            "Spencer J. Fox is an Assistant Professor in the department of Epidemiology and Biostatistics and the Institute of Bioinformatics at the University of Georgia. Spencer obtained a BSc in Biology from Rose-Hulman Institute of Technology and a PhD from the Ecology, Evolution, and Behavior program at The University of Texas at Austin. His research focuses on integrating biology, epidemiology, and statistics to understand and predict outbreak dynamics for informing public health responses with a focus on emerging infectious diseases like Zika, influenza, and COVID-19."
+ #   email:          sjfox@uga.edu
+ #   personal_site:  https://thefoxlab.wordpress.com/
+ #   twitter:        https://twitter.com/foxandtheflu
+ #   #github:         https://github.com/hectorsantiago5
+  
+  
+  - name:           Amy Cannon
+    affiliation:    "Omnibond"
+    site:           http://www.omnibond.com/
+    linkedin:       https://www.linkedin.com/in/amy-cannon-46230b31/
+    avatar:         assets/images/amy-sq.png
+    bio:            "Amy Cannon has worked at Omnibond for 10 years, where her Business Development skills allow her to engage with customers and partners, teaching how HPC and Cloud help solve scientific problems. Outside of work she enjoys spending time in nature as well as helping others grow their HPC, HTC, AI, and Cloud Computing knowledge."
+    email:          amycannon@omnibond.com
+    twitter:        https://twitter.com/amy__cannon
+    github:         https://hackhpc.github.io/ 
+
+ # - name:           Hector Santiago
+ #   affiliation:    "Winston-Salem State University"
+ #   site:           https://wssu.edu/
+ #   linkedin:       https://www.linkedin.com/in/hmsiii
+ #   avatar:         assets/images/hector.jpg
+ #   bio:            "Hector Santiago, a Winston-Salem State University (WSSU) alumnus, began his journey as a Coding Institute participant at SGX3 and subsequently completed two internships at Indiana University. Over time, he has achieved recognition as the recipient of the Young Professional of the Year Award. Hector has also demonstrated his commitment to the tech community by organizing, mentoring, and participating in various hackathons with HackHPC. Currently, he is pursuing a Master's in Computer Science & Information Technology at WSSU while employed as a Software Engineer at Nationwide."
+ #   email:          hector.m.santiagoiii@gmail.com
+ #   twitter:        https://twitter.com/hecsantiago3
+ #   github:         https://github.com/hectorsantiago5
+
+  - name:           Alexander Nolte
+    affiliation:    "University of Tartu"
+    site:           https://alexandernolte.github.io/
+    linkedin:       https://www.linkedin.com/in/alexandernolte/
+    avatar:         assets/images/alex.jpeg
+    bio:            "Alex is an Associate Professor at the University of Tartu and an Adjunct Associate Professor at Carnegie Mellon University working in the are of human computer interaction. He is an avid hackathon enthusiast and has participated in, co-organized, served as a mentor and studied countless hackathons over the past years with no end in sight. Outside of work he fiddles with any gadget he can get his hand on, plays video games, cooks and does BBQ."
+    email:          alexander.nolte@ut.ee
+    twitter:        https://twitter.com/alexander_nolte/
+    github:         https://github.com/alexandernolte
+    personal_site:  https://alexandernolte.github.io/
+    research_gate:  Alexander_Nolte
+    scholar:        "0Vmn0QQAAAAJ&hl=de&oi=ao"
+
+  - name:           Je'aime Powell
+    affiliation:    "Omnibond"
+    site:           https://jeaimehp.github.io/
+    linkedin:       https://www.linkedin.com/in/jeaimehp/
+    avatar:         assets/images/JPowell-Photo24-sq.JPG
+    bio:            "Je’aime Powell is a Systems Analyst at Omnibond Systems, specializing in High-Performance Computing and AI product development. Formerly a Senior Systems Administrator at TACC and a University Lecturer at UT Austin, he leads HackHPC.org hackathons and STEM outreach.Powell holds a Master’s in Applied Mathematics, and a Bachelor’s in Computer Science from Elizabeth City State University."
+    email:          jeaime@omnibond.com
+    twitter:        https://twitter.com/jeaimehp
+    github:         https://github.com/jeaimehp
+    orcid:          0000-0003-1377-5422
+    research_gate:  Jeaime-Powell
+    personal_site:  http://jeaimehpc.com
+    scholar:        sd6PjdkAAAAJ
+
+  - name:           Boyd Wilson
+    affiliation:    "Omnibond"
+    site:           http://www.omnibond.com/
+    linkedin:       https://www.linkedin.com/in/boydwilson/
+    avatar:         assets/images/boyd.png
+    bio:            "Boyd Wilson, CEO of Omnibond Systems, has extensive experience and leadership in the areas of software development, system administration, storage architectures and business models. Formerly, Boyd served as Software CTO and also Executive Director over computing operations at Clemson University and had research computing as part of his purview. He has participated in various academic grants, papers and workshops in the areas of parallel storage, cloud computing and computational infrastructure. Boyd’s current focus lies in 4 areas: first- computer vision, ai, and real-time traffic analytics with TrafficVision; second- high-performance computing and storage with CloudyCluster and OrangeFS; third- identity and security management; fourth- wake surfing and riding a boosted board around cities while traveling."
+    email:          boyd@omnibond.com
+    twitter:        https://twitter.com/boydwilson/
+    github:         https://github.com/omnibond/
+

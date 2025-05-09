@@ -1,0 +1,67 @@
+.teams-h-main {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    background-color: darkgray;
+    border-radius: 8px;
+    border: 1px solid slategrey;
+    background-image: url( "https://hackhpc.github.io/admi23/assets/imgs/HackHPCatADMI23-ai-logo-boardonly.jpeg" );
+}
+   
+
+.teams-h-container {
+  flex: 2 1 auto;
+  margin: 10px; 
+  border: 1px solid slategrey;
+  padding: 7px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: lightsalmon;
+  width: auto;
+}
+
+.teams-h-container:hover {
+    box-shadow: 2px 2px -4px 2px slategray;
+    border: 3px solid slategray;
+  }
+
+
+.teams-h-container .teams-h-top {
+   
+}
+
+.teams-h-container .teams-h-top img.teams-h {
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid slategray;
+    width: 100%;
+}
+
+.teams-h-container .teams-h-bottom {
+    
+    width: 100%;
+   
+    border-radius: 0px 0px 8px 8px;
+}
+
+.teams-h-container .teams-h {
+    
+}
+
+.teams-h-container h3.teams-h {
+    text-align: center;
+    margin: 5px;
+}
+
+.teams-h-container a.teams-h {
+    #color: slateblue;
+    color: black;
+}
+
+.teams-h-container p.teams-h {
+    font-size: small;
+    text-align: center;
+    color: slategray;
+    
+    width: 100%;
+    
+}

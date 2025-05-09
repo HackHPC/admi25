@@ -1,0 +1,256 @@
+<strong>Current Date and Time: </strong> <em id="timeNow"></em><br>
+<br>
+
+
+{% if site.data.schedule.mergedicsfile %}  
+  <p style="margin-bottom: 10px;">
+  <a href="{{ site.data.schedule.mergedicsfile }}" style="color: orangered; border: 2px solid darkgrey; padding: 10px; margin: 10px; border-radius: 8px;"> <i class="fas fa-calendar-plus"></i> Download Calendar File with all Event Sessions (ICS)</a>
+</p>
+
+{% endif %}
+<body>
+
+  <!-- Gets Date and Time -->
+  <script>
+    const el = document.getElementById(`timeNow`);
+    el.textContent = new Date();
+  </script>
+
+
+  <!-- Before Event Sessions -->
+  {% if site.data.schedule.preevent_schedule %}
+  <h2 class="event-title">Pre-Event Training Sessions</h2>
+  {% for event in site.data.schedule.preevent_schedule %}
+  <div class="event-container">
+    <div class="event">
+      <div class="event-left">
+
+        <div class="event-date">
+          <div class="month">{{ event.date | date: "%a - %b" }}</div>
+          <div class="date">{{ event.date | date: "%d" }}</div>
+          <div class="event-timing">
+            {{ event.date | date: "%I:%M %P %Z" }} {{ event.timezone }}<br><br>
+          </div>
+          {% if event.session %}
+          {% case event.session %}
+          {% when 'Afternoon' %}
+          <div class="session"><img src="assets/imgs/icons/sun-color-icon.svg"> {{ event.session }} Session</div>
+          {% when 'Morning' %}  
+            <div class="session"><img src="assets/imgs/icons/sunrise.svg">  {{ event.session }} Session </div>
+          {% when 'Evening' %}
+            <div class="session"><img src="assets/imgs/icons/sunset.svg"> {{ event.session }} Session </div>
+          {% else %}
+          <div class="session"> {{ event.session }} </div>
+          {% endcase %}
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="event-right">
+        <h3 class="event-title"> {{ event.theme }}</h3>
+
+
+        <p style="margin-bottom: 10px;">
+          {% if event.zoomlink %}
+          <a href="{{ event.zoomlink }}"
+            style="color: blue; border: 1px solid blue; padding: 10px; margin: 10px; border-radius: 8px;"><i
+              class="fa-solid fa-video"> </i> Zoom</a>
+          {% endif %}
+
+          {% if event.icsfile %}
+          <a href="{{ event.icsfile }}"
+            style="color: darkred; border: 1px solid darkred; padding: 10px; margin: 10px; border-radius: 8px;"><i
+              class="fas fa-calendar-plus"> </i> Add to your Calendar (ICS) </a>
+
+          {% endif %}
+          <add-to-calendar-button name="{{ event.theme }}" options="'Apple','Google','Outlook'"
+            location="{{ event.zoomlink }}" startDate="{{ event.date | date: '%Y-%m-%d' }}"
+            endDate="{{ event.date | date: '%Y-%m-%d' }}" startTime="{{ event.date | date: '%H:%M' }}"
+            endTime="{{ event.date | date: '%H:%M' | plus: event.length }}"
+            timeZone="{{ event.date | date: '%z'}}"></add-to-calendar-button>
+        </p>
+
+
+
+
+        {% if event.description %}
+        <p>
+          {{ event.description }}
+        </p>
+        {% endif %}
+
+        {% if event.events %}
+        <div class="event-description">
+          <ul class="event-topics">
+            {% for topic in event.events %}
+
+            <li>
+              {{ topic.name }} {% if topic.type %} <em class="event-em" >{{ topic.type }}</em> {%
+              endif %}
+              {% if topic.description %}
+              <p>
+                {{ topic.description }}
+              </p>
+              {% endif %}
+              {% if topic.links %}
+              <ul>
+
+                <li class="event-topics">
+                  <p style="padding: 5px;">
+                    {% for link in topic.links %}
+                    {% if link.url contains '://' -%}
+                    <a href="{{ link.url }}"
+                      style="padding: 5px; margin: 10px;">
+
+                      {% if link.icon %}
+                      <i class="{{ link.icon }}" style="color: {{ link.iconcolor }};"></i> {{ link.title }} </a>
+                    {% else %}
+                    <i class="fa-solid fa-link"></i> {{ link.title }} </a>
+                    {% endif %}
+                    {%- else -%}
+                    <a href="{{ link.url | relative_url }}"
+                      style="color: grey; padding: 5px; margin: 10px;"><i
+                        class="{{ link.icon }}" style="color: {{ link.iconcolor }};"></i> {{ link.title }} </a>
+                    {% endif %}
+                    {% endfor %}
+                  </p>
+                </li>
+
+
+              </ul>
+              {% endif %}
+            </li>
+
+            {% endfor %}
+          </ul>
+          {% endif %}
+
+        </div>
+
+
+
+        <div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  <!-- During Event Sessions -->
+
+
+
+  {% if site.data.schedule.general_schedule %}
+  <h2 class="event-title">Event Sessions</h2>
+  {% for event in site.data.schedule.general_schedule %}
+  <div class="event-container">
+    <div class="event">
+      <div class="event-left">
+
+        <div class="event-date">
+          <div class="month">{{ event.date | date: "%a - %b" }}</div>
+          <div class="date">{{ event.date | date: "%d" }}</div>
+          <div class="event-timing">
+            {{ event.date | date: "%I:%M %P %Z" }} {{ event.timezone }}<br><br>
+          </div>
+          {% if event.session %}
+          {% case event.session %}
+          {% when 'Afternoon' %}
+          <div class="session"><img src="assets/imgs/icons/sun-color-icon.svg"> {{ event.session }} Session</div>
+          {% when 'Morning' %}  
+            <div class="session"><img src="assets/imgs/icons/sunrise.svg">  {{ event.session }} Session </div>
+          {% when 'Evening' %}
+            <div class="session"><img src="assets/imgs/icons/sunset.svg"> {{ event.session }} Session </div>
+          {% else %}
+          <div class="session"> {{ event.session }} </div>
+          {% endcase %}
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="event-right">
+        <h3 class="event-title"> {{ event.theme }}</h3>
+
+       
+        <p style="margin-bottom: 10px;">
+          {% if event.zoomlink %}
+          <a href="{{ event.zoomlink }}"
+            style="color: blue; border: 1px solid blue; padding: 10px; margin: 10px; border-radius: 8px;"><i
+              class="fa-solid fa-video"> </i> Zoom</a>
+          {% endif %}
+          {% if event.icsfile %}
+          <a href="{{ event.icsfile }}"
+            style="color: darkred; border: 1px solid darkred; padding: 10px; margin: 10px; border-radius: 8px;"><i
+              class="fas fa-calendar-plus"> </i> Add to your Calendar (ICS) </a>
+          {% endif %}
+        </p>
+
+
+        {% if event.description %}
+        <p>
+          {{ event.description }}
+        </p>
+        {% endif %}
+
+        {% if event.events %}
+        <div class="event-description">
+          <ul class="event-topics">
+            {% for topic in event.events %}
+
+            <li>
+              {{ topic.name }} {% if topic.type %} <em class="event-em" >{{ topic.type }}</em>
+              {% endif %}
+              {% if topic.description %}
+              <p>
+                {{ topic.description }}
+              </p>
+              {% endif %}
+              {% if topic.links %}
+              <ul>
+
+                <li class="event-topics">
+                  <p style="padding: 5px;">
+                    {% for link in topic.links %}
+                    {% if link.url contains '://' -%}
+                    <a href="{{ link.url }}"
+                      style="color: grey; padding: 5px; margin: 10px;">
+                      {% if link.icon %}
+                      <i class="{{ link.icon }}" style="color: {{ link.iconcolor }};"></i> {{ link.title }} </a>
+                    {% else %}
+                    <i class="fa-solid fa-link"></i> {{ link.title }} </a>
+                    {% endif %}
+                    {%- else -%}
+                    <a href="{{ link.url | relative_url }}"
+                      style="color: grey; padding: 5px; margin: 10px;"><i
+                        class="{{ link.icon }}" style="color: {{ link.iconcolor }};"></i> {{ link.title }} </a>
+                    {% endif %}
+                    {% endfor %}
+                  </p>
+                </li>
+
+
+              </ul>
+              {% endif %}
+            </li>
+
+            {% endfor %}
+          </ul>
+          {% endif %}
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </div>
+  {% endfor %}
+  {% endif %}
+
+</body>
+
+</html>

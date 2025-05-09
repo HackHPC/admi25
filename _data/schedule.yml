@@ -1,0 +1,217 @@
+
+#preevent_schedule:
+
+       
+
+general_schedule:
+  - date: "2024-06-24T09:00(-04:00)"
+    session: Morning
+#    length: 02:00
+#    timezone: EDT
+#    icsfile: assets/ics_files/HPC_in_the_City-Pandemics_Kick-Off.ics
+#    #location: Westin 6th Floor - Chastain F Room 
+#    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+#    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
+#    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
+    zoomlink: https://us06web.zoom.us/j/88194414177?pwd=uvRllb9xu8nEAVqkRAO87UH1MP6cEa.1
+    theme: Day1 Kick-Off
+    events: 
+      - name: Hackathon Overview
+        type: Presentations
+        links:
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: "assets/slides/event/SGX3ADMI24-Kickoff.pdf"
+            iconcolor: red
+          - title: Omnibond's Project Eureka
+            url: https://croakerzoisitereddeer.cloudycluster.net/ 
+            icon: fa-solid fa-link
+            iconcolor: orange
+      - name: Project Pitches
+        type: Presentations
+      - name: Team Formation
+      - name: Team Introductions
+        type: Presentations 
+        description: >
+          1-Slide/1-Minute with: <br>
+          &nbsp;&nbsp; - Team Name <br>
+          &nbsp;&nbsp; - Team Mentor(s) <br>
+          &nbsp;&nbsp; - Team Members <br>
+          &nbsp;&nbsp; - Team Zoom Virtual Background <br>
+          &nbsp;&nbsp; - Team Theme Song <br>
+        links:
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: "assets/slides/event/SGX3ADMI24-Teams.pdf"
+            iconcolor: red
+  
+
+  - date: "2024-06-25T09:00(-04:00)"
+    session: Morning
+    zoomlink: https://us06web.zoom.us/j/88194414177?pwd=uvRllb9xu8nEAVqkRAO87UH1MP6cEa.1
+    theme: Day 2 Check-in
+    events: 
+      - name: Team Goals and Plan
+        type: Presentations 
+        description: >
+          2-Slides/2-Minutes with: <br>
+          &nbsp;&nbsp; - Team Name <br>
+          &nbsp;&nbsp; - Goal(s) the team wants to accomplish <br>
+          &nbsp;&nbsp; - Project Plan with team members linked to roles and at least five (5) tasks needed to accomplish those goals 
+        links:
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: "assets/slides/event/SGX3ADMI24-Goals-Plan.pdf"
+            iconcolor: red
+      - name: Dr. Bernie Boscoe
+        type: Presentations 
+        description: >
+          Overview of FacultyHack 23 project intergration into the classroom.
+        links:
+          - title: Bernie Boscoe LinkedIn
+            url: https://www.linkedin.com/in/bernieboscoe/
+            icon: fa fa-linkedin #fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
+          - title: Cassava Disease - Kaggle
+            url: https://www.kaggle.com/c/cassava-disease
+            icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
+          - title: Kaggle
+            url: https://www.kaggle.com/c/cassava-disease
+            icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
+          - title: FacultyHack23 Project
+            url: https://github.com/bboscoe/gateways23
+            icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
+          - title: Harvard Dataverse
+            url: https://dataverse.harvard.edu
+            icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
+          - title: Zenodo
+            url: https://about.zenodo.org
+            icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
+          - title: Science Gateways Catalog
+            url: https://sciencegateways.org/resources/browse
+            icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
+          - title: NHERI DesignSafe-CI
+            url: https://www.designsafe-ci.org
+            icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
+          - title: United States Research Software Engineer Association
+            url: https://us-rse.org
+            icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
+          - title: SDSC Training Catalog
+            url: https://www.sdsc.edu/education_and_training/training_catalog.html
+            icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
+
+      - name: HPC-ED API Overview
+        type: Training
+      - name: Project Work
+        type: Hacking 
+        description: >
+          Deliverables Reminder: <br>
+          &nbsp;&nbsp; - Github Repository with: <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - README.md with project description<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Source code Including Comments<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Presentation (PDF)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Team members with pictures<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Use of technology in the project<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Project impact to the Science Gateways community<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Poster <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Proof of poster submission to Gateways24 (+5pts Judging Score) <br>
+        links:
+          - title: Poster Template
+            icon: fa-regular fa-file-powerpoint
+            url: assets/slides/event/admi24-sgx3-poster-template.pptx
+            iconcolor: darkred
+          - title: Gateways24 Poster Submission (Easychair)
+            url: https://easychair.org/conferences/?conf=gateways2024
+            icon: fa-solid fa-link #fa-regular #fa-file-pdf fab fa-youtube
+            iconcolor: blue
+          #- title: Viewer's Choice Ballot
+          #  url: https://forms.gle/67Xjoie9oshrfnGc8
+          #  icon: fa-solid fa-clipboard-question
+          #  iconcolor: purple
+
+  - date: "2024-06-26T09:00(-04:00)"
+    session: Morning
+    zoomlink: https://us06web.zoom.us/j/88194414177?pwd=uvRllb9xu8nEAVqkRAO87UH1MP6cEa.1
+    theme: Day 3 Check-in
+    events: 
+      - name: Team Progress - Morning Session
+        type: Presentations 
+        description: >
+          1-Slide/1-Minute with: <br>
+          &nbsp;&nbsp; - Team Name <br>
+          &nbsp;&nbsp; - Updated Goal(s) <br>
+          &nbsp;&nbsp; - Updated Project Plan <br>
+          &nbsp;&nbsp; - Technology/Resources in Use
+          &nbsp;&nbsp; - Bottlenecks / Issues / Concerns
+        links:
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: "assets/slides/event/SGX3ADMI24-Day3-Checkin-Morning.pdf"
+            iconcolor: red
+      - name: Project Work
+        type: Hacking 
+          
+  - date: "2024-06-27T09:00(-04:00)"
+    session: Morning
+    zoomlink: https://us06web.zoom.us/j/88194414177?pwd=uvRllb9xu8nEAVqkRAO87UH1MP6cEa.1
+    theme: Day 4 Check-in
+    events: 
+      - name: Team Progress
+        type: Presentations 
+        description: >
+          1-Slide/1-Minute with: <br>
+          &nbsp;&nbsp; - Team Name <br>
+          &nbsp;&nbsp; - Updated Goal(s) <br>
+          &nbsp;&nbsp; - Updated Project Plan <br>
+          &nbsp;&nbsp; - Technology/Resources in Use
+          &nbsp;&nbsp; - Bottlenecks / Issues / Concerns
+      - name: Project Work
+        type: Hacking
+
+  - date: "2024-06-28T13:30(-04:00)"
+    session: Afternoon
+    zoomlink: https://us06web.zoom.us/j/88194414177?pwd=uvRllb9xu8nEAVqkRAO87UH1MP6cEa.1
+    theme: Day 5 Final Presentations
+    events: 
+      - name: Judges Overview
+        type: Training
+      - name: Final Presentations
+        type: Presentations
+        description: >
+          Deliverables: <br>
+          &nbsp;&nbsp; - Github Repository with: <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - README.md with project description<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Source code Including Comments<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; - Presentation (PDF)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Team members with pictures<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Use of technology in the project<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Project impact to the community<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Poster <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Poster (+5pts Judging Score) <br>
+          <br>
+          <strong>Awards:</strong><br>
+          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Judges Choice Award</em> - <strong><a href="https://hackhpc.github.io/sgx3admi24/teams.html#NLC%3Csup%3E2%3C/sup%3E" style="color: goldenrod;">NLC<sup>2</sup></a></strong><br>
+          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Viewer's Choice Award</em> - <strong><a href="https://hackhpc.github.io/sgx3admi24/teams.html#Data%20Detectives" style="color: goldenrod;">Data Detectives</a></strong><br>
+          &nbsp;&nbsp;<i class="fa-solid fa-trophy" style="color: goldenrod;"></i><em>Best Mentor Team Introduction Trailer </em> - <strong><a href="https://hackhpc.github.io/sgx3admi24/teams.html#Data%20Detectives" style="color: goldenrod;">Reggie Kelley (Data Detectives) </a></strong><br>
+        links:
+          - title: Viewer's Choice Ballot
+            url: https://forms.gle/PNS9shdxFph6s4D96
+            icon: fa-solid fa-clipboard-question
+            iconcolor: purple
+          - title: Post Event Survey
+            url: https://forms.gle/2Ah4eaPHAiK63vAd8
+            icon: fa-solid fa-clipboard-question
+            iconcolor: purple
+        #  - title: YouTube Video (Live Stream)
+        #    icon: "fab fa-youtube" #fa-regular fa-file-pdf
+        #    iconcolor: red
+        #    url: "https://youtube.com/live/YdYYMEHg8kM?feature=share"

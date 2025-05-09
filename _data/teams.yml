@@ -1,0 +1,222 @@
+#teams:
+#- teamname: Party Animals
+#  mentor:
+#    names: [Kelly Gaither, Gladys Chen]
+#    affiliation: [Texas Advanced Computing Center, Texas Advanced Computing
+#        Center]
+#    affiliationurl: ['https://www.tacc.utexas.edu/', 'https://www.tacc.utexas.edu/']
+#    role: [Mentor, Staff / helper]
+#    socials: ['https:https://www.linkedin.com/in/kelly-gaither-5b39301/',
+#      'https://www.linkedin.com/in/gladys-chen-6a3b32211/']
+#    email: [kelly@tacc.utexas.edu, gladyschenyx@gmail.com]
+#  members:
+#    names: [Yamonta  Gaines, 'Alex Gutierrez ', LeahMonet Morgan, Michael
+#        Olubode, Lisa Phan]
+#    affiliation: [Philander Smith College, 'New York University ', Southern
+#        University A&M College, University of Maryland Eastern Shore, University
+#        of Texas at Austin]
+#    affiliationurl: ['https://www.philander.edu/', 'https://www.nyu.edu/',
+#      'https://www.subr.edu/', 'https://umes.edu', 'https://www.utexas.edu/']
+#    major: ['Computer Science ', 'Cybersecurity ', Mechanical Engineering,
+#      'Computer Science ', 'Biochemistry']
+#    role: [Hacker / participant, Hacker / participant, Hacker / participant,
+#      Hacker / participant, Hacker / participant]
+#    socials: ['https://twitter.com/nolimit1k', 'https://www.linkedin.com/in/alex-gutierrez-diaz-80a7bb242',
+#      'https://www.linkedin.com/in/leahmonet-morgan-a65a22294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+#      'https://www.linkedin.com/in/michael-olubode-olushola/', 'https://www.linkedin.com/in/lisa-phan-46676924b/']
+#    email: [gyamonta55@yahoo.com, ag9506@nyu.edu, leahmonetm@gmail.com, moolubode3@gmail.com,
+#      dhp563@utexas.edu]
+#  themesong: https://www.youtube.com/watch?v=TGtWWb9emYI
+#  themesongname: "Pitbull feat. Jennifer Lopez & Claudia Leitte - We Are One (Ole Ola)"
+#  zoombackground: teams/partyanimals/partyanimals-zoom.jpeg
+#  #projecturl: {}
+#  projectgoals: >
+#    Enhance public safety and situational awareness by analyzing mobility data from Safegraph to identify and visualize mass gatherings that occurred from 2018 through February 2022.
+#  #emojicode: {}
+#  awards: ['Judge’s Award' , 'Best Team Introduction' , 'Best Team Project Plan']
+#  links:
+#    - name: GitHub Repo
+#      url: https://github.com/agutie22/MassySituation
+#      icon: "fa-brands fa-github"
+#      iconcolor: black
+#    - name: Team Introduction
+#      url: teams/partyanimals/partyanimals-intro.pdf
+#      icon: fa-regular fa-file-pdf
+#      iconcolor: red
+#    - name: Team Goals and Plan
+#      url: teams/partyanimals/Day2-PartyAnimalsEveningCheckin-TeamGoalsandProjectPlan.pdf
+#      icon: fa-regular fa-file-pdf
+#      iconcolor: red
+#    - name: Team Goals
+#      url: https://www.youtube.com/watch?v=DETmoO0GQvQ&t=28s 
+#      icon: "fab fa-youtube" #fa-regular fa-file-pdf
+#      iconcolor: red
+#    - name: Team Trailer
+#      url: https://youtu.be/W9AbtX2rbhw
+#      icon: "fab fa-youtube" #fa-regular fa-file-pdf
+#      iconcolor: red
+#  images:
+#    - name: Team Introduction
+#      url: teams/partyanimals/partyanimals-intro.pdf
+#      imagelink: teams/partyanimals/PartyAnimalsIntro.png
+#    - name: Team Goals and Plan
+#      url: teams/partyanimals/Day2-PartyAnimalsEveningCheckin-TeamGoalsandProjectPlan.pdf
+#      imagelink: teams/partyanimals/Day2-EveningCheckin-TeamGoalsandProjectPlan-partyanimals.png
+
+teams:
+- teamname: Data Detectives
+  mentor:
+    names: [Reggie Kelley]
+    affiliation: [Elizabeth City State University]
+    affiliationurl: [https://ecsu.edu]
+    role: [Mentor]
+    socials: ['https://www.linkedin.com/in/reginald-kelley-b84424146']
+    email: [reggiekelley43@gmail.com]
+  members:
+    names: [Dickson Acheampong, Paris Coleman, Jean-Dominique Anoh, Jace Lespinasse]
+    affiliation: ['Howard University ', Jackson State University, Morehouse
+        College, Morehouse College]
+    affiliationurl: ['https://howard.edu/', 'https://www.jsums.edu/', 'https://morehouse.edu/',
+      'https://morehouse.edu/']
+    major: [Computer Science, Computer Engineering, Computer Science, Software
+        Engineering]
+    role: [Hacker / participant, Hacker / participant, Hacker / participant,
+      Hacker / participant]
+    socials: ['https://www.linkedin.com/in/dickson-a-12b926239', 'https://www.linkedin.com/in/paris-coleman',
+      'https://www.linkedin.com/in/jean-dominique-anoh-b38075267/', 'https://www.linkedin.com/in/jace-lespinasse-9b6320229']
+    email: [adomacheampongdickson@gmail.com, pariscoleman433@gmail.com, jdmanoh@gmail.com,
+      jacelespinasse@gmail.com]
+  themesong: https://www.youtube.com/watch?v=Jmzk_QqnC3A
+  themesongname: "Erykah Badu x Jazz x Neo Soul Type Beat - SPRING"
+  #zoombackground: {}
+  #projecturl: {}
+  projectgoals: > 
+    <br> &#8226; Create a user-friendly website template for institutions to store and query training resources that don’t use a CLI
+    <br> &#8226; Connect a database to the website that stores the training resources and supports the CRUD operations
+    <br> &#8226; Allow a user to download a JSON file for a given training resource returned from a search query
+  #emojicode: {}
+  targeturl: https://hpc-ed.github.io
+  awards: ['Best Team Project Plan','Best Introduction Trailer',"Viewer's Choice Award"]
+  links:
+    - name: GitHub Repo
+      url: https://github.com/Aceentt/Data_Detectives
+      icon: "fa-brands fa-github"
+      iconcolor: black
+    - name: "HPC-ED API"
+      url: "https://hpc-ed.github.io"
+      icon: "fa-solid fa-link"
+      iconcolor: blue
+    - name: "Team Goals and Project Plan"
+      url: "teams/data_detectives/Goals-Plan.pdf"
+      icon: fa-regular fa-file-pdf
+      iconcolor: red
+  images:
+    - name: Team Introduction
+      url: "teams/data_detectives/TeamIntro.pdf"
+      imagelink: "teams/data_detectives/TeamIntro.png"
+
+
+- teamname: NLC<sup>2</sup>
+  mentor:
+    names: [Teniola Oluwaseyitan]
+    affiliation: [Mississippi Valley State University]
+    affiliationurl: [https://www.mvsu.edu/]
+    role: [Mentor]
+    socials: ['https://www.linkedin.com/in/teniola-oluwaseyitan-3a4622262/']
+    email: [teniola.oluwaseyitan@mvsu.edu]
+  members:
+    names: [Christian Johnson, Nole Stites, Robert Campbell, Lisha Ramon]
+    affiliation: [Morehouse College, Southern Oregon University, Southern
+        Oregon University, SUNY Oneonta]
+    affiliationurl: ['https://morehouse.edu/', 'https://sou.edu/', 'https://sou.edu/',
+      'https://suny.oneonta.edu/']
+    major: [Software Engineering, Computer Science, Computer Science, Computer
+        Science/Astronomy]
+    role: [Hacker / participant, Hacker / participant, Hacker / participant,
+      Hacker / participant]
+    socials: ['https://www.linkedin.com/in/christian-johnson-a1b248217/',
+      'https://www.linkedin.com/in/nole-stites/', .nan, 'https://www.linkedin.com/in/lisha-r-44588111b/']
+    email: [christianlj27@gmail.com, nole.stites@gmail.com, r.chandler.campbell@gmail.com,
+      lisharamontn@gmail.com]
+  themesong: "https://uppbeat.io/track/monument-music/mellifluous-mirage"
+  themesongname: "Monument Music - Melifluous-Mirage"
+  #zoombackground: {}
+  projecturl: {}
+  projectgoals: >
+    <br> &#8226; Create a user-friendly website template for institutions to store and query training resources that don’t use a CLI
+    <br> &#8226; Connect a database to the website that stores the training resources and supports the CRUD operations
+    <br> &#8226; Allow a user to download a JSON file for a given training resource returned from a search query
+
+  targeturl: https://hpc-ed.github.io
+  #emojicode: {}
+  awards: ['Best Team Introduction','One-Day Progress Challenge','Judges Award']
+  links:
+    - name: GitHub Repo
+      url: https://github.com/ChristianJohnsonL/SGX3-Hackathon-Project-2024
+      icon: "fa-brands fa-github"
+      iconcolor: black
+    - name: "HPC-ED API"
+      url: "https://hpc-ed.github.io"
+      icon: "fa-solid fa-link"
+      iconcolor: blue
+    - name: "Team Goals and Project Plan"
+      url: "teams/nlc2/Goals-Plan.pdf"
+      icon: fa-regular fa-file-pdf
+      iconcolor: red
+  images:
+    - name: Team Introduction
+      url: "teams/nlc2/TeamIntro.pdf"
+      imagelink: "teams/nlc2/TeamIntro.png"
+
+- teamname: "Pandora\u2019s Programmers"
+  mentor:
+    names: [Charlie Dey]
+    affiliation: [Texas Advanced Computing Center]
+    affiliationurl: [https://tacc.utexas.edu]
+    role: [Mentor]
+    socials: ['https://www.linkedin.com/in/charlie-dey-0031317a/']
+    email: [charlie@tacc.utexas.edu]
+  members:
+    names: [Catalina Tovar Gaitan, LeahMonet Morgan, Jesutofarati Ajala, Christian  Henry]
+    affiliation: [Jackson State University, Southern University A&M College,
+      University of Southern MIssissippi, Winston-Salem State University]
+    affiliationurl: ['https://www.jsums.edu/', 'https://www.subr.edu/', 'https://www.usm.edu/',
+      'https://www.wssu.edu/']
+    major: [Computer Science, Mechanical Engineering, Computer Science, Computer
+        Science]
+    role: [Hacker / participant, Hacker / participant, Hacker / participant,
+      Hacker / participant]
+    socials: ['https://www.linkedin.com/in/catalina-tovar-gaitan/', 'https://www.linkedin.com/in/leahmonet-morgan-a65a22294/',
+      'https://www.linkedin.com/in/jesutofarati-ajala-027631243/', 'https://www.linkedin.com/in/chris-henry-2044722b0/']
+    email: [catatitoga@gmail.com, leahmonetm@gmail.com, toffya360@gmail.com,
+      chenry123@rams.wssu.edu]
+  themesong: "https://youtu.be/s4nt8M85pyE?si=7tXLEFQDYB-vhohD"
+  themesongname: "Greek Mythology Music - Pandora’s Box"
+  #zoombackground: {}
+  projecturl: {}
+  targeturl: https://hpc-ed.github.io
+  projectgoals: >
+    <br> &#8226; Set Up Flask Project
+    <br> &#8226; Create the Data Entry Form
+    <br> &#8226; Use flask to create a webform to store the websites and push them to the HPC-ED website
+  #emojicode: {}
+  links:
+    - name: GitHub Repo
+      url: https://github.com/Chrishen08/PandorasProgrammers
+      icon: "fa-brands fa-github"
+      iconcolor: black
+    - name: "HPC-ED API"
+      url: "https://hpc-ed.github.io"
+      icon: "fa-solid fa-link"
+      iconcolor: blue
+    - name: "Team Goals and Project Plan"
+      url: "teams/pandoras_programmers/Goals-Plan.pdf"
+      icon: fa-regular fa-file-pdf
+      iconcolor: red
+  images:
+    - name: Team Introduction
+      url: "teams/pandoras_programmers/TeamIntro2.pdf"
+      imagelink: "teams/pandoras_programmers/TeamIntro2.png"
+
+
+

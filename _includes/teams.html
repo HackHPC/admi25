@@ -1,0 +1,186 @@
+
+        
+
+     Jump To: |
+     {% for team in site.data.teams.teams %}
+       <strong><a href="#{{ team.teamname }}" target="_self"> {{ team.emojicode }} {{ team.teamname }}</a></strong> | 
+     {% endfor %}
+     <br>
+    
+ 
+    
+    {% for team in site.data.teams.teams %}
+  <div>
+    
+        <h2 id="{{ team.teamname }}" style="border-bottom: 4px solid black; margin: 0px;"><i class="fas fa-users"></i> {{ team.teamname }}</h2>
+        
+      
+        <p style="margin-bottom: 2px;">{% if team.projectgoals %}
+          {% if team.awards %} 
+          {% for award in team.awards %} 
+          &#127942; <strong style="color:goldenrod;">{{ award }} &nbsp; </strong>
+          
+          {% endfor %}
+          <br>
+          {% endif %}
+         
+          {% if team.targeturl %}
+       <a  href="{{ team.targeturl }}"><i style="color: black;" class="fas fa-bullseye"></i> Target Portal: {{ team.targeturl }} </a><br>
+       
+       {% endif %}
+          <strong>Project Goal(s):</strong> {{ team.projectgoals }}
+       {% endif %}
+       
+       
+      </p>
+        <div style="display:flex;">
+        
+         
+
+      <div style="width: 30%;">
+    <h3 style="margin-top: 0; margin-bottom: 5px;"> Team Mentors:</h3>
+
+      <ul>
+        {% for member in team.mentor.names %}
+        <li><strong>{{ member }}</strong> 
+          {% if  team.mentor.socials[forloop.index0 ] %} 
+          {% if  team.mentor.email[forloop.index0 ] %} 
+          <a href="mailto:{{ team.mentor.email[forloop.index0 ] }}"><i style="color: black" class="fas fa-envelope"></i></a>
+         
+          {% endif %}
+             {% if team.mentor.socials[forloop.index0 ] contains "linkedin" %}
+              <a href="{{ team.mentor.socials[forloop.index0 ] }}"><i style="color: darkblue" class="fab fa-linkedin"></i></a>
+             {% elsif team.mentor.socials[forloop.index0 ] contains "twitter" %}
+             <a href="{{ team.mentor.socials[forloop.index0 ] }}"><i style="color: blue" class="fab fa-twitter"></i></a>
+             {% else %}
+             <a href="{{ team.mentor.socials[forloop.index0 ] }}"><i style="color: black" class="fas fa-usercircle"></i></a>
+              {% endif %}          
+             {% endif %}
+            
+
+             <br> <a href="{{ team.mentor.affiliationurl[forloop.index0 ] }}"> {{ team.mentor.affiliation[forloop.index0 ] }} </a><br>
+        
+      
+            </li>
+     {% endfor %}
+      </ul>
+    
+    
+      <h3 style="margin-top: 0; margin-bottom: 5px;"> Team Members: </h3>
+   
+    <ul>
+       
+        {% for member in team.members.names %}
+            <li><strong>{{ member }}</strong> 
+              
+              {% if  team.members.socials[forloop.index0 ] %} 
+          {% if  team.members.email[forloop.index0 ] %} 
+          <a href="mailto:{{ team.members.email[forloop.index0 ] }}"><i style="color: black" class="fas fa-envelope"></i></a>
+         
+          {% endif %}
+             {% if team.members.socials[forloop.index0 ] contains "linkedin" %}
+              <a href="{{ team.members.socials[forloop.index0 ] }}"><i style="color: darkblue" class="fab fa-linkedin"></i></a>
+             {% elsif team.members.socials[forloop.index0 ] contains "twitter" %}
+             <a href="{{ team.members.socials[forloop.index0 ] }}"><i style="color: blue" class="fab fa-twitter"></i></a>
+             {% else %}
+             <a href="{{ team.members.socials[forloop.index0 ] }}"><i style="color: black" class="fas fa-usercircle"></i></a>
+              {% endif %}          
+             {% endif %}
+              
+              
+              
+              
+              {% if team.members.major[forloop.index0] == "none" %}
+              {% else %}
+              <br> <em>{{ team.members.major[forloop.index0] }}</em> 
+              {% endif %}
+              
+              <br><a href="{{ team.members.affiliationurl[forloop.index0 ] }}">{{ team.members.affiliation[forloop.index0 ] }} </a><br>
+              
+            </li>
+        {% endfor %}
+             
+       </ul>  
+
+    
+
+    {% if team.themesong %}
+   <strong style="margin-left: 10px;">Team Theme Song: </strong> <br>
+    <a style="padding-left: 15px;" href="{{ team.themesong }}"><i style="color: black;" class="fas fa-music"></i> {{ team.themesongname }}  </a>
+    {% endif %}
+      </div>
+     
+      <div style="width: 30%;">  
+    <strong> Links: </strong><br>
+    
+
+     <ul>
+    
+        {% for link in team.links%}
+        <li>
+            {% if link.url contains '://' -%}
+                <a href="{{ link.url }}"><i class="{{ link.icon }}" 
+                  style="color: {{ link.iconcolor }}"></i> {{ link.name }} </a> 
+            {%- else -%}
+                <a href="{{ link.url | relative_url }}"><i class="{{ link.icon }}" 
+                style="color: {{ link.iconcolor }}"></i> {{ link.name }} </a> 
+            {% endif %}
+         </li>   
+        {% endfor %}
+        </ul>
+        {% if team.resources %}
+        <strong> Resources: </strong><br>
+          <ul>
+        {% for resource in team.resources %}
+          
+              <li>
+            <strong><a href="{{ resource.url }}"><i class="fas fa-link"></i> {{ resource.name }} </a></strong><br>
+            {{ resource.usage }}
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+         {% endif %}
+     
+
+         
+             
+       </ul>  
+      </div>
+    
+    
+      
+    
+    
+
+    <div style="display:flex; flex-direction: column; width: 300px; margin: 10px;">
+      <img src="{{ team.image | relative_url }}" width="300px">
+
+      <br>
+      {% for image in team.images %}
+      
+      <strong> {{ image.name }}</strong>
+      {% if image.url %}
+      <a href="{{ image.url | relative_url }}"><img style="border: 2px solid black;" src="{{ image.imagelink | relative_url }}" width="300px"></a>
+      {% else %}
+
+      <img style="border: 2px solid black;" src="{{ image.imagelink | relative_url }}" width="300px">
+      {% endif %}<br>
+     
+
+      <br>
+      {% endfor %}
+
+      {% if team.zoombackground %}
+      <strong>Team Zoom Background</strong>
+      <a href="{{ team.zoombackground | relative_url }}"><img style="border: 2px solid black;" src="{{ team.zoombackground | relative_url }}" width="300px"></a>
+     
+      {% endif %}
+    </div>
+    
+    </div>
+    <hr >
+{% endfor %}
+
+
+</div>

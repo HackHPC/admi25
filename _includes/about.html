@@ -1,0 +1,122 @@
+
+  
+
+  {% if site.registration_link %}
+  <div style="text-align: center;">
+   <h2 ><a class="registration-button" href="{{ site.registration_link }}" style="text-decoration: none; padding: 20px; background-color: #F9943B; color: black; border: 3px solid black; border-radius: 8px;"><i class="icon fa fa-pencil-square" aria-hidden="true"></i> Click Here to Register </a></h2>
+  </div>
+  <br>
+   {% endif %}
+
+   <!--Team Trailers Playlist
+  <h2>Team Trailers</h2>
+  <p >
+    <br>
+     Watch the Final Presentations -- <a href="https://youtube.com/live/YdYYMEHg8kM?feature=share" style=" font-weight: bold; color: black; padding: 5px; margin: 5px; background-color: white;">
+      <i class="fab fa-youtube"
+      style="color: red;"></i> YouTube Live Stream</a></p>
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/videoseries?si=nMXdAm4Drtjj2HZM&amp;list=PLk7G3_iq2ijR1331qCYx04MADFmqyaM-L"
+  title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
+<br>
+<br>
+ -->
+
+
+
+<h2>About the ADMI25 Hackathon </h2>
+<p>
+<img src="photos/branding/LogoTextOnly-Dark.png" style="float: right; margin: 10px;" width="30%">
+
+<a href="https://sciencegateways.org">SGX3's</a> <a href="https://admiusa.org">Association of Computer Science Departments at Minority Institutions (ADMI)</a> <a href="http://hackhpc.org/#info" target="_blank">Hackathon</a> 
+will take place <strong>June 23 - 27, 2025</strong> <i>virtually.</i> The teams will focus on the application of Science Gateway development skills as an extention to the <a href="https://admiusa.org/admi2025">ADMI 2025 Symposium on Computing at Minority Institutions theme 
+  "Reproducible Science"</a>. Pre-training events have been provided in coordiniation with the <a href="https://sciencegateways.org/coding_institute">SGX3 2025 Virtual Coding Institute</a>. 
+</p>
+
+<p>
+  <h4 class="about-prior">Prior Events:</h4>
+  <ul class="about-prior">
+    <li class="about-prior"> <a href="https://hackhpc.github.io/sgx3admi24">HackHPC@ADMI24 </a></li>
+    <li class="about-prior"> <a href="https://hackhpc.github.io/admi23">HackHPC@ADMI23 </a></li>
+    <li class="about-prior"> <a href="https://hackhpc.github.io/ADMI22">HackHPC@ADMI22 </a></li>
+  </ul>
+</p>
+
+<!--
+{% include teams_horz.html %}
+
+{% include finalpresentationsinfo.html%}
+-->
+<p>
+<h4>When:</h4>
+June 23 - 27, 2025
+ 
+<h4>Where:</h4> 
+Virtual via Zoom
+ 
+<h4>Who:</h4> 
+Persons that have an interest in gaining high-performance computing, science gateways development, and/or data analysis skills in an applied hands-on manner. 
+That includes but is not limited to Students (Certificate seeking/Undergraduate/Graduate/Postgraduate), Faculty/Teachers, Staff, Researchers, and Subject Matter Experts. 
+With coding/research/analysis skill levels ranging from Beginner ( I am in my first course and/or I have heard about it ) to Expert ( I do this professionally and/or publish research ) and everything in between.
+<br> <br>
+<u>This includes persons from:</u>
+<ul>
+    <li><strong>Colleges/Universities</strong> (Certificate Granting/2yr/4yr/Non-Doctoral Granting/Doctoral Granting)</li> 
+    <li><strong>Public and Private Organizations</strong></li>
+    <li><strong>Companies Small, Medium, and Large</strong></li>
+    <li><strong>National Laboratories</strong></li>
+    <li><strong>Local/Federal/National Agencies</strong></li>
+    <li><strong>In short, YOU!!!</strong></li>
+</ul>
+
+<!-- Mentors
+{% include mentor-wordart.html %}
+-->
+  <br>
+  {% if site.registration_link %}
+         <div style="text-align: center;">
+          <h2 ><a href="{{ site.registration_link }}"  style="text-decoration: none; padding: 20px; background-color: #F9943B; color: black; border: 3px solid black; border-radius: 8px;"><i class="icon fa fa-pencil-square" aria-hidden="true"></i> Click Here to Register </a></h2>
+         </div>
+         <br>
+          {% endif %}
+       
+<!--
+{% include teams_horz.html %}
+-->
+
+<div style="text-align: center;">
+
+  <h2>Supporters</h2>
+    {% if site.data.sponsors %}
+      <ul style="list-style-type: none;"> 
+        {% for sponsor in site.data.sponsors.sponsors %}
+        <li><a href="{{ sponsor.url }}" target="_blank" style="text-decoration: none;"> <strong> {{ sponsor.name }} </strong></a>
+            {% if sponsor.grant %}
+            <ul style="list-style-type: none;"> 
+              {% for grant in sponsor.grant %} 
+                <li style="color: darkgrey;"><a href="{{ grant.url }}" target="_blank"  style="text-decoration: none; color: darkgrey;"><em>
+                  {% if grant.description %}
+                  {{ grant.description }} 
+                  {% else %}
+                  Funded by: {{ grant.awardagency }}</em></a> 
+                  {% endif %}
+                </li> 
+              {% endfor %}
+            </ul>
+              
+            {% endif %}
+        
+        </li>
+        
+        {% endfor %}
+
+      </ul>
+    {% endif %}
+
+</div>
+
+
+
+

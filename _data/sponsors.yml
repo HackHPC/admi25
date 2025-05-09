@@ -1,0 +1,49 @@
+sponsors: # Used for Sponsors
+  - name: "SGX3"
+    url: https://sciencegateways.org/
+    logo: /assets/imgs/logos/Mediamodifier-Design-Template.png
+    grant:
+      - awardagency: National Science Foundation
+        logo: /assets/imgs/logos/NSF.svg
+        url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2231406
+        description: >
+          SGX3 is funded by the National Science Foundation under award number 2231406.
+
+
+  - name: Association of Computer Science Departments at Minority Institutions (ADMI) 
+    url: https://admiusa.org
+    logo: assets/imgs/logos/ADMI-logo.svg
+
+
+#  - name: The International Conference for High Performance Computing, Networking, Storage, and Analysis
+#   url: https://sc23.supercomputing.org/
+#    logo: assets/imgs/logos/sc23_hor_blackcolor@4x.png
+
+#  - name: "Science and Technology Affiliates for Research (STAR) Industry Program"
+#    url: https://www.tacc.utexas.edu/partnerships/star-industry-program/
+#    logo: assets/imgs/logos/starprogram-logo.png
+  
+ # - name: "University of Texas at Austin Center for Pandemic Decision Science"
+  #  url: https://www.centerforpandemicdecisionscience.org/
+  #  logo: assets/imgs/logos/cpds-logo.png
+
+  - name: Omnibond Systems
+    url: http://omnibond.com/
+    logo: /assets/imgs/logos/omnibond.svg
+  
+  #- name: Texas Advanced Computing Center
+  #  url: https://www.tacc.utexas.edu/
+  #  logo: /assets/imgs/logos/TACC-formal-Black-1c-5602fc8f.svg
+    
+ 
+
+  #- name: "Voltron Data"
+  #  url: https://voltrondata.com
+  #  logo: /assets/imgs/logos/Voltron-Data-logo.jpeg
+
+#  - name: Amazon Web Services
+#    url: https://aws.amazon.com/
+#    logo: /assets/imgs/logos/AWS_logo_RGB.svg
+  - name: HackHPC.org
+    url: http://hackhpc.org/
+    logo: /assets/imgs/logos/hackhpclogo-only.svg

@@ -1,0 +1,33 @@
+
+<h2>Project Teams</h2>
+<span class="teams-h-main">
+  
+     {% for team in site.data.teams.teams %}
+       <div class="teams-h-container">
+          <div class="teams-h-top">
+            <a href="{{ site.url }}{{ site.baseurl }}/teams.html#{{ team.teamname }}" target="_self">
+              <img class="teams-h" src="{{ team.images[0].imagelink | relative_url }}"></a>
+          </div>
+          <div class="teams-h-bottom">
+            <h3 class="teams-h"><a class="teams-h" href="{{ site.url }}{{ site.baseurl }}/teams.html#{{ team.teamname }}" target="_self"> {{ team.emojicode }} {{ team.teamname }}</a></h3> 
+            <a class="teams-h" href="{{ site.url }}{{ site.baseurl }}/teams.html#{{ team.teamname }}" target="_self">
+            <p class="teams-h"> 
+              {% for mentor in team.mentor.names %}
+                {{ mentor }}(M) &#x2022; 
+              {% endfor %}
+              {% for member in team.members.names %}
+                {% if forloop.last == true %}
+                  {{ member }} 
+                {% else %}  
+                  {{ member }} &#x2022;
+                {% endif %}
+              {% endfor %}
+            </p>
+            </a>
+          </div>
+       </div>
+      {% endfor %}
+      </span>   
+      
+    
+ 

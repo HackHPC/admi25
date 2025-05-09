@@ -1,0 +1,136 @@
+##################################
+## References
+#################################
+hackathon:
+- name: HackHPC Code of Conduct
+  url: http://hackhpc.org/codeofconduct
+- name: HackHPC.org 
+  url: http://hackhpc.org
+- name: HackHPC Past Hackathon Events
+  url: http://hackhpc.org/pasthacks/
+- name: Event Branding
+  url: photos/branding/
+
+computinghosting:
+- name: TACC Analysis Portal (TAP)
+  url: https://tap.tacc.utexas.edu
+- name: Texas Advanced Computing Center
+  url: https://www.tacc.utexas.edu
+- name: Amazon Web Services (AWS)
+  url: https://aws.amazon.com         
+- name: TACC CEP (Core Experience Portal)
+  url: https://cep.tacc.utexas.edu
+- name: Omnibond's CloudyCluster
+  url: https://cloudycluster.com
+- name: DesignSafe-CI
+  url: https://www.designsafe-ci.org
+- name: Microsoft Azure
+  url: https://portal.azure.com
+- name: Google Cloud Platform
+  url: https://cloud.google.com
+
+references:
+- name: GitHub Markdown Reference
+  url: https://github.github.com/gfm 
+- name: Introduction to GitHub
+  url: https://lab.github.com/githubtraining/introduction-to-github
+- name: GitHub Tutorial
+  url: https://docs.github.com/en/get-started/quickstart/hello-world
+- name: GitHub Pages
+  url: https://pages.github.com/
+- name: Students guide to GitHub Pages
+  url: https://codeburst.io/how-to-create-and-publish-a-website-a-students-guide-1ffd9fdd6b39
+- name: Liquid 
+  url: https://shopify.github.io/liquid/basics/introduction/
+- name: Markdown Github Cheatsheet
+  url: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+- name: HTML Cheatsheet 
+  url: https://htmlcheatsheet.com/
+- name: CSS Cheatsheet  
+  url: https://htmlcheatsheet.com/css/
+- name: Javascript Cheatsheet
+  url: https://htmlcheatsheet.com/js/
+- name: YAML Tutorial
+  url: https://spacelift.io/blog/yaml
+- name: W3 Font Awesome Brand Icons 
+  url: https://www.w3schools.com/icons/fontawesome_icons_brand.asp
+- name: Introduction to Version Control
+  url: https://swcarpentry.github.io/git-novice/
+- name: Google Bard
+  url: https://bard.google.com/
+
+
+codeplatforms:
+- name: "Google Colab"
+  url: https://colab.research.google.com/
+- name: VS Code Source Code Editor and IDE 
+  url: https://code.visualstudio.com/
+- name: VS Code Intro Videos 
+  url: https://code.visualstudio.com/docs/getstarted/introvideos
+- name: "GitHub Codespaces ([Note:] Codespaces is available for free for individual use for up to 60 hours a month and comes with simple, pay-as-you-go pricing afterwards. (Last Checked 6/21/23 Ref. https://github.com/features/codespaces)"
+  url: https://github.com/codespaces
+- name: Codespaces Primers and Development Pack
+  url: https://education.github.com/experiences/primer_codespaces
+- name: Codespaces Overview 
+  url: https://docs.github.com/en/codespaces/overview
+- name: Codespace Quickstart
+  url: https://github.com/codespaceshttps://docs.github.com/en/codespaces/getting-started/quickstart
+- name: Shutting down / Stopping Codespaces
+  url: https://docs.github.com/en/codespaces/developing-in-codespaces/stopping-and-starting-a-codespace
+- name: Posit Cloud (formerly RStudio Cloud)      
+  url: https://posit.cloud
+
+
+uiuxdesign:
+- name: Quick and easy UI tips
+  url: https://twitter.com/i/events/968521944004943872
+- name: More UI tips
+  url: https://twitter.com/i/events/880688233641848832
+- name: Usability
+  url: https://www.nngroup.com/articles/ten-usability-heuristics/
+- name: UX
+  url: https://www.learnui.design/blog/4-rules-intuitive-ux.html
+- name: Figma
+  url:  https://www.figma.com/
+- name: 12 Critical Elements Every Website Homepage Must Have
+  url: https://blog.hubspot.com/blog/tabid/6307/bid/31097/12-critical-elements-every-homepage-must-have-infographic.aspx
+- name: "Hugo vs. Jekyll: Which is Right for Your Blog?"
+  url: https://draft.dev/learn/hugo-vs-jekyll
+- name: Docsy Hugo Theme
+  url: https://github.com/google/docsy
+- name: Docsy.dev
+  url: https://www.docsy.dev/
+- name: Oragami Studio
+  url: https://origami.design/
+- name: Jekyll Themes
+  url: http://jekyllthemes.org/
+- name: Serving Jekyll site locally
+  url: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
+
+
+datasets:
+- name: HackHPC Datasets
+  url: http://hackhpc.org/data
+
+
+dashboards:
+- name: R for Data Science - R for Data Science. Code in R / concepts useful any language
+  url: had.co.nz 
+- name: Tidy data for efficiency, reproducibility, and collaboration
+  url: openscapes.org 
+- name: Tidy data Paper - Original paper by Hadley Wickham (founder of R) who pioneered the concept of tidy data
+  url: https://vita.had.co.nz/papers/tidy-data.pdf
+- name: Tidy data - informal and example code heavy (in R) version
+  url: tidyverse.org 
+- name: Chart Chooser — Juice Analytics
+  url: https://www.juiceanalytics.com/chartchooser
+- name: Plotly graphing library
+  url: https://plotly.com/python/
+- name: Dash App documentation
+  url: https://dash.plotly.com/
+- name: Deploy to Heroku integration from github
+  url: https://devcenter.heroku.com/articles/github-integration
+- name: Dash guidance / command line (scroll past Enterprise information to Heroku / free section
+  url: https://dash.plotly.com/deployment
+- name: 4 Rules for Intuitive UX
+  url: https://www.learnui.design/blog/4-rules-intuitive-ux.html

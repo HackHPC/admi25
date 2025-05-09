@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/admi25/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/admi25/" rel="alternate" type="text/html" /><updated>2025-05-09T18:58:29-04:00</updated><id>http://localhost:4000/admi25/feed.xml</id><title type="html">HackHPC@ADMI25</title><subtitle>This site will act as the main event site for HackHPC@ADMI25 Hackathon June 23 - 27, 2025. 
+</subtitle><author><name>HackHPC</name></author><entry><title type="html">SGX3 Code of Conduct</title><link href="http://localhost:4000/admi25/session/2024/06/20/SGX3CodeofConduct.html" rel="alternate" type="text/html" title="SGX3 Code of Conduct" /><published>2024-06-20T00:00:00-04:00</published><updated>2024-06-20T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2024/06/20/SGX3CodeofConduct</id><content type="html" xml:base="http://localhost:4000/admi25/session/2024/06/20/SGX3CodeofConduct.html"><![CDATA[<p><br /> 
+All attendees, sponsors, partners, volunteers and staff at our hackathon are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We expect cooperation from all participants to ensure a safe environment for everybody.</p>
+
+<h2 id="science-gateways-code-of-conduct">Science Gateways Code of Conduct</h2>
+<p><strong>1. Respect and Inclusivity</strong></p>
+<ul>
+  <li>Treat all users with respect and dignity, regardless of their background, identity, or beliefs.</li>
+  <li>Foster an inclusive and welcoming environment where everyone feels valued and safe to express their ideas.</li>
+  <li>Avoid discriminatory language, hate speech, or harassment in any form.</li>
+</ul>
+
+<p><strong>2. Academic Integrity</strong></p>
+<ul>
+  <li>Uphold the highest standards of academic integrity and honesty in all interactions.</li>
+  <li>Cite and attribute sources properly when using or referencing others’ work.</li>
+  <li>Do not engage in plagiarism, cheating, or any form of academic misconduct.</li>
+</ul>
+
+<p><strong>3. Constructive Communication</strong></p>
+<ul>
+  <li>Engage in constructive and respectful discussions, debates, and critiques.</li>
+  <li>Avoid personal attacks, name-calling, or any behavior that disrupts productive discourse.</li>
+  <li>Focus on ideas, arguments, and evidence rather than making it personal.</li>
+</ul>
+
+<p><strong>4. Privacy and Data</strong></p>
+<ul>
+  <li>Respect the privacy of others and do not share personal or confidential information without consent.</li>
+  <li>Follow data protection and privacy laws and guidelines when sharing or using data.</li>
+</ul>
+
+<p><strong>5. Copyright and Intellectual Property</strong></p>
+<ul>
+  <li>Adhere to copyright laws and respect the intellectual property rights of others.</li>
+  <li>Seek permission or use proper licensing when sharing or distributing copyrighted material.</li>
+</ul>
+
+<p><strong>6. Reporting Violations</strong></p>
+<ul>
+  <li>Report any code of conduct violations promptly to website administrators or moderators.</li>
+  <li>Provide evidence and details when reporting, and cooperate with any investigations.</li>
+</ul>
+
+<p><strong>7. Consequences of Violations</strong></p>
+<ul>
+  <li>Violations of this code of conduct may result in warnings, suspensions, or permanent bans from the website, as determined by administrators or moderators.</li>
+  <li>Repeated or severe violations may also be reported to relevant academic institutions or authorities, if applicable.</li>
+</ul>
+
+<p><strong>8. Continuous Improvement</strong></p>
+<ul>
+  <li>We encourage feedback and suggestions to improve the code of conduct and the overall user experience.</li>
+  <li>The code of conduct may be updated or revised to better serve the academic community.</li>
+</ul>
+
+<p>By adhering to this code of conduct, you contribute to maintaining a positive and productive academic environment. Thank you for your commitment to these principles and values.</p>
+
+<p><strong>WHAT TO DO IF YOU WITNESS OR ARE SUBJECTED TO UNACCEPTABLE BEHAVIOR</strong>
+If you are subjected to unacceptable behavior, notice that someone else is being subjected to unacceptable behavior, or have any other concerns, please notify a conference organizer as soon as possible. All reports will remain completely confidential.</p>
+
+<p>Event Staff will be available to help participants contact venue security or local law enforcement, to provide escorts, or to otherwise assist those experiencing unacceptable behavior to feel safe for the duration of the conference. You can report unacceptable behavior to any member of staff.</p>
+
+<p>Report Code of Conduct Violations <a href="https://sciencegateways.org/about/code-of-conduct">HERE</a></p>]]></content><author><name>HackHPC</name></author><category term="session" /><category term="Reference" /><summary type="html"><![CDATA[All attendees, sponsors, partners, volunteers and staff at our hackathon are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We expect cooperation from all participants to ensure a safe environment for everybody.]]></summary></entry><entry><title type="html">Code of Conduct</title><link href="http://localhost:4000/admi25/session/2023/06/26/CodeofConduct.html" rel="alternate" type="text/html" title="Code of Conduct" /><published>2023-06-26T00:00:00-04:00</published><updated>2023-06-26T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2023/06/26/CodeofConduct</id><content type="html" xml:base="http://localhost:4000/admi25/session/2023/06/26/CodeofConduct.html"><![CDATA[<p><br /> 
+All attendees, sponsors, partners, volunteers and staff at our hackathon are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We expect cooperation from all participants to ensure a safe environment for everybody.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iTbXbjL1dl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="padding: 15px; float: right;"></iframe>
+
+<h1 id="summary">Summary</h1>
+<p>Our hackathon is dedicated to providing a harassment-free experience for everyone, regardless of the following:</p>
+
+<ul>
+  <li>gender</li>
+  <li>gender identity and expression</li>
+  <li>age</li>
+  <li>sexual orientation</li>
+  <li>disability</li>
+  <li>physical appearance</li>
+  <li>body size</li>
+  <li>race</li>
+  <li>ethnicity</li>
+  <li>nationality</li>
+  <li>religion</li>
+  <li>previous hackathon attendance or lack of</li>
+  <li>computing experience or lack of</li>
+  <li>chosen programming language or tech stack</li>
+</ul>
+
+<p>We do not tolerate harassment of hackathon participants in any form. Sexual language and imagery is not appropriate at any hackathon venue, this includes the following:</p>
+
+<ul>
+  <li>hacks</li>
+  <li>talks, presentations, or demos</li>
+  <li>workshops</li>
+  <li>any parties associated to the hackathon</li>
+  <li>social media</li>
+  <li>any other online media</li>
+</ul>
+
+<p>Hackathon participants violating these rules may be sanctioned or expelled from the hackathon at the discretion of the hackathon organizers.</p>
+
+<h1 id="the-less-quick-version">The Less Quick Version</h1>
+
+<p>Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, or religion, sexual images in public spaces, deliberate intimidation, stalking, following, photography or audio/video recording against reasonable consent, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
+
+<p>Photography is encouraged, but other participants must be given a reasonable chance to opt out from being photographed. If they object to the taking of their photograph, comply with their request. It is inappropriate to take photographs in contexts where people have a reasonable expectation of privacy (in bathrooms or where participants are sleeping).</p>
+
+<p>Participants asked to stop any harassing behavior are expected to comply immediately.</p>
+
+<p>As this is a hackathon, we like to explicitly note that the hacks created at our hackathon are equally subject to the anti-harassment policy.</p>
+
+<p>Sponsors and partners are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Sponsor representatives (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.</p>
+
+<p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of hackathon staff immediately.</p>
+
+<p>Hackathon staff will be happy to help participants contact any local security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the hackathon. We value your attendance.</p>
+
+<p>If a participant engages in harassing behavior, the hackathon organizers may take any action they deem appropriate. This includes warning the offender, expulsion from the hackathon, or reporting their behavior to local law enforcement.</p>
+
+<p>We expect participants to follow these rules at hackathon and workshop venues and hackathon-related social events.</p>]]></content><author><name>HackHPC</name></author><category term="session" /><category term="Reference" /><summary type="html"><![CDATA[All attendees, sponsors, partners, volunteers and staff at our hackathon are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We expect cooperation from all participants to ensure a safe environment for everybody.]]></summary></entry></feed>

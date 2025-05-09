@@ -1,0 +1,12 @@
+<div>
+    
+    `<a href="mailto:{{ site.email }}"><i class="fa-solid fa-envelope"></i></a>
+    {% for social in site.data.socials %}
+
+        <a href="{{ social.url }}"><i class="{{ social.icon }}"></i></a>
+
+    {% endfor %}
+
+    
+
+</div>

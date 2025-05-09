@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Apple Inc.//macOS 14.0//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20231027T213204Z
+DESCRIPTION:Greetings HPC in the City: Pandemics Participants!\n\nTODO:\
+ n\nSign up for a TACC account if you do not have one (use your .edu acco
+ unt\, not gmail\, yahoo\, hotmail etc.)\nTACC Login: https://tacc.utexas
+ .edu/portal/login\nJoin the HackHPC #hpcinthecity-pandemics Discord:\nht
+ tps://discord.gg/G2a7JWnQkP\nCheck out the event site and schedule:\nhtt
+ ps://hackhpc.github.io/hpcinthecity23\n \n[Note: You must be signed into
+  a Zoom Account to join]\n\nJoin Zoom Meeting\nhttps://utexas.zoom.us/j/
+ 97438722532\n\nMeeting ID: 974 3872 2532\n\n---\n\nOne tap mobile\n+1346
+ 2487799\,\,97438722532# US (Houston)\n+12532050468\,\,97438722532# US\n\
+ n---\n\nDial by your location\n• +1 346 248 7799 US (Houston)\n• +1 253 
+ 205 0468 US\n• +1 253 215 8782 US (Tacoma)\n• +1 669 444 9171 US\n• +1 6
+ 69 900 6833 US (San Jose)\n• +1 719 359 4580 US\n• +1 360 209 5623 US\n•
+  +1 386 347 5053 US\n• +1 507 473 4847 US\n• +1 564 217 2000 US\n• +1 64
+ 6 931 3860 US\n• +1 689 278 1000 US\n• +1 929 205 6099 US (New York)\n• 
+ +1 301 715 8592 US (Washington DC)\n• +1 305 224 1968 US\n• +1 309 205 3
+ 325 US\n• +1 312 626 6799 US (Chicago)\n\nMeeting ID: 974 3872 2532\n\nF
+ ind your local number: https://utexas.zoom.us/u/aTQrAYMXJ\n\n---\n\nJoin
+  by SIP\n• 97438722532@zoomcrc.com\n\n---\n\nJoin by H.323\n• 162.255.37
+ .11 (US West)\n• 162.255.36.11 (US East)\n• 115.114.131.7 (India Mumbai)
+ \n• 115.114.115.7 (India Hyderabad)\n• 213.19.144.110 (Amsterdam Netherl
+ ands)\n• 213.244.140.110 (Germany)\n• 103.122.166.55 (Australia Sydney)\
+ n• 103.122.167.55 (Australia Melbourne)\n• 149.137.40.110 (Singapore)\n•
+  64.211.144.160 (Brazil)\n• 149.137.68.253 (Mexico)\n• 69.174.57.160 (Ca
+ nada Toronto)\n• 65.39.152.160 (Canada Vancouver)\n• 207.226.132.110 (Ja
+ pan Tokyo)\n• 149.137.24.110 (Japan Osaka)\n\nMeeting ID: 974 3872 2532\
+ n\n
+DTEND;TZID=America/Chicago:20231104T190000
+DTSTAMP:20231027T213318Z
+DTSTART;TZID=America/Chicago:20231104T170000
+LAST-MODIFIED:20231027T213204Z
+LOCATION:https://utexas.zoom.us/j/97438722532
+SEQUENCE:5
+SUMMARY:UPDATED [HPC in the City: Pandemics] Day 2 Checkin - Afternoon
+TRANSP:OPAQUE
+UID:17DA294E-AE3E-4852-A090-54C590771D51
+X-APPLE-CREATOR-IDENTITY:com.apple.calendar
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT5M
+UID:283F4B12-864D-4F82-A3A6-73DC362A4DCB
+X-WR-ALARMUID:283F4B12-864D-4F82-A3A6-73DC362A4DCB
+END:VALARM
+BEGIN:VALARM
+ACTION:NONE
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+END:VALARM
+END:VEVENT
+END:VCALENDAR

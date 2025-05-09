@@ -1,0 +1,320 @@
+# Welcome to Jekyll!
+#
+# About Theme
+#
+# Yet another theme for elegant writers with modern flat style and beautiful
+# night/dark mode.
+#
+# Website: https://github.com/jeffreytse/jekyll-theme-yat
+#
+# You can do anything you want, including projects for your clients, as long
+# as you mention an attribution back (credit links in footer or project).
+# See the LICENCE file.
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you
+# use 'bundle exec jekyll serve'. If you change this file, please restart
+# the server process.
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: "HackHPC@ADMI25"
+email: "schack@hackhcp.org"
+author: HackHPC
+
+# Socials
+twitter_username: ccloudhack
+instagram_username: hack_hpc
+#facebook_username: mauricio.urraco
+linkedin_username: "https://www.linkedin.com/groups/8859728/"
+github_username: HackHPC
+youtube_page: "https://www.youtube.com/@hackhpc2069"
+#registration_link: "https://forms.gle/Z2T4WokW4HxTHhJS8"
+# medium_username: lorem_ipsum
+# medium_url: lorem_ipsum.medium.com
+# gplus_username:  lorem_ipsum
+
+
+# Copyright setting
+# You can use any html code, currently below placeholders are available:
+# * current year: {currentYear}
+# * author: {author} (Value is the same as site.author)
+# * copyright: (c) - ©
+# * copyleft: (cleft)
+# * sound recording copyright: (p) - ℗
+#
+# For example:
+#   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
+#   "Copyright © 2017-2021 Foobar"
+#
+copyright: "Copyright (cleft) 2018-{currentYear} HackHPC All rights reserved."
+
+description: > # this means to ignore newlines until "baseurl:"
+  This site will act as the main event site for HackHPC@ADMI25 Hackathon June 23 - 27, 2025. 
+
+baseurl: "/admi25" # the subpath of your site, e.g. /blog
+url: "https://hackhpc.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+favicon: "favicon.ico" #"assets/favicon.ico" # the favicon for your site
+headericon: "photos/branding/Favicon-48x48.svg" #"assets/imgs/hackhpclogo-peopleonly-orange.svg" 
+eventbadge: "photos/branding/Badge-TextOnly.svg" # if the event has some type of logo or badge to be placed on pages inlew of header
+
+# Yat date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+yat:
+  date_format: "%b %d, %Y"
+
+# If you want more debug log, you can set true
+# debug: false
+
+# If you don't want transparent header, you can set false
+header_transparent: false
+
+# If you want to change the content width, you can set to another value
+# content_width: "920px"
+
+
+
+# SEO Tag Information
+twitter: ccloudhack
+card: summary_large_image
+seoimage: "photos/branding/PrimaryHeader-SEO-withtext-sponsors-1200x628.png"
+
+
+# Deliverables
+deliverables: >
+  <strong>Deliverables:</strong> <br>
+          &nbsp;&nbsp; &#x2022; Github Repository with: <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; README.md with project description<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Source code Including Comments<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Presentation (PDF)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Team members with pictures<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Use of technology in the project<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Project impact to the Science Gateways community<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Poster <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Proof of poster submission to Gateways24 (+5pts Judging Score) <br>
+
+# Viewer's Choice Link
+#viewerschoiceurl: https://forms.gle/PNS9shdxFph6s4D96
+
+# Team Trailers (YouTube Embed)
+#teamtrailers: >
+#  <iframe width="560" height="315"
+#  src="https://www.youtube.com/embed/videoseries?si=nMXdAm4Drtjj2HZM&amp;list=PLk7G3_iq2ijR1331qCYx04MADFmqyaM-L"
+#  title="YouTube video player" frameborder="0"
+#  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+#  allowfullscreen></iframe>
+
+# YouTube Live Stream for Final Presentations
+#livestreamurl: 
+
+# Post Event Survey Link
+#posteventsurveyurl: https://forms.gle/2Ah4eaPHAiK63vAd8
+
+# Google analytics
+# google_analytics: [Tracking ID]
+
+# If you want to generate website sitemap, you can set true
+# sitemap: false
+
+# If you want to change site language, you can set lang option
+# lang: "en"  # default lang is en
+
+# Translate languges
+# langs refer to https://cloud.google.com/translate/docs/languages
+# translate_langs:
+#   - lang: en
+#     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
+#     text: English
+#
+#   - lang: fr
+#     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
+#     text: French
+#
+#   - lang: zh-CN
+#     img: https://cdn.countryflags.com/thumbs/china/flag-400.png
+#     text: Chinese(Simple)
+#
+#   - lang: ja
+#     img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
+#     text: Japanese
+#
+#   - lang: ko
+#     img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
+#     text: Korean
+#
+#   - lang: ru
+#     img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
+#     text: Russian
+
+# You can choose a theme color
+# Default theme colors as below:
+# coolblack: #090a0b
+# spacegrey: #353535
+# snowwhite: #ffffff
+#
+# theme_color: snowwhite
+#
+# Custom color as below:
+# theme_color: "#882250"
+
+# You can choose a brand color
+# Default brand colors as below:
+# orangered: #ff5100
+# greatgold: #f2cb05
+# greenblue: #389092
+#
+# brand_color: orangered
+#
+# Custom color as below:
+brand_color: "#025986" #"#68c18c" #"#1a8e42"
+
+# Night/Dark mode
+# Default mode is "auto", "auto" is for auto nightshift
+# (19:00 - 07:00), "manual" is for manual toggle, and
+# "on/off" is for default on/off.
+#
+# Whatever the user's choice is, it will supersede the
+# default setting of the site and be kept during the
+# visit (session). Only the dark mode setting is"manual",
+# it will be always kept on every visit (i.e. no matter
+# the browser is closed or not)
+#
+# night_mode: "auto"
+
+# Code badge setting
+# You can enable or disable the code badge and so on
+# code_badge:
+#   enabled: "true"
+#   color: "#fff"
+#   background_color: "#ff4e00"
+#   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  #- index.html
+  #- teams.html
+  #- schedule.html
+  - resources.html
+  - organizers.html
+  #- about.md
+
+
+
+# Gallery Plugin 
+# Ref: https://github.com/ggreer/jekyll-gallery-generator
+
+# Installation steps MacOS (High Sierra):
+#  1. brew install imagemagick rbenv
+#  2. gem install rmagick exifr
+#  3. gem install jekyll-gallery-generator
+#  4. bundle exec jekyll serve   
+
+
+gallery:
+  dir: photos               # Path to the gallery
+  symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
+  title: "Photos"           # Title for gallery index page
+  title_prefix: "Photos: "  # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
+  sort_field: "date_time"   # How to sort galleries on the index page.
+                            # Possible values are: title, date_time, best_image
+  thumbnail_size:
+    x: 400                  # max width of thumbnails (in pixels)
+    y: 400                  # max height of thumbnails (in pixels)
+  # The following options are for individual galleries.
+  galleries:
+    branding:
+      best_image: hpcinthecitypandemics-bears.png
+    kick_off:
+      best_image: Screenshot_2023-11-03_at_6.54.59_PM.png  # The image to show on the gallery index page. Defaults to the last image.
+    team_introductions:
+      best_image: Screenshot_2023-11-04_at_6.05.32_PM.png
+      #name: ""       # Defaults to directory name, replacing _ with spaces & capitalizing words.
+      #sort_reverse: true    # Reverse sort images in gallery.
+    #secret_stuff:
+    #  hidden: true          # Don't show this gallery on the index page. People must guess the URL.
+    #with_info:
+    #  info:
+    #    desc: "Gallery Description" # Info fields can be used in custom templates.
+
+
+
+
+
+
+
+
+# Page default value
+# defaults:
+#   home:
+#     heading: "Your awesome heading"
+#     subheading: "Your awesome subheading"
+#     banner: "Your image url" #Size it to 1920x960
+
+# Banner default settings
+# These banner settings are for global banner default, but you can also
+# config it by the front matter for one specific post
+# banner:
+#   video: null             # Video banner source
+#   loop: true              # Video loop
+#   volume: 0               # Video volume (100% is 1.0)
+#   start_at: 0             # Video start time
+#   image: null             # Image banner source
+#   opacity: 1.0            # Banner opacity (100% is 1.0)
+#   background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
+#   height: "640px"         # Banner default height
+#   min_height: null        # Banner minimum height
+#   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
+#   subheading_style: null  # Custom subheading style (e.g. color: gold)
+
+# Excerpt size setting
+# excerpt_size: 350
+
+# Pagination setting
+# paginate: 5
+
+# Disqus comments
+# disqus:
+#   shortname: "Your Disqus username"
+
+# Gitment comments
+# gitment:
+#   username: "Your GitHub username"
+#   repo: "The repo to store comments"
+#   client_id: "Your client ID"
+#   client_secret: "Your client secret"
+#   redirect_uri: "Your redirect url"   # If you use a custom domain name
+
+# Utterances comments
+# See https://utteranc.es/
+# set follow_site_theme true to make utterances' theme follow the site's
+
+# utterances:
+#   repo: "owner/repo"
+#   issue_term: "title"
+#   label: "utterances comment"
+#   theme: "github-light"
+#   follow_site_theme: true
+
+# Build settings
+# highlighter: none
+markdown: kramdown
+kmarkdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
+  - jekyll-gallery-generator
+
+
+

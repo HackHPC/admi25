@@ -1,0 +1,120 @@
+
+<div id="presentations">
+  <section class="bg">
+   
+  </section>
+ 
+  Jump To:  <a href="#sessions" target="_self"> Sessions</a> | <a href="#references" target="_self"> References </a> | <a href="#uiuxdesign" target="_self"> UI/UX</a> | <a href="#codeplatforms" target="_self"> Code Platforms</a> | <a href="#datasets" target="_self"> Datasets</a> | <a href="#dashboards" target="_self"> Dashboards </a>
+  <br>
+  <br>
+<!--
+  {% include finalpresentationsinfo.html%}
+-->
+  <br>
+  
+
+
+  <h1 id="sessions" style="color:#013366;"><i class="fas fa-chalkboard-teacher" style="font-size: x-large;"></i> Sessions:</h1>
+  <ol class="presentations-list">
+    {% if site.data.schedule.preevent_schedule %}
+    {% for _ in site.data.schedule.preevent_schedule %}
+         
+    
+        {% for event in _.events %}
+        {% if event.links %}
+      <li>
+        [{{ _.date}} ] <strong>{{ event.name }}</strong>
+        <ul>
+        {% for link in event.links %}
+          <li>
+              <a href="{{ link.url }}">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+        {% endif %}
+        </ul>
+      </li>
+      
+    {% endfor %}
+    {% endfor %}
+    {% endif %}
+    
+    {% for _ in site.data.schedule.general_schedule %}
+         
+    
+        {% for event in _.events %}
+        {% if event.links %}
+      <li>
+        [{{ _.date}} ] <strong>{{ event.name }}</strong>
+        <ul>
+        {% for link in event.links %}
+          <li>
+              <a href="{{ link.url }}">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+        {% endif %}
+        </ul>
+      </li>
+      
+    {% endfor %}
+    {% endfor %}
+  </ol>
+
+  <hr>
+  <h1 id="hackathon" style="color:#013366;"><i class="fa-solid fa-person-chalkboard" style="font-size: x-large;"></i> Hackathon:</h1>
+  {% for ref in site.data.references.hackathon %}
+    <ul class="presentations-list">
+      <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+    </ul>
+  {% endfor %}
+
+
+  <hr>
+  <h1 id="references" style="color:#013366;"><i class="fas fa-book-reader" style="font-size: x-large;"></i> References:</h1>
+  {% for ref in site.data.references.references %}
+    <ul class="presentations-list">
+      <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+    </ul>
+  {% endfor %}
+
+
+  <hr>
+  <h1 id="uiuxdesign" style="color:#013366;"><i class="fas fa-laptop-code" style="font-size: x-large;"></i> UI/UX:</h1>
+  {% for ref in site.data.references.uiuxdesign %}
+    <ul class="presentations-list">
+      <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+    </ul>
+  {% endfor %}
+  
+  <hr>
+  <h1 id="codeplatforms" style="color:#013366;"><i class="fa-solid fa-code" style="font-size: x-large;"></i> Coding Platforms:</h1>
+  {% for ref in site.data.references.codeplatforms %}
+    <ul class="presentations-list">
+      <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+    </ul>
+  {% endfor %}
+ 
+  <hr>
+  <h1 id="computinghosting" style="color:#013366;"><i class="fa-solid fa-server" style="font-size: x-large;"></i> Computation/Hosting:</h1>
+  {% for ref in site.data.references.computinghosting %}
+    <ul class="presentations-list">
+      <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+    </ul>
+  {% endfor %}
+ 
+  <hr>
+  <h1 id="datasets" style="color:#013366;"><i class="fas fa-database" style="font-size: x-large;"></i> Datasets:</h1>
+  {% for ref in site.data.references.datasets %}
+    <ul class="presentations-list">
+      <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+    </ul>
+  {% endfor %}
+
+  <hr>
+  <h1 id="dashboards" style="color:#013366;"> <i class="fas fa-laptop-code" style="font-size: x-large;"></i> Dashboards: </h1>
+  {% for ref in site.data.references.dashboards %}
+    <ul class="presentations-list">
+      <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+    </ul>
+  {% endfor %}
+
+</div>

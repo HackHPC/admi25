@@ -1,0 +1,28 @@
+<script src="//cdn.wordart.com/wordart.min.js" async defer></script>
+
+
+
+<div style="display: flex;">
+
+    
+    <div style="width: 50%; vertical-align: middle;">
+        <h2> Team Mentors and Staff</h2>
+        <ul>
+        {% for team in site.data.teams.teams %}
+        {% for mentor in team.mentor.names %}
+        <li><strong>{{ mentor }}</strong> <br> <em><a href="{{ team.mentor.affiliationurl[forloop.index0] }}">{{ team.mentor.affiliation[forloop.index0] }}</a></em> </li>
+        {% endfor %}
+    
+    
+    
+        {% endfor %}
+        </ul>
+    </div>
+    
+    <div style="width: 50%;" data-wordart-src="//cdn.wordart.com/json/4to1r3w2827y" data-wordart-show-attribution></div>
+    
+
+
+
+
+</div>

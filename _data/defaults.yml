@@ -1,0 +1,9 @@
+home:
+  #heading: "HackHPC@ADMI23"
+  #subheading: > # this means to ignore newlines until "baseurl:"
+  #  This page will serve as the event site for the HackHPC@ADMI23 
+  #  Hackathon held virtually June 26th - 29th, 2023.
+  #banner: "/assets/images/banners/ADMI23-SiteHeader.png" #Size it to 1920x960 or for color ex. "rgba(0, 0, 0, 0.8)"
+    #height: "25vh"
+  #bannerimgoverlay: "/assets/images/banners/ADMI23-whiteheader-logo.svg"
+  #dontshowbannertext: "dontshow"

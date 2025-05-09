@@ -1,0 +1,29 @@
+- name: X-Twitter
+  url: "https://twitter.com/ccloudhack"
+  username: ccloudhack
+  icon: "fa-brands fa-x-twitter"
+  iconcolor: black
+
+- name: Instagram
+  url: "https://www.instagram.com/hack_hpc"
+  username: hack_hpc
+  icon: "fa-brands fa-instagram"
+  iconcolor: "#962fbf"
+
+- name: Linkedin
+  url: "https://www.linkedin.com/groups/8859728"
+  icon: "fa-brands fa-linkedin"
+  iconcolor: "#0077b5"
+  
+- name: GitHub
+  url: https://github.com/HackHPC
+  username: HackHPC
+  icon: "fa-brands fa-github"
+  iconcolor: black
+
+- name: YouTube
+  url: "https://www.youtube.com/@hackhpc2069"
+  icon: "fa-brands fa-youtube"
+  iconcolor: "#FF0000"
+
+

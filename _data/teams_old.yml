@@ -1,0 +1,205 @@
+teams:
+- teamname: Party Animals
+  mentor:
+    names: [Kelly Gaither, Gladys Chen]
+    affiliation: [Texas Advanced Computing Center, Texas Advanced Computing
+        Center]
+    affiliationurl: ['https://www.tacc.utexas.edu/', 'https://www.tacc.utexas.edu/']
+    role: [Mentor, Staff / helper]
+    socials: ['https:https://www.linkedin.com/in/kelly-gaither-5b39301/',
+      'https://www.linkedin.com/in/gladys-chen-6a3b32211/']
+    email: [kelly@tacc.utexas.edu, gladyschenyx@gmail.com]
+  members:
+    names: [Yamonta  Gaines, 'Alex Gutierrez ', LeahMonet Morgan, Michael
+        Olubode, Lisa Phan]
+    affiliation: [Philander Smith College, 'New York University ', Southern
+        University A&M College, University of Maryland Eastern Shore, University
+        of Texas at Austin]
+    affiliationurl: ['https://www.philander.edu/', 'https://www.nyu.edu/',
+      'https://www.subr.edu/', 'https://umes.edu', 'https://www.utexas.edu/']
+    major: ['Computer Science ', 'Cybersecurity ', Mechanical Engineering,
+      'Computer Science ', 'Biochemistry']
+    role: [Hacker / participant, Hacker / participant, Hacker / participant,
+      Hacker / participant, Hacker / participant]
+    socials: ['https://twitter.com/nolimit1k', 'https://www.linkedin.com/in/alex-gutierrez-diaz-80a7bb242',
+      'https://www.linkedin.com/in/leahmonet-morgan-a65a22294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      'https://www.linkedin.com/in/michael-olubode-olushola/', 'https://www.linkedin.com/in/lisa-phan-46676924b/']
+    email: [gyamonta55@yahoo.com, ag9506@nyu.edu, leahmonetm@gmail.com, moolubode3@gmail.com,
+      dhp563@utexas.edu]
+  themesong: https://www.youtube.com/watch?v=TGtWWb9emYI
+  themesongname: "Pitbull feat. Jennifer Lopez & Claudia Leitte - We Are One (Ole Ola)"
+  zoombackground: teams/partyanimals/partyanimals-zoom.jpeg
+  #projecturl: {}
+  projectgoals: >
+    Enhance public safety and situational awareness by analyzing mobility data from Safegraph to identify and visualize mass gatherings that occurred from 2018 through February 2022.
+  #emojicode: {}
+  awards: ['Judge’s Award' , 'Best Team Introduction' , 'Best Team Project Plan']
+  links:
+    - name: GitHub Repo
+      url: https://github.com/agutie22/MassySituation
+      icon: "fa-brands fa-github"
+      iconcolor: black
+    - name: Team Introduction
+      url: teams/partyanimals/partyanimals-intro.pdf
+      icon: fa-regular fa-file-pdf
+      iconcolor: red
+    - name: Team Goals and Plan
+      url: teams/partyanimals/Day2-PartyAnimalsEveningCheckin-TeamGoalsandProjectPlan.pdf
+      icon: fa-regular fa-file-pdf
+      iconcolor: red
+    - name: Team Goals
+      url: https://www.youtube.com/watch?v=DETmoO0GQvQ&t=28s 
+      icon: "fab fa-youtube" #fa-regular fa-file-pdf
+      iconcolor: red
+    - name: Team Trailer
+      url: https://youtu.be/W9AbtX2rbhw
+      icon: "fab fa-youtube" #fa-regular fa-file-pdf
+      iconcolor: red
+  images:
+    - name: Team Introduction
+      url: teams/partyanimals/partyanimals-intro.pdf
+      imagelink: teams/partyanimals/PartyAnimalsIntro.png
+    - name: Team Goals and Plan
+      url: teams/partyanimals/Day2-PartyAnimalsEveningCheckin-TeamGoalsandProjectPlan.pdf
+      imagelink: teams/partyanimals/Day2-EveningCheckin-TeamGoalsandProjectPlan-partyanimals.png
+
+
+
+- teamname: REDWARN
+  mentor:
+    names: [Oluwasegun Ibrahim, Emily Javan, Lydia Fletcher]
+    affiliation: [Center for Pandemic Decision Science, Center for Pandemic
+        Decision Science, Texas Advanced Computing Center]
+    affiliationurl: ['https://www.centerforpandemicdecisionscience.org/',
+      'https://www.centerforpandemicdecisionscience.org/', 'https://www.tacc.utexas.edu/']
+    role: [Mentor, Mentor, Staff / helper]
+    socials: ['https://www.linkedin.com/in/oluwasegunibrahim', 'https://www.linkedin.com/in/emily-javan-8b685293/',
+      'https://www.linkedin.com/in/lydia-fletcher-3b6b9a272/']
+    email: [oluwasegun.ibrahim@utexas.edu, emjavan@utexas.edu, lfletcher@tacc.utexas.edu]
+  members:
+    names: [Evans Etrue Howard, Qimora Mason, Coreen Mullen, 'Ahmad  Samyono ',
+      Xinyi Miao, Rachel  Foong]
+    affiliation: [University of Texas at El Paso, Elizabeth City State University,
+      Elizabeth City State University, 'University of Texas at Tyler ', University of Texas at Austin, University of Texas at Austin]
+    affiliationurl: ['https://www.utep.edu/', 'https://ecsu.edu/', 'https://ecsu.edu/',
+      'https://www.uttyler.edu/', 'https://www.utexas.edu/', 'https://www.utexas.edu/']
+    major: [Data Science, Computer Science/Mathematics, 'Computer Science ',
+      'Computer Science ', 'Statistics, Mathematics', Informatic; Data science]
+    role: [Hacker / participant, Hacker / participant, Hacker / participant,
+      Hacker / participant, Hacker / participant, Hacker / participant]
+    socials: ['https://www.linkedin.com/in/evans-etrue-howard-phd-a1228058/',
+      'https://www.linkedin.com/in/qimora-mason', 'https://www.linkedin.com/in/coreenmullen/',
+      'https://www.linkedin.com/in/ahmadsamyono', .nan, 'https://www.linkedin.com/in/rachel-foong1']
+    email: [sirmore.howard@gmail.com, qimora.mason@gmail.com, coreenmullen.8052@gmail.com,
+      samyonoahmad482@gmail.com, xinyimiao23@gmail.com, racheloong24@gmail.com]
+  themesong: https://soundcloud.com/moby/moby_gratis_welcome-back-wav?si=7974719a36af475dbce82375b64ee1fa&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+  themesongname: "Moby Gratis Welcome Back"
+  zoombackground: teams/redwarn/REDWARN_zoom.png
+  #projecturl: {}
+  projectgoals: >
+    <ol>
+      <li>Track Community Sentiment on Pandemic Policy’s </li>
+      <li>Estimate Community Opinion and The accuracy based on Real World Responses</li
+    <ol>
+  #emojicode: {}
+  awards: ['Impact Award']
+  links:
+    - name: GitHub Repo
+      url: https://github.com/SirMore/REDWARN
+      icon: "fa-brands fa-github"
+      iconcolor: black
+    - name: Team Introduction
+      url: teams/redwarn/redwarn-intro.pdf
+      icon: fa-regular fa-file-pdf
+      iconcolor: red
+    - name: Team Goals and Plan
+      url: teams/redwarn/Day2-REDWARN-EveningCheckin-TeamGoalsandProjectPlan.pdf
+      icon: fa-regular fa-file-pdf
+      iconcolor: red
+    - name: Team Goals
+      url: https://www.youtube.com/watch?v=DETmoO0GQvQ&t=1643s
+      icon: "fab fa-youtube" #fa-regular fa-file-pdf
+      iconcolor: red
+    - name: Team Trailer
+      url: https://youtu.be/s3nUj9K35cE 
+      icon: "fab fa-youtube" #fa-regular fa-file-pdf
+      iconcolor: red
+  images:
+    - name: Team Introduction
+      url: teams/redwarn/redwarn-intro.pdf
+      imagelink: teams/redwarn/RedwarnIntro.png
+    - name: Team Goals and Plan
+      url: teams/redwarn/Day2-REDWARN-EveningCheckin-TeamGoalsandProjectPlan.pdf
+      imagelink: teams/redwarn/Day2-EveningCheckin-TeamGoalsandProjectPlan-redwarn.png
+
+
+
+
+- teamname: Render Mages
+  mentor:
+    names: [Jose Herrera, Emma Bukowski]
+    affiliation: [Center for Pandemic Decision Science, Texas Advanced Computing
+        Center]
+    affiliationurl: ['https://www.centerforpandemicdecisionscience.org/',
+      'https://www.tacc.utexas.edu/']
+    role: [Mentor, Staff / helper]
+    socials: ['https://www.linkedin.com/in/jose-luis-herrera-diestra-b824536b/',
+      .nan]
+    email: [diestra@austin.utexas.edu, ebukowski@tacc.utexas.edu]
+  members:
+    names: ['Clarence  Conner ', Susan Garza, Joshua Harrell, "Da\u2019Neisha\
+        \  Harris ", Gideon Osei Bonsu]
+    affiliation: [Jackson State University, Texas State University, Elizabeth
+        City State University, University of Maryland Eastern Shore, Elizabeth
+        City State University]
+    affiliationurl: ['https://www.jsums.edu/', 'https://www.txst.edu/', 'https://ecsu.edu/',
+      'https://umes.edu', 'https://ecsu.edu/']
+    major: ['Computer Science ', 'Masters in public health education and promotion,
+        Registered Nurse, Bachelor in Biochem and Molecular Biology', Computer
+        Science with a concentration and data sound, 'Computer science ',
+      'Computer Science ']
+    role: [Hacker / participant, Hacker / participant, Hacker / participant,
+      Hacker / participant, Hacker / participant]
+    socials: ['https://www.linkedin.com/in/c-conner', .nan, 'http://www.linkedin.com/in/joshua-harrell-691282275',
+      .nan, 'https://www.linkedin.com/in/gideon-osei-bonsu-197a1916a/']
+    email: [connerc250@gmail.com, susanlgarza@outlook.com, joshuaharrell385@gmail.com,
+      dkharris1@umes.edu, oseibonsugideon400@gmail.com]
+  themesong: https://soundcloud.com/joaofaria/imagine-dragons-believer-remix?si=40851ce160f041c99c6ed0ca24c0c7e8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+  themesongname: "Imagine Dragons - Believer (Remix)"
+  zoombackground: teams/rendermages/rendermages-zoom.png
+  #projecturl: {}
+  projectgoals: >
+    <ol>
+      <li>Explore the relationship between changes in mobility and social vulnerability score (SVI) in Austin, Texas</li>
+      <li>Determine if this relationship is dependent on mobility restrictions</li>
+    <ol>
+  #emojicode: {}
+  awards: ['Viewer’s Choice']
+  links:
+    - name: GitHub Repo
+      url: https://github.com/LaJoshua/Mobility-and-Social-Vulnerability-Index
+      icon: "fa-brands fa-github"
+      iconcolor: black
+    - name: Team Introduction 
+      url: teams/rendermages/rendermagesintro.pdf
+      icon: fa-regular fa-file-pdf
+      iconcolor: red  
+    - name: Team Goals and Plan
+      url: teams/rendermages/Day2-RenderMagesEveningCheckin-TeamGoalsandProjectPlan.pdf
+      icon: fa-regular fa-file-pdf
+      iconcolor: red
+    - name: Team Goals
+      url: https://www.youtube.com/watch?v=DETmoO0GQvQ&t=886s 
+      icon: "fab fa-youtube" #fa-regular fa-file-pdf
+      iconcolor: red
+    - name: Team Trailer
+      url: https://youtu.be/wNumlGF7kwU 
+      icon: "fab fa-youtube" #fa-regular fa-file-pdf
+      iconcolor: red
+  images:
+    - name: Team Introduction
+      imagelink: teams/rendermages/RenderMages.png
+      url: teams/rendermages/rendermagesintro.pdf
+    - name: Team Goals and Plan
+      url: teams/rendermages/Day2-RenderMagesEveningCheckin-TeamGoalsandProjectPlan.pdf
+      imagelink: teams/rendermages/Day2-EveningCheckin-TeamGoalsandProjectPlan-renderimages.png
