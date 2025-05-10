@@ -35,7 +35,7 @@ instagram_username: hack_hpc
 linkedin_username: "https://www.linkedin.com/groups/8859728/"
 github_username: HackHPC
 youtube_page: "https://www.youtube.com/@hackhpc2069"
-#registration_link: "https://forms.gle/Z2T4WokW4HxTHhJS8"
+
 # medium_username: lorem_ipsum
 # medium_url: lorem_ipsum.medium.com
 # gplus_username:  lorem_ipsum
@@ -98,6 +98,8 @@ deliverables: >
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Project impact to the Science Gateways community<br>
           &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Poster <br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Proof of poster submission to Gateways24 (+5pts Judging Score) <br>
+
+registration_link: "https://docs.google.com/forms/d/e/1FAIpQLScLBmQ7nWn7ocHIB2rxJKZ2LTAKH5bzPQWqXIspsZ8QIi4BUQ/viewform?usp=sharing"
 
 # Viewer's Choice Link
 #viewerschoiceurl: https://forms.gle/PNS9shdxFph6s4D96
