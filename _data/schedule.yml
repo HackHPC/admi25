@@ -7,7 +7,7 @@ general_schedule:
   - date: "2025-06-23T10:00(-04:00)"
     session: Morning
     zoomlink:
-    theme: Day1 Kick-Off
+    theme: "Day 1: Kick-Off"
     events: 
       - name: Hackathon Overview
         type: Presentations
@@ -33,7 +33,7 @@ general_schedule:
   
   - date: "2025-06-23T15:00(-04:00)"
     session: Afternoon
-    theme: Day1 Team Introductions
+    theme: Team Introductions
     events: 
       - name: Team Introductions
         type: Presentations 
@@ -46,7 +46,7 @@ general_schedule:
   
   - date: "2025-06-24T10:00(-04:00)"
     session: Morning
-    theme: Day 2 Project Plan
+    theme: "Day 2: Project Plan"
     events: 
       - name: Project Plan
         type: Presentations 
@@ -72,7 +72,7 @@ general_schedule:
 
   - date: "2025-06-25T10:00(-04:00)"
     session: Morning
-    theme: Check-in
+    theme: "Day 3: Check-in"
     events: 
       - name: Team Progress 
         type: Presentations 
@@ -100,7 +100,7 @@ general_schedule:
 
   - date: "2025-06-26T10:00(-04:00)"
     session: Morning
-    theme: Check-in
+    theme: "Day 4: Check-in"
     events: 
       - name: Team Progress 
         type: Presentations 
@@ -128,7 +128,7 @@ general_schedule:
 
   - date: "2025-06-27T10:00(-04:00)"
     session: Morning
-    theme: Final Check-in
+    theme: "Day 5: Final Check-in"
     events: 
       - name: Team Progress 
         type: Presentations 
