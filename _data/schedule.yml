@@ -6,7 +6,7 @@
 general_schedule:
   - date: "2025-06-23T10:00(-04:00)"
     session: Morning
-    zoomlink:
+    zoomlink: https://us06web.zoom.us/j/87064843706?pwd=b3kPYJSevJ0urtYA5eVBuPlnAvYRIV.1
     theme: "Day 1: Kick-Off"
     events: 
       - name: Hackathon Overview
@@ -33,6 +33,7 @@ general_schedule:
   
   - date: "2025-06-23T15:00(-04:00)"
     session: Afternoon
+    zoomlink: https://us06web.zoom.us/j/87064843706?pwd=b3kPYJSevJ0urtYA5eVBuPlnAvYRIV.1
     theme: Team Introductions
     events: 
       - name: Team Introductions
@@ -46,6 +47,7 @@ general_schedule:
   
   - date: "2025-06-24T10:00(-04:00)"
     session: Morning
+    zoomlink: https://us06web.zoom.us/j/87064843706?pwd=b3kPYJSevJ0urtYA5eVBuPlnAvYRIV.1
     theme: "Day 2: Project Plan"
     events: 
       - name: Project Plan
@@ -57,6 +59,7 @@ general_schedule:
   
   - date: "2025-06-24T15:00(-04:00)"
     session: Afternoon
+    zoomlink: https://us06web.zoom.us/j/87064843706?pwd=b3kPYJSevJ0urtYA5eVBuPlnAvYRIV.1
     theme: Check-in
     events: 
       - name: Team Progress 
@@ -72,6 +75,7 @@ general_schedule:
 
   - date: "2025-06-25T10:00(-04:00)"
     session: Morning
+    zoomlink: https://us06web.zoom.us/j/87064843706?pwd=b3kPYJSevJ0urtYA5eVBuPlnAvYRIV.1
     theme: "Day 3: Check-in"
     events: 
       - name: Team Progress 
@@ -86,6 +90,7 @@ general_schedule:
   
   - date: "2025-06-25T15:00(-04:00)"
     session: Afternoon
+    zoomlink: https://us06web.zoom.us/j/87064843706?pwd=b3kPYJSevJ0urtYA5eVBuPlnAvYRIV.1
     theme: Check-in
     events: 
       - name: Team Progress 
@@ -100,6 +105,7 @@ general_schedule:
 
   - date: "2025-06-26T10:00(-04:00)"
     session: Morning
+    zoomlink: https://us06web.zoom.us/j/87064843706?pwd=b3kPYJSevJ0urtYA5eVBuPlnAvYRIV.1
     theme: "Day 4: Check-in"
     events: 
       - name: Team Progress 
@@ -114,6 +120,7 @@ general_schedule:
   
   - date: "2025-06-26T15:00(-04:00)"
     session: Afternoon
+    zoomlink: https://us06web.zoom.us/j/87064843706?pwd=b3kPYJSevJ0urtYA5eVBuPlnAvYRIV.1
     theme: Check-in
     events: 
       - name: Team Progress 
@@ -128,6 +135,7 @@ general_schedule:
 
   - date: "2025-06-27T10:00(-04:00)"
     session: Morning
+    zoomlink: https://us06web.zoom.us/j/87064843706?pwd=b3kPYJSevJ0urtYA5eVBuPlnAvYRIV.1
     theme: "Day 5: Final Check-in"
     events: 
       - name: Team Progress 
@@ -142,6 +150,7 @@ general_schedule:
   
   - date: "2025-06-27T13:00(-04:00)"
     session: Afternoon
+    zoomlink: https://us06web.zoom.us/j/87064843706?pwd=b3kPYJSevJ0urtYA5eVBuPlnAvYRIV.1
     theme: Final Presentations
     events: 
       - name: Final Presentations
