@@ -4,8 +4,8 @@ title: "Deliverables Guide"
 categories: session
 tags: Reference
 banner:
-  image: "photos/branding/students-computers-ADMI24-header.png"
-  height: "35vh"
+  image: "photos/branding/TeamPresentingHeader-NoText-1980x350.png"
+  height: "25vh"
 
 ---
 
