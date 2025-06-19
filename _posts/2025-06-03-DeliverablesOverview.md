@@ -9,7 +9,7 @@ banner:
 
 ---
 
-### **Hackathon Deliverables: Clear and Simple Guide**
+### **Hackathon Deliverables Guide**
 
 To successfully complete the hackathon, your team must submit the following deliverables. These showcase your project, from code to presentation, and demonstrate your efforts in evaluating the reproducibility of scientific papers. All deliverables should be organized, professional, and easy to access.
 
