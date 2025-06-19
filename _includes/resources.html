@@ -23,7 +23,9 @@
 
 
   <br>
-  
+  <h2>Information Posts</h2>
+
+{% include views/pagination.html %}
 
 
   <h1 id="sessions" style="color:#013366;"><i class="fas fa-chalkboard-teacher" style="font-size: x-large;"></i> Sessions:</h1>
@@ -72,7 +74,9 @@
   </ol>
 
   <hr>
+  
   <h1 id="hackathon" style="color:#013366;"><i class="fa-solid fa-person-chalkboard" style="font-size: x-large;"></i> Hackathon:</h1>
+  
   {% for ref in site.data.references.hackathon %}
     <ul class="presentations-list">
       <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>

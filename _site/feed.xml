@@ -1,5 +1,178 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/admi25/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/admi25/" rel="alternate" type="text/html" /><updated>2025-06-19T12:21:55-04:00</updated><id>http://localhost:4000/admi25/feed.xml</id><title type="html">HackHPC@ADMI25</title><subtitle>This site will act as the main event site for HackHPC@ADMI25 Hackathon June 23 - 27, 2025. 
-</subtitle><author><name>HackHPC</name></author><entry><title type="html">Deliverables Guide</title><link href="http://localhost:4000/admi25/session/2025/06/03/DeliverablesOverview.html" rel="alternate" type="text/html" title="Deliverables Guide" /><published>2025-06-03T00:00:00-04:00</published><updated>2025-06-03T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2025/06/03/DeliverablesOverview</id><content type="html" xml:base="http://localhost:4000/admi25/session/2025/06/03/DeliverablesOverview.html"><![CDATA[<h3 id="hackathon-deliverables-clear-and-simple-guide"><strong>Hackathon Deliverables: Clear and Simple Guide</strong></h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/admi25/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/admi25/" rel="alternate" type="text/html" /><updated>2025-06-19T12:47:38-04:00</updated><id>http://localhost:4000/admi25/feed.xml</id><title type="html">HackHPC@ADMI25</title><subtitle>This site will act as the main event site for HackHPC@ADMI25 Hackathon June 23 - 27, 2025. 
+</subtitle><author><name>HackHPC</name></author><entry><title type="html">Timeline Guide</title><link href="http://localhost:4000/admi25/session/2025/06/05/TimelineGuide.html" rel="alternate" type="text/html" title="Timeline Guide" /><published>2025-06-05T00:00:00-04:00</published><updated>2025-06-05T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2025/06/05/TimelineGuide</id><content type="html" xml:base="http://localhost:4000/admi25/session/2025/06/05/TimelineGuide.html"><![CDATA[<h1 id="your-guide-to-the-sgx3-hackhpcadmi25-hackathon-timeline">Your Guide to the SGX3 HackHPC@ADMI25 Hackathon Timeline</h1>
+
+<p>Welcome to the <strong>SGX3 HackHPC@ADMI25 Hackathon</strong> — a hands-on, fast-paced event where you’ll explore <em>reproducible science in high-performance computing (HPC)</em> using real research papers and powerful tools.</p>
+
+<p>This guide is for future undergraduate <strong>participants and Science Gateway developers</strong> who want to understand the flow of the event, how to prepare, and what deliverables you’ll need by the end.</p>
+
+<p>📅 <strong>Event Dates</strong>: June 23–27, 2025<br />
+📍 <strong>Location</strong>: Online (via Zoom)<br />
+🎯 <strong>Goal</strong>: Evaluate and document the reproducibility of papers from <strong>ICSE 2023</strong> and <strong>Supercomputing 2024 (SC24)</strong> using open science practices.</p>
+
+<hr />
+
+<h2 id="️-daily-schedule-at-a-glance">🗓️ Daily Schedule at a Glance</h2>
+
+<p>Each day is structured into <strong>two sessions</strong> — morning and afternoon — to help teams collaborate, share progress, and receive feedback. Here’s what to expect:</p>
+
+<hr />
+
+<h3 id="monday-june-23-kick-off-and-team-formation"><strong>Monday, June 23: Kick-Off and Team Formation</strong></h3>
+
+<ul>
+  <li><strong>10:00 AM EDT – Kick-Off</strong>
+    <ul>
+      <li>Learn about the hackathon goals, timeline, and how to choose your paper.</li>
+      <li>Review code repositories and reproducibility artifacts from ICSE and SC24.</li>
+      <li>Form your teams!</li>
+    </ul>
+  </li>
+  <li><strong>3:00 PM EDT – Team Introductions</strong>
+    <ul>
+      <li>Create a fun <strong>1-slide, 1-minute intro</strong>:
+        <ul>
+          <li>Team name</li>
+          <li>Members</li>
+          <li>Theme song 🎵</li>
+          <li>Custom Zoom background 🎨</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="tuesday-june-24-planning-and-first-check-in"><strong>Tuesday, June 24: Planning and First Check-In</strong></h3>
+
+<ul>
+  <li><strong>10:00 AM EDT – Project Planning</strong>
+    <ul>
+      <li>Each team presents a <strong>2-slide, 2-minute</strong> project plan:
+        <ul>
+          <li>Key tasks (at least 5)</li>
+          <li>Assigned roles for each member</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>3:00 PM EDT – Progress Check-In #1</strong>
+    <ul>
+      <li>Update slides should include:
+        <ul>
+          <li>Technology used (e.g., Docker, HPC cluster)</li>
+          <li>Bottlenecks or questions</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="wednesday-june-25-midweek-check-ins"><strong>Wednesday, June 25: Midweek Check-Ins</strong></h3>
+
+<ul>
+  <li><strong>10:00 AM &amp; 3:00 PM EDT – Check-Ins</strong>
+    <ul>
+      <li>Continue refining your work and sharing updates.</li>
+      <li>Keep your slides focused on:
+        <ul>
+          <li>Current priorities</li>
+          <li>Updated task list</li>
+          <li>Challenges or roadblocks</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="thursday-june-26-progress-and-prep"><strong>Thursday, June 26: Progress and Prep</strong></h3>
+
+<ul>
+  <li><strong>10:00 AM &amp; 3:00 PM EDT – Check-Ins</strong>
+    <ul>
+      <li>Use these sessions to:
+        <ul>
+          <li>Finalize testing</li>
+          <li>Polish documentation and start final deliverables</li>
+          <li>Make sure you’re ready for Friday</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="friday-june-27-final-stretch-and-presentations"><strong>Friday, June 27: Final Stretch and Presentations</strong></h3>
+
+<ul>
+  <li><strong>10:00 AM EDT – Final Check-In</strong>
+    <ul>
+      <li>Last update before the big showcase. Check all boxes.</li>
+    </ul>
+  </li>
+  <li><strong>1:00 PM EDT – Final Presentations</strong>
+    <ul>
+      <li>Present your project to judges and fellow teams!</li>
+      <li>Deliverables due (see below ⬇️)</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-final-deliverables">✅ Final Deliverables</h2>
+
+<p>To wrap up your hackathon project, your team will submit:</p>
+
+<h3 id="-github-repository">📂 GitHub Repository</h3>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">README.md</code>: Project overview and how it supports reproducible science</li>
+  <li>Source code and scripts (well-commented)</li>
+  <li>Final project <strong>poster (PDF)</strong></li>
+  <li>Final presentation slides (PDF):
+    <ul>
+      <li>Team info</li>
+      <li>Tech used (HPC resources, GPUs, tools)</li>
+      <li>Paper scorecards and evaluation criteria</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="-website-or-portal">🌐 Website or Portal</h3>
+<ul>
+  <li>Display of <strong>scorecard results</strong></li>
+  <li>Explanation of your reproducibility metrics</li>
+  <li>Team member profiles (photos + GitHub/LinkedIn links)</li>
+</ul>
+
+<h3 id="-bonus-gateways-2025-poster-submission">🏆 Bonus: Gateways 2025 Poster Submission</h3>
+<ul>
+  <li>Show proof of your poster submission (screenshot of confirmation)</li>
+  <li>Earn <strong>+5 bonus points</strong>!</li>
+</ul>
+
+<hr />
+
+<h2 id="-tips-for-future-teams">💡 Tips for Future Teams</h2>
+
+<ul>
+  <li><strong>Be ready to present!</strong> Every session includes short, timed updates.</li>
+  <li><strong>Communicate daily</strong> via Zoom, Slack, or your favorite collab tools.</li>
+  <li><strong>Document as you go</strong> — don’t wait until the last day.</li>
+  <li><strong>Use version control</strong> and share your progress early.</li>
+  <li><strong>Ask for help!</strong> Mentors and organizers are here to support you.</li>
+</ul>
+
+<hr />
+
+<p>Get ready for a week of innovation, teamwork, and fun as you dive into reproducible HPC research. Your work here doesn’t just stay in the hackathon—it becomes part of a larger movement toward open, transparent, and reliable science.</p>
+
+<p>Let’s make science reproducible—<strong>together.</strong></p>]]></content><author><name>HackHPC</name></author><category term="session" /><category term="Reference" /><summary type="html"><![CDATA[Your Guide to the SGX3 HackHPC@ADMI25 Hackathon Timeline]]></summary></entry><entry><title type="html">Deliverables Guide</title><link href="http://localhost:4000/admi25/session/2025/06/03/DeliverablesOverview.html" rel="alternate" type="text/html" title="Deliverables Guide" /><published>2025-06-03T00:00:00-04:00</published><updated>2025-06-03T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2025/06/03/DeliverablesOverview</id><content type="html" xml:base="http://localhost:4000/admi25/session/2025/06/03/DeliverablesOverview.html"><![CDATA[<h3 id="hackathon-deliverables-guide"><strong>Hackathon Deliverables Guide</strong></h3>
 
 <p>To successfully complete the hackathon, your team must submit the following deliverables. These showcase your project, from code to presentation, and demonstrate your efforts in evaluating the reproducibility of scientific papers. All deliverables should be organized, professional, and easy to access.</p>
 
@@ -106,7 +279,7 @@
 
 <hr />
 
-<p>This reformatted list organizes the deliverables into clear categories, simplifies the language, and provides examples to make expectations accessible. It aligns with the hackathon’s focus on reproducible science in HPC and ensures participants can present their work effectively. If you need further tweaks (e.g., templates for the README or website), let me know!</p>]]></content><author><name>HackHPC</name></author><category term="session" /><category term="Reference" /><summary type="html"><![CDATA[Hackathon Deliverables: Clear and Simple Guide]]></summary></entry><entry><title type="html">SGX3 Code of Conduct</title><link href="http://localhost:4000/admi25/session/2025/06/02/SGX3CodeofConduct.html" rel="alternate" type="text/html" title="SGX3 Code of Conduct" /><published>2025-06-02T00:00:00-04:00</published><updated>2025-06-02T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2025/06/02/SGX3CodeofConduct</id><content type="html" xml:base="http://localhost:4000/admi25/session/2025/06/02/SGX3CodeofConduct.html"><![CDATA[<p><br /> 
+<p>This reformatted list organizes the deliverables into clear categories, simplifies the language, and provides examples to make expectations accessible. It aligns with the hackathon’s focus on reproducible science in HPC and ensures participants can present their work effectively. If you need further tweaks (e.g., templates for the README or website), let me know!</p>]]></content><author><name>HackHPC</name></author><category term="session" /><category term="Reference" /><summary type="html"><![CDATA[Hackathon Deliverables Guide]]></summary></entry><entry><title type="html">SGX3 Code of Conduct</title><link href="http://localhost:4000/admi25/session/2025/06/02/SGX3CodeofConduct.html" rel="alternate" type="text/html" title="SGX3 Code of Conduct" /><published>2025-06-02T00:00:00-04:00</published><updated>2025-06-02T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2025/06/02/SGX3CodeofConduct</id><content type="html" xml:base="http://localhost:4000/admi25/session/2025/06/02/SGX3CodeofConduct.html"><![CDATA[<p><br /> 
 All attendees, sponsors, partners, volunteers and staff at our hackathon are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We expect cooperation from all participants to ensure a safe environment for everybody.</p>
 
 <h2 id="science-gateways-code-of-conduct">Science Gateways Code of Conduct</h2>
