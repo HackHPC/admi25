@@ -6,7 +6,7 @@
     <div class="footer-container">
     {% if site.eventbadge %}
     <div class="footer-badge">
-      <img src="{{ site.eventbadge }}">
+      <img src="{{ site.eventbadge | relative_url }}" alt="Event Badge" />
     </div>
     {% endif %}
     

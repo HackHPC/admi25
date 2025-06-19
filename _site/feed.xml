@@ -1,5 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/admi25/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/admi25/" rel="alternate" type="text/html" /><updated>2025-06-19T11:06:41-04:00</updated><id>http://localhost:4000/admi25/feed.xml</id><title type="html">HackHPC@ADMI25</title><subtitle>This site will act as the main event site for HackHPC@ADMI25 Hackathon June 23 - 27, 2025. 
-</subtitle><author><name>HackHPC</name></author><entry><title type="html">SGX3 Code of Conduct</title><link href="http://localhost:4000/admi25/session/2024/06/20/SGX3CodeofConduct.html" rel="alternate" type="text/html" title="SGX3 Code of Conduct" /><published>2024-06-20T00:00:00-04:00</published><updated>2024-06-20T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2024/06/20/SGX3CodeofConduct</id><content type="html" xml:base="http://localhost:4000/admi25/session/2024/06/20/SGX3CodeofConduct.html"><![CDATA[<p><br /> 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/admi25/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/admi25/" rel="alternate" type="text/html" /><updated>2025-06-19T11:55:27-04:00</updated><id>http://localhost:4000/admi25/feed.xml</id><title type="html">HackHPC@ADMI25</title><subtitle>This site will act as the main event site for HackHPC@ADMI25 Hackathon June 23 - 27, 2025. 
+</subtitle><author><name>HackHPC</name></author><entry><title type="html">Deliverables Guide</title><link href="http://localhost:4000/admi25/session/2025/06/03/DeliverablesOverview.html" rel="alternate" type="text/html" title="Deliverables Guide" /><published>2025-06-03T00:00:00-04:00</published><updated>2025-06-03T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2025/06/03/DeliverablesOverview</id><content type="html" xml:base="http://localhost:4000/admi25/session/2025/06/03/DeliverablesOverview.html"><![CDATA[<h3 id="hackathon-deliverables-clear-and-simple-guide"><strong>Hackathon Deliverables: Clear and Simple Guide</strong></h3>
+
+<p>To successfully complete the hackathon, your team must submit the following deliverables. These showcase your project, from code to presentation, and demonstrate your efforts in evaluating the reproducibility of scientific papers. All deliverables should be organized, professional, and easy to access.</p>
+
+<h4 id="1-github-repository"><strong>1. GitHub Repository</strong></h4>
+<p>Create a public GitHub repository to host your project’s materials. Include the following items:</p>
+
+<ul>
+  <li><strong>README.md File</strong>
+    <ul>
+      <li>A clear description of your project, including its goals and how it addresses reproducible science.</li>
+      <li>Example: Explain how your team evaluated HPC papers and what you learned.</li>
+    </ul>
+  </li>
+  <li><strong>Source Code</strong>
+    <ul>
+      <li>All code used in your project (e.g., scripts to run experiments or analyze papers).</li>
+      <li>Include comments in the code to explain what each part does.</li>
+      <li>Example: Python scripts for testing a paper’s code or automating scorecard calculations.</li>
+    </ul>
+  </li>
+  <li><strong>Project Poster (PDF)</strong>
+    <ul>
+      <li>A PDF version of your poster summarizing your project.</li>
+      <li>Should be visually appealing and include key findings (e.g., scorecard results).</li>
+    </ul>
+  </li>
+  <li><strong>Final Presentation (PDF)</strong>
+    <ul>
+      <li>A PDF of your presentation slides, covering:
+        <ul>
+          <li><strong>Team Members</strong>: Names and photos of all team members.</li>
+          <li><strong>Technology Used</strong>: Tools, software, or HPC resources (e.g., Docker, Slurm, GPUs).</li>
+          <li><strong>Scoring of Papers</strong>:
+            <ul>
+              <li>Results from evaluating 2023 ISCE (International Symposium on Cluster, Cloud and Internet Computing) example papers.</li>
+              <li>Results from evaluating 2024 Supercomputing (SC) conference papers.</li>
+            </ul>
+          </li>
+          <li><strong>Scorecard Explanation</strong>: Describe how your scorecard works, including:
+            <ul>
+              <li><strong>Paper Availability</strong>: Can the paper be accessed (e.g., open-access or behind a paywall)?</li>
+              <li><strong>Availability of Code and Software</strong>: Is the code shared (e.g., on GitHub) with instructions?</li>
+              <li><strong>Availability of Datasets</strong>: Are datasets accessible, and is metadata provided?</li>
+              <li><strong>Computer Requirements</strong>: What hardware is needed (e.g., CPU, memory)?</li>
+              <li><strong>GPU Requirements</strong>: Are GPUs required, and what specs?</li>
+              <li><strong>Three Additional Metrics</strong>: At least three other criteria your team used (e.g., documentation quality, reproducibility of results, ease of setup).</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Ensure slides are clear and engaging.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="2-website-or-portal"><strong>2. Website or Portal</strong></h4>
+<p>Create a simple website or portal (e.g., hosted on GitHub Pages or another platform) to showcase your project. It should include:</p>
+
+<ul>
+  <li><strong>Scorecard Results</strong>
+    <ul>
+      <li>Display the scores for the 2023 ISCE and 2024 Supercomputing papers.</li>
+      <li>Example: A table or chart showing how each paper scored on your reproducibility metrics.</li>
+    </ul>
+  </li>
+  <li><strong>Explanation of Scorecard Metrics</strong>
+    <ul>
+      <li>Clearly describe each metric (e.g., code availability, dataset access) and why it matters for reproducibility.</li>
+      <li>Example: “We checked if datasets were on public repositories like Zenodo to ensure anyone could use them.”</li>
+    </ul>
+  </li>
+  <li><strong>Team Member Profiles</strong>
+    <ul>
+      <li>List all team members with:
+        <ul>
+          <li>Names</li>
+          <li>Photos</li>
+          <li>GitHub profiles (links)</li>
+          <li>LinkedIn profiles (links)</li>
+        </ul>
+      </li>
+      <li>Example: A section with a brief bio and picture for each teammate.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="3-proof-of-poster-submission"><strong>3. Proof of Poster Submission</strong></h4>
+<ul>
+  <li>Submit your project poster to the <strong>Gateways 2025</strong> conference.</li>
+  <li>Provide proof of submission (e.g., a screenshot of the confirmation email or submission ID).</li>
+  <li><strong>Bonus</strong>: Including this proof adds <strong>+5 points</strong> to your judging score!</li>
+</ul>
+
+<hr />
+
+<h3 id="tips-for-success"><strong>Tips for Success</strong></h3>
+<ul>
+  <li><strong>Organize Your Repository</strong>: Use clear folder names (e.g., <code class="language-plaintext highlighter-rouge">code/</code>, <code class="language-plaintext highlighter-rouge">poster/</code>, <code class="language-plaintext highlighter-rouge">presentation/</code>) and a detailed README to guide judges.</li>
+  <li><strong>Test Your Website</strong>: Ensure links work and the site is accessible on any browser.</li>
+  <li><strong>Be Clear and Concise</strong>: Make your scorecard metrics easy to understand, with examples from the papers you evaluated.</li>
+  <li><strong>Collaborate as a Team</strong>: Divide tasks (e.g., one person handles the website, another the poster) to meet deadlines.</li>
+  <li><strong>Ask for Help</strong>: If you’re stuck (e.g., setting up a GitHub repository or hosting a website), reach out to the hackathon organizers—we’re here to support you!</li>
+</ul>
+
+<hr />
+
+<p>This reformatted list organizes the deliverables into clear categories, simplifies the language, and provides examples to make expectations accessible. It aligns with the hackathon’s focus on reproducible science in HPC and ensures participants can present their work effectively. If you need further tweaks (e.g., templates for the README or website), let me know!</p>]]></content><author><name>HackHPC</name></author><category term="session" /><category term="Reference" /><summary type="html"><![CDATA[Hackathon Deliverables: Clear and Simple Guide]]></summary></entry><entry><title type="html">SGX3 Code of Conduct</title><link href="http://localhost:4000/admi25/session/2025/06/02/SGX3CodeofConduct.html" rel="alternate" type="text/html" title="SGX3 Code of Conduct" /><published>2025-06-02T00:00:00-04:00</published><updated>2025-06-02T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2025/06/02/SGX3CodeofConduct</id><content type="html" xml:base="http://localhost:4000/admi25/session/2025/06/02/SGX3CodeofConduct.html"><![CDATA[<p><br /> 
 All attendees, sponsors, partners, volunteers and staff at our hackathon are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We expect cooperation from all participants to ensure a safe environment for everybody.</p>
 
 <h2 id="science-gateways-code-of-conduct">Science Gateways Code of Conduct</h2>
@@ -61,7 +168,7 @@ If you are subjected to unacceptable behavior, notice that someone else is being
 
 <p>Event Staff will be available to help participants contact venue security or local law enforcement, to provide escorts, or to otherwise assist those experiencing unacceptable behavior to feel safe for the duration of the conference. You can report unacceptable behavior to any member of staff.</p>
 
-<p>Report Code of Conduct Violations <a href="https://sciencegateways.org/about/code-of-conduct">HERE</a></p>]]></content><author><name>HackHPC</name></author><category term="session" /><category term="Reference" /><summary type="html"><![CDATA[All attendees, sponsors, partners, volunteers and staff at our hackathon are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We expect cooperation from all participants to ensure a safe environment for everybody.]]></summary></entry><entry><title type="html">Code of Conduct</title><link href="http://localhost:4000/admi25/session/2023/06/26/CodeofConduct.html" rel="alternate" type="text/html" title="Code of Conduct" /><published>2023-06-26T00:00:00-04:00</published><updated>2023-06-26T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2023/06/26/CodeofConduct</id><content type="html" xml:base="http://localhost:4000/admi25/session/2023/06/26/CodeofConduct.html"><![CDATA[<p><br /> 
+<p>Report Code of Conduct Violations <a href="https://sciencegateways.org/about/code-of-conduct">HERE</a></p>]]></content><author><name>HackHPC</name></author><category term="session" /><category term="Reference" /><summary type="html"><![CDATA[All attendees, sponsors, partners, volunteers and staff at our hackathon are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We expect cooperation from all participants to ensure a safe environment for everybody.]]></summary></entry><entry><title type="html">Code of Conduct</title><link href="http://localhost:4000/admi25/session/2025/06/01/CodeofConduct.html" rel="alternate" type="text/html" title="Code of Conduct" /><published>2025-06-01T00:00:00-04:00</published><updated>2025-06-01T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2025/06/01/CodeofConduct</id><content type="html" xml:base="http://localhost:4000/admi25/session/2025/06/01/CodeofConduct.html"><![CDATA[<p><br /> 
 All attendees, sponsors, partners, volunteers and staff at our hackathon are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We expect cooperation from all participants to ensure a safe environment for everybody.</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iTbXbjL1dl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="padding: 15px; float: right;"></iframe>
