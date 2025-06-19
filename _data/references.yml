@@ -7,9 +7,27 @@ hackathon:
 - name: HackHPC.org 
   url: http://hackhpc.org
 - name: HackHPC Past Hackathon Events
-  url: http://hackhpc.org/pasthacks/
+  url: http://hackhpc.github.io
 - name: Event Branding
   url: photos/branding/
+
+ai_platforms:
+- name: Perplexity
+  url: https://www.perplexity.ai/
+- name: Grok
+  url: https://x.ai/
+- name: OpenAI
+  url: https://openai.com/
+- name: Manus AI
+  url: https://manus.ai/
+- name: Gemini AI
+  url: https://gemini.google.com/
+- name: Anthropic
+  url: https://www.anthropic.com/
+- name: Microsoft Copilot
+  url: https://copilot.microsoft.com/
+- name: Hugging Face
+  url: https://huggingface.co/
 
 computinghosting:
 - name: TACC Analysis Portal (TAP)

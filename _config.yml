@@ -91,13 +91,25 @@ deliverables: >
   <strong>Deliverables:</strong> <br>
           &nbsp;&nbsp; &#x2022; Github Repository with: <br>
           &nbsp;&nbsp;&nbsp;&nbsp; &#8227; README.md with project description<br>
-          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Source code Including Comments<br>
-          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Presentation (PDF)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Any Source code Including Comments<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Project Poster (PDF)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Website/Portal that includes: <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Displays the results of the developed Scorecard<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Explination of the Scorecard metrics used<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Team members with names, pictures, Github, and LinkedIn profiles<br> 
+          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Final Presentation (PDF)<br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Team members with pictures<br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Use of technology in the project<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Project impact to the Science Gateways community<br>
-          &nbsp;&nbsp;&nbsp;&nbsp; &#8227; Poster <br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Proof of poster submission to Gateways24 (+5pts Judging Score) <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Scoring of 2023 ISCE Example Papers<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Scoring of 2024 Supercomputing Papers<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Scorecard Explination that includes:<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Paper Availability<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Availability of Code and Software<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Availability of Datasets<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Computer requirements<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; GPU requirements<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; At least three (3) additional metrics<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9702; Proof of poster submission to <a href="https://sciencegateways.org/gateways2025"> Gateways25 </a>(+5pts Judging Score) <br>
 
 registration_link: "https://docs.google.com/forms/d/e/1FAIpQLScLBmQ7nWn7ocHIB2rxJKZ2LTAKH5bzPQWqXIspsZ8QIi4BUQ/viewform?usp=sharing"
 
@@ -202,7 +214,7 @@ brand_color: "#025986" #"#68c18c" #"#1a8e42"
 header_pages:
   #- index.html
   #- teams.html
-  #- schedule.html
+  - schedule.html
   - resources.html
   - organizers.html
   #- about.md
