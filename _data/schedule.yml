@@ -24,11 +24,17 @@ general_schedule:
             url: https://sc24.supercomputing.org/proceedings/tech_paper/
             icon: fa-solid fa-link
             iconcolor: blue
-        #  - title: Session Slide Deck
-        #    icon: fa-regular fa-file-pdf
-        #    url: "assets/slides/event/SGX3ADMI24-Kickoff.pdf"
-        #    iconcolor: red
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: "assets/slides/event/KickOff-HackHPCatADMI25.pdf"
+            iconcolor: red
       - name: Team Formation
+        type: Project Work
+        links: 
+          - title: Team Introduction Slide Deck
+            icon: fa-brands fa-google-drive
+            url: "https://docs.google.com/presentation/d/1bIRT4X2YiaC6hbmWvUtJScpOAJQp6mepumSOPmhc2tk/edit?usp=sharing"
+            iconcolor: gold
 
   
   - date: "2025-06-23T15:00(-04:00)"
@@ -44,6 +50,11 @@ general_schedule:
           &nbsp;&nbsp; - Team Members <br>
           &nbsp;&nbsp; - Team Zoom Virtual Background <br>
           &nbsp;&nbsp; - Team Theme Song <br>
+        links: 
+          - title: Team Introduction Slide Deck
+            icon: fa-brands fa-google-drive
+            url: "https://docs.google.com/presentation/d/1bIRT4X2YiaC6hbmWvUtJScpOAJQp6mepumSOPmhc2tk/edit?usp=sharing"
+            iconcolor: gold 
   
   - date: "2025-06-24T10:00(-04:00)"
     session: Morning
