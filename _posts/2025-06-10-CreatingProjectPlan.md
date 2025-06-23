@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Timeline Guide"
+title: "Project Plan Guide"
 categories: session
 tags: Reference
 banner:
