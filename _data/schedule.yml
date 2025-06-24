@@ -96,10 +96,11 @@ general_schedule:
           &nbsp;&nbsp; - Technology/Resources in Use
           &nbsp;&nbsp; - Bottlenecks / Issues / Concerns
         links:
-          - title: Project Plan - Updated Google Slides
-            icon: fa-brands fa-google-drive
-            url: "https://docs.google.com/presentation/d/1H0jx2KcFEK3qzt2PSJAUF8q7M6gjUPrWOAa2MoiDNu0/edit?usp=sharing"
-            iconcolor: gold
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: "assets/slides/event/2ndUpdate-TeamProjectPlans-HackHPCatADMI25.pdf"
+            iconcolor: red
+          
 
 
   - date: "2025-06-25T10:00(-04:00)"
@@ -116,6 +117,11 @@ general_schedule:
           &nbsp;&nbsp; - Updated Project Plan <br>
           &nbsp;&nbsp; - Technology/Resources in Use
           &nbsp;&nbsp; - Bottlenecks / Issues / Concerns
+        links:
+          - title: "Project Plan - Updated Google Slides"
+            icon: fa-brands fa-google-drive
+            url: "https://docs.google.com/presentation/d/1H0jx2KcFEK3qzt2PSJAUF8q7M6gjUPrWOAa2MoiDNu0/edit?usp=sharing"
+            iconcolor: gold
   
   - date: "2025-06-25T15:00(-04:00)"
     session: Afternoon
