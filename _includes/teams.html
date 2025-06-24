@@ -38,6 +38,8 @@
          
 
       <div style="width: 30%;">
+
+        {% if team.mentor %}
     <h3 style="margin-top: 0; margin-bottom: 5px;"> Team Mentors:</h3>
 
       <ul>
@@ -64,7 +66,7 @@
             </li>
      {% endfor %}
       </ul>
-    
+    {% endif %}
     
       <h3 style="margin-top: 0; margin-bottom: 5px;"> Team Members: </h3>
    

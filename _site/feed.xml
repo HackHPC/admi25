@@ -1,5 +1,263 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/admi25/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/admi25/" rel="alternate" type="text/html" /><updated>2025-06-23T09:32:18-04:00</updated><id>http://localhost:4000/admi25/feed.xml</id><title type="html">HackHPC@ADMI25</title><subtitle>This site will act as the main event site for HackHPC@ADMI25 Hackathon June 23 - 27, 2025. 
-</subtitle><author><name>HackHPC</name></author><entry><title type="html">Timeline Guide</title><link href="http://localhost:4000/admi25/session/2025/06/05/TimelineGuide.html" rel="alternate" type="text/html" title="Timeline Guide" /><published>2025-06-05T00:00:00-04:00</published><updated>2025-06-05T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2025/06/05/TimelineGuide</id><content type="html" xml:base="http://localhost:4000/admi25/session/2025/06/05/TimelineGuide.html"><![CDATA[<h1 id="your-guide-to-the-sgx3-hackhpcadmi25-hackathon-timeline">Your Guide to the SGX3 HackHPC@ADMI25 Hackathon Timeline</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/admi25/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/admi25/" rel="alternate" type="text/html" /><updated>2025-06-23T22:34:26-04:00</updated><id>http://localhost:4000/admi25/feed.xml</id><title type="html">HackHPC@ADMI25</title><subtitle>This site will act as the main event site for HackHPC@ADMI25 Hackathon June 23 - 27, 2025. 
+</subtitle><author><name>HackHPC</name></author><entry><title type="html">Project Plan Guide</title><link href="http://localhost:4000/admi25/session/2025/06/10/CreatingProjectPlan.html" rel="alternate" type="text/html" title="Project Plan Guide" /><published>2025-06-10T00:00:00-04:00</published><updated>2025-06-10T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2025/06/10/CreatingProjectPlan</id><content type="html" xml:base="http://localhost:4000/admi25/session/2025/06/10/CreatingProjectPlan.html"><![CDATA[<p>Sure! Here’s a friendly, humorous blog-style entry written from the perspective of a mentor guiding undergraduate students through their 5-day ADMI25 Hackathon adventure on reproducible science:</p>
+
+<hr />
+
+<h1 id="️-keep-calm-and-reproduce-on-a-5-day-hackathon-survival-guide-for-building-your-project-plan">🛠️ “Keep Calm and Reproduce On”: A 5-Day Hackathon Survival Guide for Building Your Project Plan</h1>
+
+<p>Hey team!</p>
+
+<p>So you’ve bravely entered the world of <strong>HackHPC\@ADMI25</strong>, armed with snacks, dreams, and just enough Python knowledge to be dangerous. You’re not alone—I’m your friendly mentor, here to help you <strong>plan your project like pros</strong> and <em>not</em> panic before your big 10-minute final presentation. 🧠💻🎤</p>
+
+<p>Let’s break down this 5-day science sprint into something totally doable—yes, even with group chat chaos, code conflicts, and the occasional existential crisis about reproducibility.</p>
+
+<hr />
+
+<p>Here are some excellent <strong>free AI tools</strong> that can help you create and manage your project plan—for everything from brainstorming and scheduling to tracking tasks and preparing deliverables:</p>
+
+<hr />
+
+<h3 id="️-project-planning--task-management">🗂️ Project Planning &amp; Task Management</h3>
+
+<ol>
+  <li>
+    <p><strong>Notion</strong> – A flexible workspace for notes, kanban boards, databases, and even AI-generated content (summaries, task lists, etc.).
+<a href="https://www.notion.so/">https://www.notion.so/</a> (<a href="https://thedigitalprojectmanager.com/tools/free-ai-project-management-tools/?utm_source=chatgpt.com" title="17 Best Free AI Project Management Tools Reviewed in 2025">thedigitalprojectmanager.com</a>)</p>
+  </li>
+  <li>
+    <p><strong>Taskade</strong> – Real-time collaboration with AI-powered task generation, mind maps, and workflow templates.
+<a href="https://www.taskade.com/">https://www.taskade.com/</a> (<a href="https://thedigitalprojectmanager.com/tools/free-ai-project-management-tools/?utm_source=chatgpt.com" title="17 Best Free AI Project Management Tools Reviewed in 2025">thedigitalprojectmanager.com</a>, <a href="https://project-management.com/free-project-management-software-tools/?utm_source=chatgpt.com" title="10 Best Free Project Management Tools to Boost Team Efficiency in 2025">project-management.com</a>)</p>
+  </li>
+  <li>
+    <p><strong>ClickUp</strong> – AI-driven task management, auto project summaries, and customizable dashboards; free forever.
+<a href="https://www.clickup.com/">https://www.clickup.com/</a> (<a href="https://clickup.com/blog/ai-project-management-tools/?utm_source=chatgpt.com" title="10 Best AI Project Management Tools &amp; Software in 2025 - ClickUp">clickup.com</a>)</p>
+  </li>
+  <li>
+    <p><strong>Asana (Free Plan)</strong> – Includes smart reminders, automatic task priority suggestions, and solid team coordination tools.
+<a href="https://www.asana.com/">https://www.asana.com/</a> (<a href="https://productive.io/blog/ai-project-management-tools/?utm_source=chatgpt.com" title="Top 13 AI Project Management Tools (Paid and Free) in 2025">productive.io</a>)</p>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="-ai-assisted-project-plan-creation">🧠 AI-Assisted Project Plan Creation</h3>
+
+<ol>
+  <li><strong>Galaxy.ai Project Plan Generator</strong> – Generate full project plans (tasks, timelines, risk mgmt) with zero login required.
+<a href="https://galaxy.ai/ai-project-plan-generator">https://galaxy.ai/ai-project-plan-generator</a> (<a href="https://galaxy.ai/ai-project-plan-generator?utm_source=chatgpt.com" title="Free AI Project Plan Generator (No Login Required)">galaxy.ai</a>)</li>
+</ol>
+
+<hr />
+
+<h3 id="️-visualization--structure-tools">🗺️ Visualization &amp; Structure Tools</h3>
+
+<ol>
+  <li>
+    <p><strong>ProjectLibre</strong> – Free, open-source MS Project alternative for Gantt charts and resource planning—desktop and cloud versions.
+<a href="https://www.projectlibre.com/">https://www.projectlibre.com/</a> (<a href="https://en.wikipedia.org/wiki/ProjectLibre?utm_source=chatgpt.com" title="ProjectLibre">en.wikipedia.org</a>)</p>
+  </li>
+  <li>
+    <p><strong>GitMind</strong> – Online mind-mapping with AI features—great for sketching out your project’s structure and flow.
+<a href="https://gitmind.com/">https://gitmind.com/</a> (<a href="https://en.wikipedia.org/wiki/GitMind?utm_source=chatgpt.com" title="GitMind">en.wikipedia.org</a>)</p>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="-communication--documentation">📝 Communication &amp; Documentation</h3>
+
+<ol>
+  <li><strong>ChatGPT (free tier)</strong> – Use OpenAI’s chatbot to brainstorm deliverables, draft README sections, or breakdown tasks.
+<a href="https://chat.openai.com/">https://chat.openai.com/</a> </li>
+</ol>
+
+<hr />
+
+<h3 id="-how-to-use-them-together">🪄 How to Use Them Together</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Phase</th>
+      <th>Tool</th>
+      <th>Suggested Usage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>**Day 1**</td>
+      <td>GitMind + Taskade</td>
+      <td>Map out team roles and goals; use AI to generate tasks</td>
+    </tr>
+    <tr>
+      <td>**Days 2–4**</td>
+      <td>Notion or ClickUp</td>
+      <td>Track progress, comment on code, post updates, document reproducibility findings</td>
+    </tr>
+    <tr>
+      <td>**Day 4**</td>
+      <td>Galaxy.ai + ProjectLibre</td>
+      <td>Auto-generate project plan outlines, refine timeline</td>
+    </tr>
+    <tr>
+      <td>**Throughout**</td>
+      <td>ChatGPT</td>
+      <td>Summarize papers (ICSE, SC), help write README, prep portal copy</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>These tools can help streamline your Hackathon workflow—giving you more time to innovate while keeping your project plan solid, organized, and reproducible. Let me know if you want tips on setting up templates for any of them!</p>
+
+<hr />
+
+<h2 id="️-day-by-day-game-plan">🗓️ Day-by-Day Game Plan</h2>
+
+<h3 id="-day-1-meet-greet-and-pick-your-paper"><strong>🔬 Day 1: Meet, Greet, and Pick Your Paper</strong></h3>
+
+<blockquote>
+  <p>Goal: Get organized, pick a reproducibility target, and build hype.</p>
+</blockquote>
+
+<ul>
+  <li><strong>Form your team</strong> and settle on a paper from <strong>ICSE 2023</strong> or <strong>SC24</strong>. If it has code, data, and mystery—perfect.</li>
+  <li>
+    <p>Set up your <strong>GitHub repo</strong>. Add a README with:</p>
+
+    <ul>
+      <li>A short project description (think: “We tried to reproduce this cool result and here’s what we found”).</li>
+      <li>Your goals (e.g., scoring the paper, testing code, and building a killer portal).</li>
+    </ul>
+  </li>
+  <li>Assign roles: coder, scribe, portal builder, slide guru, and <em>vibe curator</em> (someone’s gotta DJ).</li>
+  <li>End the day with your 1-minute intro slide (team name, song, Zoom background, and member pics). Make it epic.</li>
+</ul>
+
+<hr />
+
+<h3 id="️-day-2-planning--first-contact-with-code"><strong>⚙️ Day 2: Planning &amp; First Contact (With Code)</strong></h3>
+
+<blockquote>
+  <p>Goal: Create your project plan and dive into the reproducibility artifact like Indiana Jones with a laptop.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>Draft a <strong>2-slide project plan</strong>:</p>
+
+    <ul>
+      <li>List team roles and at least 5 tasks.</li>
+      <li>Schedule daily check-ins (yes, even if it’s just to say “we broke everything, help”).</li>
+    </ul>
+  </li>
+  <li>
+    <p>Start evaluating:</p>
+
+    <ul>
+      <li>Is the paper accessible?</li>
+      <li>Is the code shared and runnable?</li>
+      <li>Can you find and use the data?</li>
+    </ul>
+  </li>
+  <li>
+    <p>Bonus: Try running the code. If it works first try, buy a lottery ticket.</p>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="-day-3-midpoint-check-in--metric-mayhem"><strong>🧪 Day 3: Midpoint Check-In &amp; Metric Mayhem</strong></h3>
+
+<blockquote>
+  <p>Goal: Score your paper, build your scorecard, and log early wins (or weird errors).</p>
+</blockquote>
+
+<ul>
+  <li>Update your project plan slides with progress and problems.</li>
+  <li>
+    <p>Develop your <strong>scorecard</strong>:</p>
+
+    <ul>
+      <li>Paper availability: open-access or locked behind 12 paywalls?</li>
+      <li>Code/software availability: usable repo or cryptic zip file with no README?</li>
+      <li>Data availability: link to a dataset or…404?</li>
+      <li>Computer requirements: does it need a supercomputer or a toaster?</li>
+      <li>Add 3 more custom metrics—get creative! (e.g., “Documentation That Didn’t Make Us Cry”)</li>
+    </ul>
+  </li>
+  <li>Start drafting your <strong>poster</strong> and sketch your <strong>portal layout</strong>.</li>
+  <li>Reminder: Commit early, commit often. GitHub is your friend.</li>
+</ul>
+
+<hr />
+
+<h3 id="-day-4-portal-magic--poster-polish"><strong>📊 Day 4: Portal Magic &amp; Poster Polish</strong></h3>
+
+<blockquote>
+  <p>Goal: Make it pretty, make it clear, and make it reproducible.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>Build your <strong>website or portal</strong>:</p>
+
+    <ul>
+      <li>Display scorecard results (bar charts, tables, memes—get visual).</li>
+      <li>Explain each metric in simple, smart terms.</li>
+      <li>Include your team’s bios, photos, and links (LinkedIn/GitHub flex time).</li>
+    </ul>
+  </li>
+  <li>Finalize your <strong>poster (PDF)</strong> and submit it to <strong>Gateways 2025</strong>. Screenshot that confirmation—<strong>that’s +5 points</strong>!</li>
+  <li>Document everything in your repo. README, comments, structure—it’s what reproducibility is all about.</li>
+</ul>
+
+<hr />
+
+<h3 id="-day-5-final-countdown--presentation-power-up"><strong>🎤 Day 5: Final Countdown &amp; Presentation Power-Up</strong></h3>
+
+<blockquote>
+  <p>Goal: Deliver the goods and tell your story.</p>
+</blockquote>
+
+<ul>
+  <li>Final check-in: what’s done, what’s shiny, and what’s duct-taped but functional?</li>
+  <li>
+    <p>Your <strong>final presentation (PDF)</strong> should cover:</p>
+
+    <ul>
+      <li>Team names and faces (smiling is optional, but encouraged).</li>
+      <li>Tools used (Docker? Slurm? Jupyter? VS Code and vibes?)</li>
+      <li>Your scorecard results.</li>
+      <li>The “how” and “why” behind your scores.</li>
+      <li>What went wrong, what you learned, and what you’d do next time.</li>
+    </ul>
+  </li>
+  <li>Practice your timing—<strong>10 minutes max</strong>! Split it up among team members.</li>
+</ul>
+
+<hr />
+
+<h2 id="-pro-tips-from-your-hackathon-mentor">🧠 Pro Tips From Your Hackathon Mentor</h2>
+
+<ul>
+  <li><strong>Don’t stress perfection</strong>—this is a prototype, not a PhD defense.</li>
+  <li><strong>Commit your work early</strong>—GitHub doesn’t wait for anyone.</li>
+  <li><strong>Be kind to each other</strong>—hackathons are intense, but teamwork makes reproducibility work.</li>
+  <li><strong>Celebrate the small wins</strong>—even if it’s just figuring out the author’s Python version.</li>
+</ul>
+
+<hr />
+
+<p>That’s it! You’ve got the tools, the plan, and the power of reproducible science on your side. Now go forth and hack like the future of open science depends on it—because it kinda does. 😉</p>
+
+<p>See you on Zoom!
+<em>—Your Mentor (and #1 Fan)</em></p>
+
+<hr />
+
+<p>Let me know if you’d like this formatted as a blog post on a website or turned into a printable mentor handout!</p>]]></content><author><name>HackHPC</name></author><category term="session" /><category term="Reference" /><summary type="html"><![CDATA[Sure! Here’s a friendly, humorous blog-style entry written from the perspective of a mentor guiding undergraduate students through their 5-day ADMI25 Hackathon adventure on reproducible science:]]></summary></entry><entry><title type="html">Timeline Guide</title><link href="http://localhost:4000/admi25/session/2025/06/05/TimelineGuide.html" rel="alternate" type="text/html" title="Timeline Guide" /><published>2025-06-05T00:00:00-04:00</published><updated>2025-06-05T00:00:00-04:00</updated><id>http://localhost:4000/admi25/session/2025/06/05/TimelineGuide</id><content type="html" xml:base="http://localhost:4000/admi25/session/2025/06/05/TimelineGuide.html"><![CDATA[<h1 id="your-guide-to-the-sgx3-hackhpcadmi25-hackathon-timeline">Your Guide to the SGX3 HackHPC@ADMI25 Hackathon Timeline</h1>
 
 <p>Welcome to the <strong>SGX3 HackHPC@ADMI25 Hackathon</strong> — a hands-on, fast-paced event where you’ll explore <em>reproducible science in high-performance computing (HPC)</em> using real research papers and powerful tools.</p>
 

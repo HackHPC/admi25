@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Project Plan Guide | HackHPC@ADMI25</title>
+<meta name="generator" content="Jekyll v4.3.2">
+<meta property="og:title" content="Project Plan Guide">
+<meta name="author" content="HackHPC">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Sure! Here’s a friendly, humorous blog-style entry written from the perspective of a mentor guiding undergraduate students through their 5-day ADMI25 Hackathon adventure on reproducible science:">
+<meta property="og:description" content="Sure! Here’s a friendly, humorous blog-style entry written from the perspective of a mentor guiding undergraduate students through their 5-day ADMI25 Hackathon adventure on reproducible science:">
+<link rel="canonical" href="http://localhost:4000/admi25/session/2025/06/10/CreatingProjectPlan.html">
+<meta property="og:url" content="http://localhost:4000/admi25/session/2025/06/10/CreatingProjectPlan.html">
+<meta property="og:site_name" content="HackHPC@ADMI25">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2025-06-10T00:00:00-04:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Project Plan Guide">
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@HackHPC">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"HackHPC"},"dateModified":"2025-06-10T00:00:00-04:00","datePublished":"2025-06-10T00:00:00-04:00","description":"Sure! Here’s a friendly, humorous blog-style entry written from the perspective of a mentor guiding undergraduate students through their 5-day ADMI25 Hackathon adventure on reproducible science:","headline":"Project Plan Guide","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/admi25/session/2025/06/10/CreatingProjectPlan.html"},"url":"http://localhost:4000/admi25/session/2025/06/10/CreatingProjectPlan.html"}</script>
+<!-- End Jekyll SEO tag -->
+<meta property="og:image" content="/admi25/photos/branding/PrimaryHeader-SEO-withtext-sponsors-1200x628.png">
+  <meta property="twitter:image" content="/admi25/photos/branding/PrimaryHeader-SEO-withtext-sponsors-1200x628.png">
+  
+
+
+  <link rel="icon" href="/admi25/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/admi25/assets/css/main.css">
+  <script src="/admi25/assets/js/main.js"></script>
+  <script src="https://kit.fontawesome.com/4aa1225215.js" crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/admi25/feed.xml" title="HackHPC@ADMI25">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/admi25/">
+  <img class="site-favicon" title="HackHPC@ADMI25" src="/admi25/photos/branding/Favicon-48x48.svg" onerror="this.style.display='none'">
+   HackHPC@ADMI25
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/admi25/teams.html">TEAMS</a><a class="page-link" href="/admi25/schedule.html">SCHEDULE</a><a class="page-link" href="/admi25/resources.html">RESOURCES</a><a class="page-link" href="/admi25/organizers.html">ORGANIZERS</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<span class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="es">
+          
+          <img src="https://cdn.countryflags.com/thumbs/spain/flag-400.png" title="Spanish">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="French">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ha">
+          
+          <img src="https://cdn.countryflags.com/thumbs/nigeria/flag-400.png" title="Hausa">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="yo">
+          
+          <img src="https://cdn.countryflags.com/thumbs/nigeria/flag-400.png" title="Yoruba">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+  </ul>
+</span>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</span>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>html .page-banner {
+      height:  9.2vh;
+      min-height: 25vh;
+    }
+    html[data-scroll-status="top"] .page-banner {
+      height: 25vh;
+    }
+  </style>
+<section class="page-banner">
+    <div class="page-banner-img">
+<div style="background-image: url(/admi25/photos/branding/TeamPresentingHeader-NoText-1980x350.png)"> 
+          
+          
+
+          </div>
+          
+            <img class="img-placeholder" src="/admi25/photos/branding/TeamPresentingHeader-NoText-1980x350.png">
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner"><div class="page-banner-default">
+            <h1 style="font-size: 5vw; text-shadow: #222 1px 0 10px;" class="page-banner-heading">
+              
+                 Project Plan Guide
+
+              
+            </h1>
+            <h2 class="page-banner-subheading">
+              
+              
+              
+            </h2>
+          </div></div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p>Sure! Here’s a friendly, humorous blog-style entry written from the perspective of a mentor guiding undergraduate students through their 5-day ADMI25 Hackathon adventure on reproducible science:</p>
+
+<hr>
+
+<h1 id="️-keep-calm-and-reproduce-on-a-5-day-hackathon-survival-guide-for-building-your-project-plan">🛠️ “Keep Calm and Reproduce On”: A 5-Day Hackathon Survival Guide for Building Your Project Plan</h1>
+
+<p>Hey team!</p>
+
+<p>So you’ve bravely entered the world of <strong>HackHPC\@ADMI25</strong>, armed with snacks, dreams, and just enough Python knowledge to be dangerous. You’re not alone—I’m your friendly mentor, here to help you <strong>plan your project like pros</strong> and <em>not</em> panic before your big 10-minute final presentation. 🧠💻🎤</p>
+
+<p>Let’s break down this 5-day science sprint into something totally doable—yes, even with group chat chaos, code conflicts, and the occasional existential crisis about reproducibility.</p>
+
+<hr>
+
+<p>Here are some excellent <strong>free AI tools</strong> that can help you create and manage your project plan—for everything from brainstorming and scheduling to tracking tasks and preparing deliverables:</p>
+
+<hr>
+
+<h3 id="️-project-planning--task-management">🗂️ Project Planning &amp; Task Management</h3>
+
+<ol>
+  <li>
+    <p><strong>Notion</strong> – A flexible workspace for notes, kanban boards, databases, and even AI-generated content (summaries, task lists, etc.).
+<a href="https://www.notion.so/">https://www.notion.so/</a> (<a href="https://thedigitalprojectmanager.com/tools/free-ai-project-management-tools/?utm_source=chatgpt.com" title="17 Best Free AI Project Management Tools Reviewed in 2025">thedigitalprojectmanager.com</a>)</p>
+  </li>
+  <li>
+    <p><strong>Taskade</strong> – Real-time collaboration with AI-powered task generation, mind maps, and workflow templates.
+<a href="https://www.taskade.com/">https://www.taskade.com/</a> (<a href="https://thedigitalprojectmanager.com/tools/free-ai-project-management-tools/?utm_source=chatgpt.com" title="17 Best Free AI Project Management Tools Reviewed in 2025">thedigitalprojectmanager.com</a>, <a href="https://project-management.com/free-project-management-software-tools/?utm_source=chatgpt.com" title="10 Best Free Project Management Tools to Boost Team Efficiency in 2025">project-management.com</a>)</p>
+  </li>
+  <li>
+    <p><strong>ClickUp</strong> – AI-driven task management, auto project summaries, and customizable dashboards; free forever.
+<a href="https://www.clickup.com/">https://www.clickup.com/</a> (<a href="https://clickup.com/blog/ai-project-management-tools/?utm_source=chatgpt.com" title="10 Best AI Project Management Tools &amp; Software in 2025 - ClickUp">clickup.com</a>)</p>
+  </li>
+  <li>
+    <p><strong>Asana (Free Plan)</strong> – Includes smart reminders, automatic task priority suggestions, and solid team coordination tools.
+<a href="https://www.asana.com/">https://www.asana.com/</a> (<a href="https://productive.io/blog/ai-project-management-tools/?utm_source=chatgpt.com" title="Top 13 AI Project Management Tools (Paid and Free) in 2025">productive.io</a>)</p>
+  </li>
+</ol>
+
+<hr>
+
+<h3 id="-ai-assisted-project-plan-creation">🧠 AI-Assisted Project Plan Creation</h3>
+
+<ol>
+  <li>
+<strong>Galaxy.ai Project Plan Generator</strong> – Generate full project plans (tasks, timelines, risk mgmt) with zero login required.
+<a href="https://galaxy.ai/ai-project-plan-generator">https://galaxy.ai/ai-project-plan-generator</a> (<a href="https://galaxy.ai/ai-project-plan-generator?utm_source=chatgpt.com" title="Free AI Project Plan Generator (No Login Required)">galaxy.ai</a>)</li>
+</ol>
+
+<hr>
+
+<h3 id="️-visualization--structure-tools">🗺️ Visualization &amp; Structure Tools</h3>
+
+<ol>
+  <li>
+    <p><strong>ProjectLibre</strong> – Free, open-source MS Project alternative for Gantt charts and resource planning—desktop and cloud versions.
+<a href="https://www.projectlibre.com/">https://www.projectlibre.com/</a> (<a href="https://en.wikipedia.org/wiki/ProjectLibre?utm_source=chatgpt.com" title="ProjectLibre">en.wikipedia.org</a>)</p>
+  </li>
+  <li>
+    <p><strong>GitMind</strong> – Online mind-mapping with AI features—great for sketching out your project’s structure and flow.
+<a href="https://gitmind.com/">https://gitmind.com/</a> (<a href="https://en.wikipedia.org/wiki/GitMind?utm_source=chatgpt.com" title="GitMind">en.wikipedia.org</a>)</p>
+  </li>
+</ol>
+
+<hr>
+
+<h3 id="-communication--documentation">📝 Communication &amp; Documentation</h3>
+
+<ol>
+  <li>
+<strong>ChatGPT (free tier)</strong> – Use OpenAI’s chatbot to brainstorm deliverables, draft README sections, or breakdown tasks.
+<a href="https://chat.openai.com/">https://chat.openai.com/</a> </li>
+</ol>
+
+<hr>
+
+<h3 id="-how-to-use-them-together">🪄 How to Use Them Together</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Phase</th>
+      <th>Tool</th>
+      <th>Suggested Usage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Day 1</strong></td>
+      <td>GitMind + Taskade</td>
+      <td>Map out team roles and goals; use AI to generate tasks</td>
+    </tr>
+    <tr>
+      <td><strong>Days 2–4</strong></td>
+      <td>Notion or ClickUp</td>
+      <td>Track progress, comment on code, post updates, document reproducibility findings</td>
+    </tr>
+    <tr>
+      <td><strong>Day 4</strong></td>
+      <td>Galaxy.ai + ProjectLibre</td>
+      <td>Auto-generate project plan outlines, refine timeline</td>
+    </tr>
+    <tr>
+      <td><strong>Throughout</strong></td>
+      <td>ChatGPT</td>
+      <td>Summarize papers (ICSE, SC), help write README, prep portal copy</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<p>These tools can help streamline your Hackathon workflow—giving you more time to innovate while keeping your project plan solid, organized, and reproducible. Let me know if you want tips on setting up templates for any of them!</p>
+
+<hr>
+
+<h2 id="️-day-by-day-game-plan">🗓️ Day-by-Day Game Plan</h2>
+
+<h3 id="-day-1-meet-greet-and-pick-your-paper"><strong>🔬 Day 1: Meet, Greet, and Pick Your Paper</strong></h3>
+
+<blockquote>
+  <p>Goal: Get organized, pick a reproducibility target, and build hype.</p>
+</blockquote>
+
+<ul>
+  <li>
+<strong>Form your team</strong> and settle on a paper from <strong>ICSE 2023</strong> or <strong>SC24</strong>. If it has code, data, and mystery—perfect.</li>
+  <li>
+    <p>Set up your <strong>GitHub repo</strong>. Add a README with:</p>
+
+    <ul>
+      <li>A short project description (think: “We tried to reproduce this cool result and here’s what we found”).</li>
+      <li>Your goals (e.g., scoring the paper, testing code, and building a killer portal).</li>
+    </ul>
+  </li>
+  <li>Assign roles: coder, scribe, portal builder, slide guru, and <em>vibe curator</em> (someone’s gotta DJ).</li>
+  <li>End the day with your 1-minute intro slide (team name, song, Zoom background, and member pics). Make it epic.</li>
+</ul>
+
+<hr>
+
+<h3 id="️-day-2-planning--first-contact-with-code"><strong>⚙️ Day 2: Planning &amp; First Contact (With Code)</strong></h3>
+
+<blockquote>
+  <p>Goal: Create your project plan and dive into the reproducibility artifact like Indiana Jones with a laptop.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>Draft a <strong>2-slide project plan</strong>:</p>
+
+    <ul>
+      <li>List team roles and at least 5 tasks.</li>
+      <li>Schedule daily check-ins (yes, even if it’s just to say “we broke everything, help”).</li>
+    </ul>
+  </li>
+  <li>
+    <p>Start evaluating:</p>
+
+    <ul>
+      <li>Is the paper accessible?</li>
+      <li>Is the code shared and runnable?</li>
+      <li>Can you find and use the data?</li>
+    </ul>
+  </li>
+  <li>
+    <p>Bonus: Try running the code. If it works first try, buy a lottery ticket.</p>
+  </li>
+</ul>
+
+<hr>
+
+<h3 id="-day-3-midpoint-check-in--metric-mayhem"><strong>🧪 Day 3: Midpoint Check-In &amp; Metric Mayhem</strong></h3>
+
+<blockquote>
+  <p>Goal: Score your paper, build your scorecard, and log early wins (or weird errors).</p>
+</blockquote>
+
+<ul>
+  <li>Update your project plan slides with progress and problems.</li>
+  <li>
+    <p>Develop your <strong>scorecard</strong>:</p>
+
+    <ul>
+      <li>Paper availability: open-access or locked behind 12 paywalls?</li>
+      <li>Code/software availability: usable repo or cryptic zip file with no README?</li>
+      <li>Data availability: link to a dataset or…404?</li>
+      <li>Computer requirements: does it need a supercomputer or a toaster?</li>
+      <li>Add 3 more custom metrics—get creative! (e.g., “Documentation That Didn’t Make Us Cry”)</li>
+    </ul>
+  </li>
+  <li>Start drafting your <strong>poster</strong> and sketch your <strong>portal layout</strong>.</li>
+  <li>Reminder: Commit early, commit often. GitHub is your friend.</li>
+</ul>
+
+<hr>
+
+<h3 id="-day-4-portal-magic--poster-polish"><strong>📊 Day 4: Portal Magic &amp; Poster Polish</strong></h3>
+
+<blockquote>
+  <p>Goal: Make it pretty, make it clear, and make it reproducible.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>Build your <strong>website or portal</strong>:</p>
+
+    <ul>
+      <li>Display scorecard results (bar charts, tables, memes—get visual).</li>
+      <li>Explain each metric in simple, smart terms.</li>
+      <li>Include your team’s bios, photos, and links (LinkedIn/GitHub flex time).</li>
+    </ul>
+  </li>
+  <li>Finalize your <strong>poster (PDF)</strong> and submit it to <strong>Gateways 2025</strong>. Screenshot that confirmation—<strong>that’s +5 points</strong>!</li>
+  <li>Document everything in your repo. README, comments, structure—it’s what reproducibility is all about.</li>
+</ul>
+
+<hr>
+
+<h3 id="-day-5-final-countdown--presentation-power-up"><strong>🎤 Day 5: Final Countdown &amp; Presentation Power-Up</strong></h3>
+
+<blockquote>
+  <p>Goal: Deliver the goods and tell your story.</p>
+</blockquote>
+
+<ul>
+  <li>Final check-in: what’s done, what’s shiny, and what’s duct-taped but functional?</li>
+  <li>
+    <p>Your <strong>final presentation (PDF)</strong> should cover:</p>
+
+    <ul>
+      <li>Team names and faces (smiling is optional, but encouraged).</li>
+      <li>Tools used (Docker? Slurm? Jupyter? VS Code and vibes?)</li>
+      <li>Your scorecard results.</li>
+      <li>The “how” and “why” behind your scores.</li>
+      <li>What went wrong, what you learned, and what you’d do next time.</li>
+    </ul>
+  </li>
+  <li>Practice your timing—<strong>10 minutes max</strong>! Split it up among team members.</li>
+</ul>
+
+<hr>
+
+<h2 id="-pro-tips-from-your-hackathon-mentor">🧠 Pro Tips From Your Hackathon Mentor</h2>
+
+<ul>
+  <li>
+<strong>Don’t stress perfection</strong>—this is a prototype, not a PhD defense.</li>
+  <li>
+<strong>Commit your work early</strong>—GitHub doesn’t wait for anyone.</li>
+  <li>
+<strong>Be kind to each other</strong>—hackathons are intense, but teamwork makes reproducibility work.</li>
+  <li>
+<strong>Celebrate the small wins</strong>—even if it’s just figuring out the author’s Python version.</li>
+</ul>
+
+<hr>
+
+<p>That’s it! You’ve got the tools, the plan, and the power of reproducible science on your side. Now go forth and hack like the future of open science depends on it—because it kinda does. 😉</p>
+
+<p>See you on Zoom!
+<em>—Your Mentor (and #1 Fan)</em></p>
+
+<hr>
+
+<p>Let me know if you’d like this formatted as a blog post on a website or turned into a printable mentor handout!</p>
+
+
+    </div>
+
+</article>
+</section>
+  
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/admi25/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-container">
+    
+    <div class="footer-badge">
+      <img src="/admi25/photos/branding/Badge-TextOnly.svg" alt="Event Badge">
+    </div>
+    
+    
+    <div class="footer-sponsors">
+      <strong>HackHPC@ADMI25 supported by:</strong><br>
+    
+      
+      
+      <a href="https://sciencegateways.org/"> SGX3</a> |
+      
+      
+      
+      <a href="https://admiusa.org"> Association of Computer Science Departments at Minority Institutions (ADMI)</a> |
+      
+      
+      
+      <a href="http://omnibond.com/"> Omnibond Systems</a> |
+      
+      
+      
+      <a href="http://hackhpc.org/"> HackHPC.org </a>
+      
+      
+    </div>
+
+    <div class="site-footer-inner">
+<a style="color: black;" href="http://hackhpc.org"><strong>HackHPC.org</strong></a>
+        
+      <div>
+    
+    `<a href="mailto:schack@hackhcp.org"><i class="fa-solid fa-envelope"></i></a>
+    
+
+        <a href="https://twitter.com/ccloudhack"><i class="fa-brands fa-x-twitter"></i></a>
+
+    
+
+        <a href="https://www.instagram.com/hack_hpc"><i class="fa-brands fa-instagram"></i></a>
+
+    
+
+        <a href="https://www.linkedin.com/groups/8859728"><i class="fa-brands fa-linkedin"></i></a>
+
+    
+
+        <a href="https://github.com/HackHPC"><i class="fa-brands fa-github"></i></a>
+
+    
+
+        <a href="https://www.youtube.com/@hackhpc2069"><i class="fa-brands fa-youtube"></i></a>
+
+    
+
+    
+
+</div>  
+        
+        Copyright <span class="copyleft">©</span> 2018-2025 HackHPC All rights reserved.
+       <br>
+      
+       Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.
+      
+    </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
