@@ -101,6 +101,12 @@ teams:
     - silaserving815@gmail.com
     - chanteray3@gmail.com
     - sethamack89@gmail.com
+  links:
+    - name: GitHub Repo
+      url: https://github.com/SethMack611/Hard-To-Cache
+      icon: "fa-brands fa-github"
+      iconcolor: black
+
 - teamname: CodeRunners
   members:
     names:
@@ -198,6 +204,7 @@ teams:
     - davidchanjd@gmail.com
     - ejay.aguirre03@gmail.com
     - juliantolbertll@gmail.com
+  
   
 
 
