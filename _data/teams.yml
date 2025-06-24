@@ -204,7 +204,11 @@ teams:
     - davidchanjd@gmail.com
     - ejay.aguirre03@gmail.com
     - juliantolbertll@gmail.com
-  
+  links:
+    - name: GitHub Repo
+      url: https://github.com/JulianCT05/SGX3-Hackathon
+      icon: "fa-brands fa-github"
+      iconcolor: black
   
 
 
