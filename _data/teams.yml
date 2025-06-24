@@ -146,6 +146,8 @@ teams:
     - mhcopernic@gmail.com
     - agyeiholy978@gmail.com
 - teamname: HackStreet Boys
+  awards: 
+  - Team Introduction
   members:
     names:
     - Yari Pettis
@@ -189,6 +191,9 @@ teams:
     - davidchanjd@gmail.com
     - ejay.aguirre03@gmail.com
     - juliantolbertll@gmail.com
+  
+
+
 - teamname: Wiresharks
   members:
     names:

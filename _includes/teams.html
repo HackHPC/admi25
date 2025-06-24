@@ -14,15 +14,17 @@
     
         <h2 id="{{ team.teamname }}" style="border-bottom: 4px solid black; margin: 0px;"><i class="fas fa-users"></i> {{ team.teamname }}</h2>
         
-      
-        <p style="margin-bottom: 2px;">{% if team.projectgoals %}
-          {% if team.awards %} 
+        {% if team.awards %} 
           {% for award in team.awards %} 
           &#127942; <strong style="color:goldenrod;">{{ award }} &nbsp; </strong>
           
-          {% endfor %}
+          {% endfor %} 
+           {% endif %}
+
+        <p style="margin-bottom: 2px;">{% if team.projectgoals %}
+          
           <br>
-          {% endif %}
+         
          
           {% if team.targeturl %}
        <a  href="{{ team.targeturl }}"><i style="color: black;" class="fas fa-bullseye"></i> Target Portal: {{ team.targeturl }} </a><br>
@@ -113,6 +115,7 @@
       </div>
      
       <div style="width: 30%;">  
+        {% if team.links %}
     <strong> Links: </strong><br>
     
 
@@ -130,6 +133,9 @@
          </li>   
         {% endfor %}
         </ul>
+        {% endif %}
+
+        
         {% if team.resources %}
         <strong> Resources: </strong><br>
           <ul>
