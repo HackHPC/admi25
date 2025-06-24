@@ -142,8 +142,16 @@
           <ul>
             {% assign files = site.static_files | where_exp: "file", "file.path contains team.files" %}
             {% for file in files %}
-              
-                <li><a href="{{ file.path | relative_url }}"> <i class="fas fa-file"></i> {{ file.name }}</a></li>
+
+                {% if file.extname == ".pdf" %}
+                  <li><a href="{{ file.path | relative_url }}"> <i class="fas fa-file-pdf"  style="color:red"></i> {{ file.name }}</a></li>
+                {% elsif file.extname == ".png" %}
+                  <li><a href="{{ file.path | relative_url }}"> <i class="fas fa-file-image" style="color:black"></i> {{ file.name }}</a></li>
+                {% else %}
+                  <li><a href="{{ file.path | relative_url }}"> <i class="fas fa-file" style="color:darkgrey"></i> {{ file.name }}</a></li>
+
+                {% endif %}
+                     
              
             {% endfor %}
           </ul>
