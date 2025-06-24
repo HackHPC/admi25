@@ -145,6 +145,13 @@ teams:
     - aaliyahlockett1@gmail.com
     - mhcopernic@gmail.com
     - agyeiholy978@gmail.com
+  links:
+    - name: GitHub Repo
+      url: https://github.com/SGX3CodeRunners/RealWorldBugs
+      icon: "fa-brands fa-github"
+      iconcolor: black
+ 
+
 - teamname: HackStreet Boys
   awards: 
   - Team Introduction
