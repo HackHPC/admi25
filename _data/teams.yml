@@ -64,50 +64,9 @@
 #      imagelink: teams/partyanimals/Day2-EveningCheckin-TeamGoalsandProjectPlan-partyanimals.png
 
 teams:
-- teamname: Hard to Cache
-  members:
-    names:
-    - Charli Brooks
-    - Silas Erving
-    - Chante Ray
-    - Seth Mack
-    affiliation:
-    - Elizabeth City State University
-    - Morehouse College
-    - Mississippi Valley State University
-    - Morehouse College
-    affiliationurl:
-    - Elizabeth City State University
-    - Morehouse College
-    - Mississippi Valley State University
-    - Morehouse College
-    major:
-    - Aviation Science
-    - Software Engineering
-    - Computer Science
-    - Software Engineering
-    role:
-    - Student Participant
-    - Student Participant
-    - Student Participant
-    - Student Participant
-    socials:
-    - https://www.linkedin.com/in/charli7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
-    - www.linkedin.com/in/silas-erving-38195b327
-    - ''
-    - https://www.linkedin.com/in/seth-mack-9467a1299/
-    email:
-    - cnbrooks04@gmail.com
-    - silaserving815@gmail.com
-    - chanteray3@gmail.com
-    - sethamack89@gmail.com
-  links:
-    - name: GitHub Repo
-      url: https://github.com/SethMack611/Hard-To-Cache
-      icon: "fa-brands fa-github"
-      iconcolor: black
-
 - teamname: CodeRunners
+   awards: 
+   - Project Plan
   members:
     names:
     - Iyana Jones
@@ -156,7 +115,53 @@ teams:
       url: https://github.com/SGX3CodeRunners/RealWorldBugs
       icon: "fa-brands fa-github"
       iconcolor: black
- 
+
+
+
+- teamname: Hard to Cache
+  members:
+    names:
+    - Charli Brooks
+    - Silas Erving
+    - Chante Ray
+    - Seth Mack
+    affiliation:
+    - Elizabeth City State University
+    - Morehouse College
+    - Mississippi Valley State University
+    - Morehouse College
+    affiliationurl:
+    - Elizabeth City State University
+    - Morehouse College
+    - Mississippi Valley State University
+    - Morehouse College
+    major:
+    - Aviation Science
+    - Software Engineering
+    - Computer Science
+    - Software Engineering
+    role:
+    - Student Participant
+    - Student Participant
+    - Student Participant
+    - Student Participant
+    socials:
+    - https://www.linkedin.com/in/charli7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+    - www.linkedin.com/in/silas-erving-38195b327
+    - ''
+    - https://www.linkedin.com/in/seth-mack-9467a1299/
+    email:
+    - cnbrooks04@gmail.com
+    - silaserving815@gmail.com
+    - chanteray3@gmail.com
+    - sethamack89@gmail.com
+  links:
+    - name: GitHub Repo
+      url: https://github.com/SethMack611/Hard-To-Cache
+      icon: "fa-brands fa-github"
+      iconcolor: black
+
+
 
 - teamname: HackStreet Boys
   awards: 
