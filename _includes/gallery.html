@@ -1,0 +1,8 @@
+<div class="gallerypic">
+  {% assign images = site.static_files | where_exp: "file", "file.path contains 'assets/gallery/'" %}
+  {% for image in images %}
+    <div class="gallerypic-item">
+      <img src="{{ image.path | relative_url }}" alt="{{ image.name }}">
+    </div>
+  {% endfor %}
+</div>
