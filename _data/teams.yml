@@ -65,8 +65,8 @@
 
 teams:
 - teamname: CodeRunners
-   awards: 
-   - Project Plan
+  awards: 
+  - Project Plan
   members:
     names:
     - Iyana Jones
@@ -110,11 +110,20 @@ teams:
     - aaliyahlockett1@gmail.com
     - mhcopernic@gmail.com
     - agyeiholy978@gmail.com
+  themesong: "https://soundcloud.com/maltexmusic/serenity?in=ded-sec-531897165/sets/music-coding-hacking&utm_source=mobi&utm_campaign=social_sharing"
+  themesongname: "Serenity - Maltex"
   links:
-    - name: GitHub Repo
-      url: https://github.com/SGX3CodeRunners/RealWorldBugs
-      icon: "fa-brands fa-github"
-      iconcolor: black
+  - name: GitHub Repo
+    url: https://github.com/SGX3CodeRunners/RealWorldBugs
+    icon: "fa-brands fa-github"
+    iconcolor: black
+  images:
+  - name: Team Introduction
+    url: teams/CodeRunners/team_introduction.pdf
+    imagelink: teams/CodeRunners/team_introduction.png
+  - name: Zoom Background
+    url: teams/CodeRunners/zoom-background.png
+    imagelink: teams/CodeRunners/zoom-background-200px.png
 
 
 
@@ -164,11 +173,20 @@ teams:
     - davidchanjd@gmail.com
     - ejay.aguirre03@gmail.com
     - juliantolbertll@gmail.com
+  themesong: "https://pixabay.com/music/future-bass-future-design-344320"
+  themesongname: "Future Design - penguinmusic"
   links:
-    - name: GitHub Repo
-      url: https://github.com/JulianCT05/SGX3-Hackathon
-      icon: "fa-brands fa-github"
-      iconcolor: black
+  - name: GitHub Repo
+    url: https://github.com/JulianCT05/SGX3-Hackathon
+    icon: "fa-brands fa-github"
+    iconcolor: black
+  images:
+  - name: Team Introduction
+    url: teams/HackStreetBoys/team_introduction.pdf
+    imagelink: teams/HackStreetBoys/team_introduction.png
+  - name: Zoom Background
+    url: teams/HackStreetBoys/zoom-background.png
+    imagelink: teams/HackStreetBoys/zoom-background-200px.png
   
 
 
@@ -209,11 +227,20 @@ teams:
     - silaserving815@gmail.com
     - chanteray3@gmail.com
     - sethamack89@gmail.com
+  themesong: "https://soundcloud.com/van-xo-vibes/flames"
+  themesongname: "flames - van xo vibes"
   links:
     - name: GitHub Repo
       url: https://github.com/SethMack611/Hard-To-Cache
       icon: "fa-brands fa-github"
       iconcolor: black
+  images:
+  - name: Team Introduction
+    url: teams/HardtoCache/team_introduction.pdf
+    imagelink: teams/HardtoCache/team_introduction.png
+  - name: Zoom Background
+    url: teams/HardtoCache/zoom-background.png
+    imagelink: teams/HardtoCache/zoom-background-200px.png
 
 
 
@@ -254,3 +281,17 @@ teams:
     - ayindehooks@gmail.com
     - howard.ames@my.hamptonu.edu
     - rgrimes2004@gmail.com
+  themesong: "https://app.soundstripe.com/songs/6425"
+  themesongname: "Hands Up, Buttercup! - Neon Beach"
+  links:
+    #- name: GitHub Repo
+    #  url: https://github.com/SethMack611/Hard-To-Cache
+    #  icon: "fa-brands fa-github"
+    #  iconcolor: black
+  images:
+  - name: Team Introduction
+    url: teams/Wiresharks/team_introduction.pdf
+    imagelink: teams/Wiresharks/team_introduction.png
+  - name: Zoom Background
+    url: teams/Wiresharks/zoom-background.png
+    imagelink: teams/Wiresharks/zoom-background-200px.png
