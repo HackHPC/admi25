@@ -71,10 +71,14 @@ general_schedule:
           &nbsp;&nbsp; - Team Name <br>
           &nbsp;&nbsp; - Project Plan with team members linked to roles and at least five (5) tasks needed to accomplish those goals
         links:
-          - title: Project Plan Google Slides
-            icon: fa-brands fa-google-drive
-            url: "https://docs.google.com/presentation/d/1H0jx2KcFEK3qzt2PSJAUF8q7M6gjUPrWOAa2MoiDNu0/edit?usp=sharing"
-            iconcolor: gold
+          #- title: Project Plan Google Slides
+          #  icon: fa-brands fa-google-drive
+          #  url: "https://docs.google.com/presentation/d/1H0jx2KcFEK3qzt2PSJAUF8q7M6gjUPrWOAa2MoiDNu0/edit?usp=sharing"
+          #  iconcolor: gold
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: "assets/slides/event/TeamProjectPlans.pdf"
+            iconcolor: red
 
   
   - date: "2025-06-24T15:00(-04:00)"
