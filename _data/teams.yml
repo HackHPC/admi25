@@ -110,6 +110,7 @@ teams:
     - aaliyahlockett1@gmail.com
     - mhcopernic@gmail.com
     - agyeiholy978@gmail.com
+  files: "teams/CodeRunners"
   themesong: "https://soundcloud.com/maltexmusic/serenity?in=ded-sec-531897165/sets/music-coding-hacking&utm_source=mobi&utm_campaign=social_sharing"
   themesongname: "Serenity - Maltex"
   links:
@@ -130,6 +131,7 @@ teams:
 - teamname: HackStreet Boys
   awards: 
   - Team Introduction
+  files: "teams/HackStreetBoys"
   members:
     names:
     - Yari Pettis
@@ -191,6 +193,7 @@ teams:
 
 
 - teamname: Hard to Cache
+  files: "teams/HardtoCache"
   members:
     names:
     - Charli Brooks
@@ -245,6 +248,7 @@ teams:
 
 
 - teamname: Wiresharks
+  files: "teams/Wiresharks"
   members:
     names:
     - 'Auiana D''Avilar '

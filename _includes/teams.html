@@ -135,7 +135,42 @@
         </ul>
         {% endif %}
 
-        
+
+
+        {% if team.files %}
+        <strong> Files: </strong><br>
+          <ul>
+            {% assign files = site.static_files | where_exp: "file", "file.path contains team.files" %}
+            {% for file in files %}
+              
+                <li><a href="{{ file.path | relative_url }}"> <i class="fas fa-file"></i> {{ file.name }}</a></li>
+             
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+          
+
+        {% if team.respirces %}
+        <strong> Resources: </strong><br>
+          <ul>
+
+        {% for resource in team.resources %}
+          
+              <li>
+            <strong><a href="{{ resource.url }}"><i class="fas fa-link"></i> {{ resource.name }} </a></strong><br>
+            {{ resource.usage }}
+              </li>
+              {% endfor %}
+            </ul>
+
+
+          </li>
+         {% endif %}
+
+
+         
+
         {% if team.resources %}
         <strong> Resources: </strong><br>
           <ul>
