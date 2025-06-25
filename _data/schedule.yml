@@ -108,6 +108,25 @@ general_schedule:
     zoomlink: https://us06web.zoom.us/j/87064843706?pwd=b3kPYJSevJ0urtYA5eVBuPlnAvYRIV.1
     theme: "Day 3: Check-in"
     events: 
+      - name: ADMI Welcome - Alfred Watkins 
+        type: Sponsor Presentations
+        links:
+          - title: ADMI
+            icon: fa-solid fa-link
+            url: "https://admiusa.org/"
+            iconcolor: blue
+          - title: Alfred Watkins
+            icon: fa-solid fa-envelope
+            url: "mailto:treasurer@admiusa.org"
+            iconcolor: black  
+          - title: Alfred Watkins LinkedIn
+            icon: fa-brands fa-linkedin
+            url: "https://www.linkedin.com/in/alfred-watkins-85890b5/"
+            iconcolor: blue
+          - title: AUC Data Science Initiative
+            icon: fa-solid fa-link
+            url: "https://datascience.aucenter.edu/"
+            iconcolor: maroon  
       - name: Team Progress 
         type: Presentations 
         description: >
@@ -118,10 +137,15 @@ general_schedule:
           &nbsp;&nbsp; - Technology/Resources in Use
           &nbsp;&nbsp; - Bottlenecks / Issues / Concerns
         links:
-          - title: "Project Plan - Updated Google Slides"
-            icon: fa-brands fa-google-drive
-            url: "https://docs.google.com/presentation/d/1H0jx2KcFEK3qzt2PSJAUF8q7M6gjUPrWOAa2MoiDNu0/edit?usp=sharing"
-            iconcolor: gold
+          #- title: "Project Plan - Updated Google Slides"
+          #  icon: fa-brands fa-google-drive
+          #  url: "https://docs.google.com/presentation/d/1H0jx2KcFEK3qzt2PSJAUF8q7M6gjUPrWOAa2MoiDNu0/edit?usp=sharing"
+          #  iconcolor: gold
+          - title: Session Slide Deck
+            icon: fa-regular fa-file-pdf
+            url: "assets/slides/event/3rd-TeamProjectPlans-HackHPCatADMI25.pdf"
+            iconcolor: red
+        
   
   - date: "2025-06-25T15:00(-04:00)"
     session: Afternoon
@@ -137,12 +161,40 @@ general_schedule:
           &nbsp;&nbsp; - Updated Project Plan <br>
           &nbsp;&nbsp; - Technology/Resources in Use
           &nbsp;&nbsp; - Bottlenecks / Issues / Concerns
+        links:
+          - title: "Project Plan - Updated Google Slides"
+            icon: fa-brands fa-google-drive
+            url: "https://docs.google.com/presentation/d/1H0jx2KcFEK3qzt2PSJAUF8q7M6gjUPrWOAa2MoiDNu0/edit?usp=sharing"
+            iconcolor: gold
+          #- title: Session Slide Deck
+          #  icon: fa-regular fa-file-pdf
+          #  url: "assets/slides/event/2ndUpdate-TeamProjectPlans-HackHPCatADMI25.pdf"
+          #  iconcolor: red
 
   - date: "2025-06-26T10:00(-04:00)"
     session: Morning
     zoomlink: https://us06web.zoom.us/j/87064843706?pwd=b3kPYJSevJ0urtYA5eVBuPlnAvYRIV.1
     theme: "Day 4: Check-in"
     events: 
+      - name: Agbeli Ameko - Educational Designer NCAR
+        type: Presentations
+        links:
+          - title: NCAR
+            icon: fa-solid fa-link
+            url: "https://admiusa.org/"
+            iconcolor: blue
+          - title: Agbeli Ameko
+            icon: fa-solid fa-envelope
+            url: "mailto:agbeli@ucar.edu"
+            iconcolor: black  
+          - title: Agbeli Ameko LinkedIn
+            icon: fa-brands fa-linkedin
+            url: "https://www.linkedin.com/in/agbeli-a-03aa101"
+            iconcolor: blue
+          - title: ACCESS-CI
+            icon: fa-solid fa-link
+            url: "https://access-ci.org"
+            iconcolor: blue
       - name: Team Progress 
         type: Presentations 
         description: >
@@ -152,6 +204,16 @@ general_schedule:
           &nbsp;&nbsp; - Updated Project Plan <br>
           &nbsp;&nbsp; - Technology/Resources in Use
           &nbsp;&nbsp; - Bottlenecks / Issues / Concerns
+        links:
+          - title: "Project Plan - Updated Google Slides"
+            icon: fa-brands fa-google-drive
+            url: "https://docs.google.com/presentation/d/1H0jx2KcFEK3qzt2PSJAUF8q7M6gjUPrWOAa2MoiDNu0/edit?usp=sharing"
+            iconcolor: gold
+          #- title: Session Slide Deck
+          #  icon: fa-regular fa-file-pdf
+          #  url: "assets/slides/event/2ndUpdate-TeamProjectPlans-HackHPCatADMI25.pdf"
+          #  iconcolor: red
+    
   
   - date: "2025-06-26T15:00(-04:00)"
     session: Afternoon
@@ -167,6 +229,15 @@ general_schedule:
           &nbsp;&nbsp; - Updated Project Plan <br>
           &nbsp;&nbsp; - Technology/Resources in Use
           &nbsp;&nbsp; - Bottlenecks / Issues / Concerns
+        links:
+          - title: "Project Plan - Updated Google Slides"
+            icon: fa-brands fa-google-drive
+            url: "https://docs.google.com/presentation/d/1H0jx2KcFEK3qzt2PSJAUF8q7M6gjUPrWOAa2MoiDNu0/edit?usp=sharing"
+            iconcolor: gold
+          #- title: Session Slide Deck
+          #  icon: fa-regular fa-file-pdf
+          #  url: "assets/slides/event/2ndUpdate-TeamProjectPlans-HackHPCatADMI25.pdf"
+          #  iconcolor: red
 
   - date: "2025-06-27T10:00(-04:00)"
     session: Morning
@@ -182,6 +253,15 @@ general_schedule:
           &nbsp;&nbsp; - Updated Project Plan <br>
           &nbsp;&nbsp; - Technology/Resources in Use
           &nbsp;&nbsp; - Bottlenecks / Issues / Concerns
+        links:
+          - title: "Project Plan - Updated Google Slides"
+            icon: fa-brands fa-google-drive
+            url: "https://docs.google.com/presentation/d/1H0jx2KcFEK3qzt2PSJAUF8q7M6gjUPrWOAa2MoiDNu0/edit?usp=sharing"
+            iconcolor: gold
+          #- title: Session Slide Deck
+          #  icon: fa-regular fa-file-pdf
+          #  url: "assets/slides/event/2ndUpdate-TeamProjectPlans-HackHPCatADMI25.pdf"
+          #  iconcolor: red
   
   - date: "2025-06-27T13:00(-04:00)"
     session: Afternoon
