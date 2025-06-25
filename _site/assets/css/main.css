@@ -1523,12 +1523,12 @@ h2.event-title {
   display: flex;
   border-radius: 8px;
   margin: 32px 0;
-  border: 1px solid #0f4150;
+  border: 1px solid #3294b7;
   background-color: #fcf7f1;
 }
 
 .event .event-left {
-  background: #0f4150;
+  background: #3294b7;
   width: 100px;
   display: flex;
   align-items: center;
