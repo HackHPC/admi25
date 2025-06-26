@@ -194,6 +194,8 @@ teams:
 
 - teamname: Hard to Cache
   files: "teams/HardtoCache"
+  awards: 
+  - 1-Day Progress
   members:
     names:
     - Charli Brooks
@@ -234,9 +236,13 @@ teams:
   themesongname: "flames - van xo vibes"
   links:
     - name: GitHub Repo
-      url: https://github.com/SethMack611/Hard-To-Cache
+      url: https://github.com/Hard-to-Cache/Hard-2-Cache
       icon: "fa-brands fa-github"
       iconcolor: black
+    - name: Project Portal
+      url: https://hard-to-cache.github.io/Hard-2-Cache
+      icon: "fa-solid fa-link"
+      iconcolor: blue
   images:
   - name: Team Introduction
     url: teams/HardtoCache/team_introduction.pdf
