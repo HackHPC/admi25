@@ -270,4 +270,9 @@ general_schedule:
     events: 
       - name: Final Presentations
         type: Presentations 
+        links:
+        - title: Poster Template
+          icon: fas fa-file-powerpoint
+          url: "assets/slides/event/admi25-sgx3-poster-template.pptx"
+          iconcolor: purple
     
