@@ -222,18 +222,18 @@ general_schedule:
     events: 
       - name: Team Progress 
         type: Presentations 
-        description: >
-          2-Slide2/2-Minutes with: <br>
-          &nbsp;&nbsp; - Team Name <br>
-          &nbsp;&nbsp; - Progress Priorities <br>
-          &nbsp;&nbsp; - Updated Project Plan <br>
-          &nbsp;&nbsp; - Technology/Resources in Use
-          &nbsp;&nbsp; - Bottlenecks / Issues / Concerns
+        #description: >
+        #  2-Slide2/2-Minutes with: <br>
+        #  &nbsp;&nbsp; - Team Name <br>
+        #  &nbsp;&nbsp; - Progress Priorities <br>
+        #  &nbsp;&nbsp; - Updated Project Plan <br>
+        #  &nbsp;&nbsp; - Technology/Resources in Use
+        #  &nbsp;&nbsp; - Bottlenecks / Issues / Concerns
         links:
-          - title: "Project Plan - Updated Google Slides"
-            icon: fa-brands fa-google-drive
-            url: "https://docs.google.com/presentation/d/1H0jx2KcFEK3qzt2PSJAUF8q7M6gjUPrWOAa2MoiDNu0/edit?usp=sharing"
-            iconcolor: gold
+          #- title: "Project Plan - Updated Google Slides"
+          #  icon: fa-brands fa-google-drive
+          #  url: "https://docs.google.com/presentation/d/1H0jx2KcFEK3qzt2PSJAUF8q7M6gjUPrWOAa2MoiDNu0/edit?usp=sharing"
+          #  iconcolor: gold
           #- title: Session Slide Deck
           #  icon: fa-regular fa-file-pdf
           #  url: "assets/slides/event/2ndUpdate-TeamProjectPlans-HackHPCatADMI25.pdf"
