@@ -1,0 +1,38 @@
+{%- if page.paginator -%}
+  {%- assign paginator = page.paginator -%}
+{%- elsif paginator == nil -%}
+  {%- assign paginator = site -%}
+{%- endif -%}
+
+{%- if paginator.posts.size > 0 -%}
+<div class="pagination">
+  <!-- Post list links -->
+  <ul>
+    {%- for post in paginator.posts -%}
+    <li>
+      {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}
+
+      {% assign article = post.content %}
+      {% assign lang = post.lang %}
+      {%- include functions.html func='get_reading_time' -%}
+      {% assign reading_time = return %}
+      {%- include functions.html func='get_article_excerpt' -%}
+      {% assign excerpt = return %}
+      {%- assign post_url = post.url | relative_url -%}
+
+      
+        <a href="{{ post_url }}">
+          {{ post.title | escape }}
+        </a>
+      
+      
+    </li>
+    {%- endfor -%}
+  </ul>
+
+  <!-- Pagination links -->
+  {%- if paginator.posts.size < site.posts.size -%}
+    {%- include views/paginator.html -%}
+  {%- endif -%}
+</div>
+{%- endif -%}
