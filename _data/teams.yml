@@ -70,10 +70,11 @@ staff:
 - name: Nole Stites
   avatar: assets/images/nole.png
   affiliation: Southern Oregon University
+  site: https://sou.edu
   role: Student Staff/Mentor
   linkedin: https://www.linkedin.com/in/nole-stites
-  github: https://github.com/NoleStites
-  site: https://nolestites.com
+  github: NoleStites
+  personal_site: https://nolestites.com
   email: nole.stites@gmail.com
   bio: "Nole Stites is a recent Computer Science graduate from Southern Oregon University with a passion for computing education and research. He served as a 2025 SGX3 Coding Institute Trainer, mentoring undergraduates in UNIX and Python while guiding reproducible science projects during the ADMI Hackathon. Nole previously led a six-month research project on quantum computing pedagogy, culminating in a public lecture for CS students. With international study experience at Shinshu University and a track record in tutoring and technical support, he combines technical depth with a commitment to teaching—positioning him as an emerging leader in computer science education."
 
