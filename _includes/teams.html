@@ -86,6 +86,8 @@
               <a href="{{ team.members.socials[forloop.index0 ] }}"><i style="color: darkblue" class="fab fa-linkedin"></i></a>
              {% elsif team.members.socials[forloop.index0 ] contains "twitter" %}
              <a href="{{ team.members.socials[forloop.index0 ] }}"><i style="color: blue" class="fab fa-twitter"></i></a>
+            {% elsif team.members.socials[forloop.index0 ] contains "github" %}
+             <a href="{{ team.members.socials[forloop.index0 ] }}"><i style="color: black" class="fa-brands fa-github"></i></a>
              {% else %}
              <a href="{{ team.members.socials[forloop.index0 ] }}"><i style="color: black" class="fas fa-usercircle"></i></a>
               {% endif %}          
