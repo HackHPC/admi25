@@ -136,12 +136,16 @@ teams:
     icon: "fa-brands fa-github"
     iconcolor: black
   images:
+  - name: Intro Video
+    url: teams/CodeRunners/coderunners-introvid.mp4
+    imagelink: teams/CodeRunners/coderunners-animated.gif
   - name: Team Introduction
     url: teams/CodeRunners/team_introduction.pdf
     imagelink: teams/CodeRunners/team_introduction.png
   - name: Zoom Background
     url: teams/CodeRunners/zoom-background.png
     imagelink: teams/CodeRunners/zoom-background-200px.png
+  
 
 
 
@@ -200,12 +204,16 @@ teams:
     icon: "fa-brands fa-github"
     iconcolor: black
   images:
+  - name: Intro Video
+    url: teams/HackStreetBoys/hackstreetboys-introvid.mp4
+    imagelink: teams/HackStreetBoys/hackstreetboys-animated.gif
   - name: Team Introduction
     url: teams/HackStreetBoys/team_introduction.pdf
     imagelink: teams/HackStreetBoys/team_introduction.png
   - name: Zoom Background
     url: teams/HackStreetBoys/zoom-background.png
     imagelink: teams/HackStreetBoys/zoom-background-200px.png
+  
   
 
 
@@ -261,12 +269,16 @@ teams:
       icon: "fa-solid fa-link"
       iconcolor: blue
   images:
+  - name: Intro Video
+    url: teams/HardtoCache/HardtoCache-introvid.mp4
+    imagelink: teams/HardtoCache/hardtocache-animated.gif
   - name: Team Introduction
     url: teams/HardtoCache/team_introduction.pdf
     imagelink: teams/HardtoCache/team_introduction.png
   - name: Zoom Background
     url: teams/HardtoCache/zoom-background.png
     imagelink: teams/HardtoCache/zoom-background-200px.png
+  
 
 
 
@@ -316,9 +328,13 @@ teams:
       icon: "fa-brands fa-github"
       iconcolor: black
   images:
+  - name: Intro Video
+    url: teams/Wiresharks/wiresharks-introvid.mp4
+    imagelink: teams/Wiresharks/wiresharks-animated.gif
   - name: Team Introduction
     url: teams/Wiresharks/team_introduction.pdf
     imagelink: teams/Wiresharks/team_introduction.png
   - name: Zoom Background
     url: teams/Wiresharks/zoom-background.png
     imagelink: teams/Wiresharks/zoom-background-200px.png
+  
