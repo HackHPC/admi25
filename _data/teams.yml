@@ -83,6 +83,7 @@ staff:
 teams:
 - teamname: CodeRunners
   awards: 
+  - Data Portal Award
   - Project Plan
   members:
     names:
@@ -151,6 +152,7 @@ teams:
 
 - teamname: HackStreet Boys
   awards: 
+  - Scorecard Analytics Award	
   - Team Introduction
   files: "teams/HackStreetBoys"
   members:
@@ -220,6 +222,7 @@ teams:
 - teamname: Hard to Cache
   files: "teams/HardtoCache"
   awards: 
+  - Gateways Impact Award	
   - 1-Day Progress
   members:
     names:
